@@ -1,0 +1,2970 @@
+
+
+  
+    
+    SAP Fiori tools
+  
+  
+    SAP Fiori tools
+    
+      This is a troubleshooting guide to solve the issues while using SAP Fiori
+      tools
+    
+    
+    Actions
+    SAP Fiori Tools
+    
+      
+        SAP Fiori Tools is a set of extensions for SAP Business Application
+        Studio and Visual Studio Code that provide many capabilities to further
+        increase the efficiency of developing SAP Fiori elements applications.
+        If you are creating software in one of those development environments,
+        SAP Fiori tools provides functionality that simplifies the process of
+        writing or modifying SAP Fiori apps throughout the entire development
+        process. SAP Fiori tools, together with SAP Fiori elements, reduces
+        development time, maintenance cost, and leverages the advantages of a
+        metadata driven UI.
+      
+      
+        The Guided Answers under SAP Fiori tools will help you find some of the
+        most common troubleshooting scenarios. Please consider using the Guided
+        Answers before opening a message with in component "CA-UX-IDE".
+      
+      
+        Your feedback is important. If you have any feedback to an existing
+        Guided Answer path, please reach out to us. 
+      
+      OR
+      
+        If you want us to add any other areas under Guided Answers, please let
+        us know.
+      
+      Thanks,
+      SAP Fiori Tools team
+      Outcomes:
+      
+        Generation of SAP Fiori application
+        Deployment of SAP Fiori application
+        Preview of SAP Fiori application
+        Configuration of SAP Fiori application
+      
+      
+    
+    Development Environment
+    
+      
+        SAP Fiori tools are available both in SAP Business Application Studio
+        and VS Code.
+      
+      
+        Some problem areas might be different based on your development
+        environment. 
+      
+      Outcomes:
+      
+        VS Code
+        SAP Business Application Studio
+      
+      
+    
+    SAP Business Application Studio
+    
+      
+        In SAP Business Application Studio, what is the target environment you
+        are deploying to?
+      
+      Outcomes:
+      
+        Cloud Foundry
+        ABAP On Premise
+      
+      
+    
+    Cloud Foundry on SAP Business Application Studio
+    
+      Pre-requisites
+      
+        You are subscribed to the SAP Launchpad Service
+        
+          You have created either a SAP Fiori or Full Stack Cloud Dev Space on
+          SAP Business Application Studio
+        
+        User is logged into Cloud Foundry
+        
+          User has generated a Fiori Elements or Fiori Freestyle application
+        
+        
+          Deployment configuration has been added to the Fiori application, an
+          mta.yaml configuration should exist in the root of your
+          application folder
+        
+        
+          These steps work for both Standalone and Managed approuter
+          configurations
+        
+      
+      Steps to deploy
+      Option 1 - Using CLI Terminal
+      Step 1. Generate the mta archive
+      
+        
+          Open a new terminal window and change into the directory containing
+          the mta.yaml configuration
+        
+        From the command line, run npm run build:mta
+        
+          If the Fiori application is generated inside a subfolder to the
+          mta.yaml configuration, then run
+          npm run build
+        
+        
+          An mtar archive is now generated inside a new folder called
+          mta_archives
+        
+      
+      
+        Note: You can open package.json to see a full list of all available
+          commands
+      
+      Step 2. Deploy the MTA archive
+      
+        
+          After your build step, you will have a new folder called
+          mta_archives with an mtar file inside it
+        
+        
+          In the same terminal window, run npm run deploy
+        
+        
+          Ensure you are logged into Cloud Foundry otherwise you will receive an
+          error The token expired, was revoked, or the token ID is incorrect.
+            Please log back in to re-authenticate
+        
+        
+          After a few minutes, your application will have been successfully
+          deployed to Cloud Foundry
+        
+      
+      Option 2 - Using Command Palette
+      Step 1. Generate the mta archive
+      
+        Right click the mta.yaml configuration
+        Select Build MTA Project
+        
+          An mtar archive is now generated inside a new folder called
+          mta_archives
+        
+        
+          Right click the newly generated
+          <mta-id>_1.0.0.mtar and select
+            Deploy MTA Archive
+        
+        
+          Ensure you are logged into Cloud Foundry otherwise you will receive an
+          error The token expired, was revoked, or the token ID is incorrect.
+            Please log back in to re-authenticateSelect Deploy MTA
+            Project
+        
+        
+          After a few minutes, your application will have been successfully
+          deployed to Cloud Foundry
+        
+      
+      Outcomes:
+      
+        With a Managed application router configuration
+        With a Standalone application router configuration
+        Don’t know which application router I'm using
+      
+      
+    
+    Target Environment
+    
+      In VS Code, what is the target environment you are deploying to?
+      Outcomes:
+      
+        ABAP On Premise
+        Cloud Foundry
+      
+      
+    
+    Cloud Foundry on VS Code
+    
+      Pre-requisites
+      
+        
+          You are subscribed to the
+          SAP Launchpad Service
+        
+        
+          Cloud Foundry CLI
+          is installed
+        
+        
+          MTA CLI is
+          installed
+        
+        User is logged into Cloud Foundry
+        
+          User has generated a Fiori Elements or Fiori Freestyle application
+        
+        
+          Deployment configuration has been added to the Fiori application, an
+          mta.yaml configuration should exist in the root
+          of your Fiori application folder
+        
+        
+          These steps work for both
+          Standalone and Managed
+          approuter configurations
+        
+      
+      Steps to deploy
+      Step 1. Generate the mta archive
+      
+        
+          Open a new terminal window and change into the directory containing
+          the mta.yaml configuration
+        
+        From the command line, run npm run build:mta
+        
+          If the Fiori application is generated inside a subfolder to the
+          mta.yaml configuration, then run
+          npm run build
+        
+        
+          An mtar archive is now generated inside a new folder
+          called mta_archives
+        
+      
+      
+        Note: You can open package.json to see a full list of all available
+          commands
+      
+      Step 2. Deploy the MTA archive
+      
+        
+          After your build step, you will have a new folder called
+          mta_archives with an mtar file
+          inside it
+        
+        
+          In the same terminal window, run npm run deploy
+        
+        
+          Again, ensure you are logged into Cloud Foundry otherwise you will
+          receive an error The token expired, was revoked, or the token ID is incorrect.
+            Please log back in to re-authenticate
+        
+        
+          After a few minutes, your application will have been successfully
+          deployed to Cloud Foundry 
+        
+      
+       
+      Outcomes:
+      
+        With a Managed application router configuration
+        With a Standalone application router configuration
+        Don’t know which application router I'm using
+      
+      
+    
+    Application Router Configuration Type
+    
+      What is an Application Router?
+      
+        Represents a single entry point to your application and is configured
+        either as Standalone or Managed.
+      
+      How to determine your Application Router type?
+      
+        An Multi-target application (MTA) development descriptor
+        is used to generate the deployment descriptor that is required to
+        deploy an MTA to the XS advanced runtime. A file called
+        mta.yaml can be found at the root of your application
+        and will be used to define the elements and dependencies of an XS
+        advanced-compliant multi-target application.
+      
+      
+        Managed Application RouterThe
+        managed application router
+        enables you to access and run HTML5 applications in a cloud environment
+        without the need to maintain your own runtime infrastructure. A managed
+        approuter configuration, as shown, will contain the necessary
+        configuration without the need for an approuter, typically found with a
+        Standalone configuration. The mta.yaml file will contain all the modules
+        and resources necessary to leverage the serverless
+        architecture offered by the SAP BTP platform. You are no longer
+        required to maintain your own HTML5 application runtime. This removes
+        the requirement to maintain your own approuter, instead you just consume
+        it! This speeds up and simplifies the development and deployment
+        experience.
+      
+      Typical project structure;
+      
+        mta.yaml
+        xs-security.json
+        package.json
+        HTML5App-folder
+      
+      
+        Please refer to this
+        managed git repo
+        for more information.
+      
+      
+        Note: It is recommend using the Managed Application Router rather
+          than a Standalone Application Router preferably only in advanced
+          cases, for example when application router extensibility is
+          required.
+      
+      Standalone Application Router
+      
+        A Standalone approuter, is a Node JS library that is available in Public
+        NPM, it represents a single entry point to your application but is
+        configured and mantained as part of your runtime infrastructure
+        thus requiring more resources when deployed to Cloud Foundry.
+      
+      Typical project structure;
+      
+        mta.yaml
+        xs-security.json
+        package.json
+        HTML5App-folder
+        standalone-router-folder
+      
+      
+        Please refer to this
+        standalone git repo
+        for more information.
+      
+      
+        To explore more about the capabilities of a Standalone Router, please
+        refer to this
+        technical blog post.
+      
+      
+    
+    Standalone Application Router Configuration
+    
+      Pre-requisites
+      
+        
+          You are subscribed to the SAP Launchpad Service,
+          follow this tutorial for more information
+        
+        
+          Cloud Foundry CLI is installed
+        
+        User is logged into Cloud Foundry
+        mta.yaml exists in your application folder
+        
+          mta_archive folder contains an
+          mtar file
+        
+        
+          mtar has been deployed/attempted to be deployed to
+          Cloud Foundry
+        
+      
+      
+        Note: SAP Portal Service is also supported when deploying
+          a standalone approuter configuration
+      
+       Quick Tip 
+      
+        
+          Ensure the destination defined in the xs-app.json to
+          handle your manifest datasources is either defined in the
+          mta.yaml as an instance based destination or created
+          as a subaccount destination. For more information around destinations,
+          please refer this
+          help guide.
+        
+      
+      Outcomes:
+      
+        
+          My application deployed successfully, but I don’t know where the URL
+          for the deployed app is
+        
+        
+          My application deployed successfully, but the deployed app fails to
+          load
+        
+        My application failed to deploy
+        My application isn’t in my FLP
+        How do I capture my network trace calls
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    Standalone Approuter Application URL
+    
+      Pre-requisites
+      
+        
+          You are subscribed to the SAP Launchpad Service,
+          follow this tutorial for more information
+        
+        
+          Cloud Foundry CLI is installed
+        
+        User is logged into Cloud Foundry
+        mtar archive was successfully deployed to Cloud Foundry (CF)
+        no errors in the console logs
+      
+      Option 1 - SAB BTP Cockpit
+      
+        Login to your SAP BTP cockpit
+        Select your Subaccount
+        Select Overview
+        Select your Space
+        Select Applications
+        Select your deployed application
+        
+          Select the route listed under Application Routes
+        
+      
+      Additional Notes
+      
+        
+          If the application does not load as expected, review the logs by
+          following Option 1 and selecting
+          Logs in the left navigation bar
+        
+      
+      
+    
+    Managed Application Router Configuration
+    
+      Pre-requisites
+      
+        
+          You are subscribed to the SAP Launchpad Service,
+          follow this tutorial for more information
+        
+        
+          Cloud Foundry CLI is installed
+        
+        User is logged into Cloud Foundry
+        mta.yaml exists in your application folder
+        
+          mta_archive folder contains an
+          mtar file
+        
+        
+          mtar has been deployed/attempted to be deployed to
+          Cloud Foundry
+        
+      
+      
+        Note: SAP Portal Service is also supported when deploying a managed
+          approuter configuration
+      
+       Quick Tip 
+      
+        
+          Ensure the destination defined in the xs-app.json to
+          handle your manifest datasources is either defined in the
+          mta.yaml as an instance based destination or created
+          as a subaccount destination. For more information around destinations,
+          please refer this
+          help guide.
+        
+      
+      Outcomes:
+      
+        
+          My application deployed successfully, but I don’t know where the URL
+          for the deployed app is
+        
+        
+          My application deployed successfully, but the deployed app fails to
+          load
+        
+        
+          My application deployed successfully, but there is an issue with the
+          SAP BTP destination configuration
+        
+        My application failed to deploy, space memory limit exceeded
+        My application failed to deploy, memory quota exceeded
+        
+          My application failed to deploy, missing mandatory service instance
+        
+      
+      
+    
+    Missing mandatory service instance
+    
+      Issue
+      
+        During deployment of your MTA application you receive the following
+        exception in the console log;
+      
+      
+        [managedAppCAP-destination-content] [ERROR] Missing mandatory service
+        instance [managedAppCAP-html5-app-host-service] required by destination
+        [tetstapp_managedAppCAP_html_repo_host]
+      
+      Root Cause
+      
+        The exception is missleading but its related to the length of the
+        modules | resource names listed in the exception.
+      
+      Solution
+      
+        Open your application mta.yaml file
+        Find the referenced module | resouces listed in the exception
+        
+          Reduce the name by ten characters, ensure all references to this
+          module | resource is updated otherwise the mta descriptor will
+          complain about missing instances
+        
+        
+          Rebuild and redeploy your application again to Cloud Foundry
+        
+      
+      
+    
+    Memory Quota Exceeded
+    
+      Issue
+      
+        During deployment of your MTA application you receive the following
+        exception in the console log;
+      
+      
+        Application "managedCAP-srv" stagedStarting application
+        "managedCAP-srv"...Error starting application "managedCAP-srv":
+        Controller operation failed: 422 Unprocessable Entity:
+        CF-UnprocessableEntity(10008): memory quota_exceeded
+      
+      Root Cause
+      
+        Issuee is caused by too many running applications in your subaccount
+        space which is consuming too much memory when running preventing you
+        from deploying or starting applications.
+      
+      Solution - 1
+      
+        Login to your SAP BTP account
+        Select your subaccount
+        
+          Select your Space where the application is being
+          deployed to
+        
+        Select Applications
+        Stop or delete any applications that you no longer require
+      
+      Solution - 2
+      
+        Open a new terminal window
+        
+          Change into any project where the application has already been
+          deployed successfully to Cloud Foundry
+        
+        Run the following command npm run undeploy
+        This process can take a number of minutes to complete
+      
+      Solution - 3
+      
+        Open a new terminal window
+        
+          Ensure you are logged into Cloud Foundry by running
+          cf login
+        
+        
+          Run the following command to retrieve a list of deployed
+          applications cf html5-list
+        
+        
+          To delete a specific application, run the following
+          command cf undeploy replace-name-of-your-application --delete-services
+            --delete-service-keys -f
+        
+        This process can take a number of minutes to complete
+      
+       
+       
+      
+    
+    Space's Memory Limit Exceeded
+    
+      Issue
+      
+        During deployment of your MTA application you receive the following
+        exception in the console log;
+      
+      
+        422 Unprocessable Entity: CF-UnprocessableEntity(10008): space's memory
+        limit exceeded: staging requires 1024M memory: 422 Unprocessable Entity:
+        CF-UnprocessableEntity(10008): space's memory limit exceeded: staging
+        requires 1024M memory
+      
+      Root Cause
+      
+        You are have too many applications running in your subaccount and you
+        are reaching the quota limits set in your subaccount configuration.
+        Please refer to SAP Help Portal site for more information. 
+      
+      Solution
+      
+        Open your application mta.yaml file
+        
+          Update the parameters of any module of type
+          nodejs | approuter.nodejs to include
+          memory and disk quota settings
+        
+        Rebuild and redeploy your application again to Cloud Foundry
+        
+          If the error presists, then you will need to play with the memory and
+          disk parameters i.e. maybe try reducing them by 50%
+        
+      
+      Example
+      
+        
+          name: managedAppCAPProject-srv  type: nodejs
+            path: gen/srv
+            requires:
+            - name: managedAppCAPProject-db
+            provides:
+            - name: srv-api
+              properties:
+                  srv-url: ${default-url}
+            parameters:    buildpack:
+          nodejs_buildpack    memory: 256M    disk-quota: 1024M
+            build-parameters:    builder: npm-ci
+        
+      
+      
+    
+    Validate Destination Configuration
+    
+      Pre-requisites
+      
+        
+          You are subscribed to the SAP Launchpad Service,
+          follow this tutorial for more information
+        
+        
+          You have access to the Connectivity ->
+          Destinations tab in your subaccount
+        
+      
+      
+        Validate your Subaccount Destination using SAP Business Application
+        Studio
+      
+      Option 1. Environment Check
+      
+        
+          Open your SAP Business Application Studio and login to your dev space
+        
+        
+          Open command palette via View ->
+          Find Command and enter
+          Fiori: Open Environment Check -> Select
+          Check Destination -> Select your destination ->
+          Enter credentials if prompted -> Select
+          Save and view results
+        
+        Choose a location to save or review output to review responses
+      
+      Option 2. Service Centre
+      
+        Open Business Application Studio and login to your dev space
+        
+          Select the Service Centre tab on the left navigation
+          bar, select your destination
+        
+        
+          If configured correctly, the service and system properties will be
+          displayed
+        
+      
+      Option 3. Curl Command
+      
+        Open a new terminal window
+        
+          Run the following commands and replace <destination-name>
+          and <service> with the appropiate values
+        
+        Open the generated files to review the returned responses
+      
+      OData V2 Catalog
+      
+        curl
+          "$H2O_URL/destinations/<destination-name>/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/ServiceCollection"
+          -vs > curl-v2catalog-output.txt 2>&1
+      
+      Odata V4 Catalog
+      
+        curl
+          "$H2O_URL/destinations/<destination_name>/sap/opu/odata4/iwfnd/config/default/iwfnd/catalog/0002/ServiceGroups?$expand=DefaultSystem($expand=Services)"
+          -vs > curl-v4catalog-output.txt 2>&1
+      
+      Single OData Full URL Service 
+      
+        curl "$H2O_URL/destinations/<destination-name>/$metadata" -vs
+          > curl-datasrv-output.txt 2>&1
+      
+      Single OData Partial URL Service 
+      
+        curl
+          "$H2O_URL/destinations/<destination-name>/<my-service-path>$metadata"
+          -vs > curl-datasrv-partial-output.txt 2>&1
+      
+      
+        Validate your Subaccount Destination using a Dynamic Destination URL
+      
+      
+        In your SAP BTP Cockpit, select your subaccount
+        
+          Select the Overview page
+        
+        
+          
+            Note the Subdomain attribute i.e.
+            my-subdomain
+          
+        
+        
+          
+            Note the API endpoint region i.e.
+            https://api.cf.eu10.hana.ondemand.com, in this case the region
+            will be eu10
+          
+        
+        
+          
+            Select Destinations under
+            Connectivity tab on the left navigation bar
+          
+        
+        
+          
+            Filter the destinations using the name of your chosen destination
+          
+        
+        
+          Select your destination i.e. MyDestination
+        
+        
+          Select Edit
+        
+        
+          
+            Ensure the following Additional Properties are
+            configured;
+          
+          HTML5.DynamicDestination: true
+          WebIDEEnabled: true
+        
+        
+          
+            Select Save, please ensure you have the client
+            secret if required
+          
+        
+        
+          
+            Generate the dynamic destination link as follows, replacing the four
+            <attribute> values as follows;
+          
+        
+      
+      
+        https://<your-subaccount-subdomain>.launchpad.cfapps.<your-region-api-endpoint>.hana.ondemand.com/dynamic_dest/<your-destination-name>/<path-to-your-OData-metadata-or-service-path>
+      
+      For example;
+      
+        https://my-subdomain.launchpad.cfapps.eu10.hana.ondemand.com/dynamic_dest/MyDestination/sap/opu/odata/sap/MyBusinessService/$metadata
+      
+      
+        Open a new browser tab using the generated link to review the response,
+        this should return a valid OData XML response.
+      
+      Additional Notes
+      OData V2 Catalog
+      
+        To validate if your destination is supporting an ABAP V2 catalog,
+        replace the path <path-to-your-OData-metadata-or-service-path>
+        with /sap/opu/odata/IWFND/CATALOGSERVICE;v=2/ServiceCollection,
+        for example;
+      
+      
+        https://my-subdomain.launchpad.cfapps.eu10.hana.ondemand.com/dynamic_dest/MyDestination/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/ServiceCollection
+      
+      OData V4 Catalog
+      
+        To validate if your destination is supporting an ABAP V4 catalog,
+        replace the path <path-to-your-OData-metadata-or-service-path>
+        with
+        /sap/opu/odata4/iwfnd/config/default/iwfnd/catalog/0002/ServiceGroups?$expand=DefaultSystem($expand=Services), for example;
+      
+      
+        https://my-subdomain.launchpad.cfapps.eu10.hana.ondemand.com/dynamic_dest/MyDestination/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/ServiceCollection
+      
+       
+      Outcomes:
+      
+        Request failed with status code 503
+      
+      
+    
+    Request failed with status 503
+    
+      Corporate Firewall or Proxy
+      
+        Please ensure there are no issues with a corporate firewall/proxy or web
+        filters, please refer to
+        https://launchpad.support.sap.com/#/notes/3035686
+        for more info.
+      
+      
+        Some corporate firewalls or web filters may block the Cloud Connector
+        from connecting SAP Business Application Studio and the on-premise
+        system. 
+      
+      
+        If you are working on an Azure account or you are trying to connect an
+        SAP HANA instance from a different region, you must configure SAP HANA
+        Cloud to allow connections from the IP address hosting SAP Business
+        Application Studio for your Cloud region and the underlying platform.
+      
+      
+        To learn how to change the SAP HANA Cloud allowed connections, see
+        Change Allowed Connections.
+      
+      
+        To find out your SAP Business Application Studio IP address, see
+        SAP Business Application Studio availability.
+      
+      SAP Business Application Studio
+      
+        SAP Business Application Studio needs to connect to the SAP HANA Cloud
+        instance where you want to deploy your application’s database artifacts.
+        By default, SAP HANA Cloud accepts all connections from allowed IP
+        addresses in SAP BTP, for example, in the same region and infrastructure
+        where SAP HANA was provisioned.
+      
+      
+    
+    Deployed Managed Application Fails to Load
+    
+      Pre-requisites
+      
+        MTA Application has been deployed to Cloud Foundry
+        Access to the Application URL
+      
+      Option 1 - Review your deployed application logs
+      
+        Login to your SAP BTP cockpit
+        Select your required Subaccount
+        Select HTML5 Applications
+        
+          Under Actions tab, there are two icons, select the
+          logs icon
+        
+        Review your application logs for any errors
+      
+      Option 2 - Review your browser network and console logs
+      
+        Note: Each browser has similiar functionality but the terminalogy
+          might be different 
+      
+      
+        Open a new browser window
+        
+          Right click anywhere on the main browser screen and select
+          Inspect
+        
+        Select Network tab
+        Load the application url into the address bar
+        
+          Once the application has loaded, select Status to
+          order the requests by status i.e. 200 | 400 | 500 which will indicate
+          success or failures
+        
+        
+          Select the Console tab to review any application
+          runtime errors
+        
+      
+      Outcomes:
+      
+        
+          My application deployed successfully, but there is an issue with the
+          SAP BTP destination configuration
+        
+        How do I capture my network trace calls
+        
+          Custom controller AJAX call is returning a 404 when calling the API
+        
+      
+      
+    
+    Custom controller AJAX call is returning a 404 when calling the API
+    
+      Issue
+      
+        When rendering a Fiori application after being deployed to Cloud
+        Foundry, the application fails to load. Using Developer Tools network
+        console, the API call is returning a HTTP 404 Not Found. Please note, in
+        some instances it can return a HTTP 403 response as well.
+      
+      Sample code
+      
+        
+      
+      
+      Solution 
+      
+        Based on the sample code, change line 16 from /sap/v2/product/MY_PRODUCT
+        to sap/v2/product/MY_PRODUCT where the leading
+        slash is removed.
+      
+      
+        This change, assumes your xs-app.json is configured as
+        follows;
+      
+      
+        {      "source": "^/sap/(.*)$",   
+          "target": "/sap/$1",      "destination":
+        "MyDestination",      "csrfProtection": false, 
+            "authenticationType": "none" }
+      
+      
+        To understand the issue better, the 404 requests are being sent using
+        the absolute URL path, for example:
+      
+      
+        https://my-subaccount.launchpad.cfapps.eu10.hana.ondemand.com/my_fioriapp-1.0.0/sap/v2/product/MY_PRODUCT/$metadata?sap-value-list=none&sap-language=DE
+      
+      
+        However, valid HTTP calls should be sent to
+        https://my-subaccount.launchpad.cfapps.eu10.hana.ondemand.com/my_fioriapp-1.0.0/~230421170029+0000~/
+        which is the actual base URL of your application.
+      
+      
+        Removing the leading slash will now send the AJAX call to relative path
+        of where the app is hosted, for example
+      
+      
+        https://my-subaccount.launchpad.cfapps.eu10.hana.ondemand.com/my_fioriapp-1.0.0/~230421170029+0000~/sap/v2/product/MY_PRODUCT/$metadata?sap-value-list=none&sap-language=DE
+      
+      Additional Note
+      If your manifeset.json is configured with a datasource, for example
+      
+        "dataSources": {       "mainService": { 
+             "uri": "/sap/my_service/",     
+         "type": "OData",          
+           "settings": {          
+                  "odataVersion": "4.0" 
+                    }   
+           }}
+      
+      
+        There are additional changes that will allow you to use the
+        manifest.json to find the base URL for your application. Refer to
+        SAP Answers
+        for a detail summary of the required changes or to the
+        SAPUI5 Documentation
+        site.
+      
+       
+       
+       
+       
+      
+    
+    How to capture an HTTP trace
+    
+      Pre-requisites
+      
+        You are using Google Chrome or Microsoft Edge, however, most other
+        browsers follow a similiar flow.
+      
+      Steps to produce HAR file
+      
+        SAP Note 1990706
+        provides detailed steps to produce a HAR file. This file can be attached
+        to your support ticket to allow developers replay and review your
+        network calls.
+      
+       
+      
+    
+    Managed Approuter Application URL
+    
+      Pre-requisites
+      
+        
+          You are subscribed to the SAP Launchpad Service,
+          follow this tutorial for more information
+        
+        
+          Cloud Foundry CLI is installed
+        
+        
+          Cloud Foundry
+          html5-plugin
+          is installed
+        
+        User is logged into Cloud Foundry
+        mtar archive was successfully deployed to Cloud Foundry
+        no errors in the console logs
+      
+      Option 1 - Run CF command
+      
+        Open your mta.yaml configuration
+        
+          Retrieve the name of your mta ID field on line two
+        
+        Open a new terminal window
+        
+          Replace <mtaId> with the name of your mta ID
+          i.e. MyTestApp-destination-service
+        
+        
+          Execute the following command
+          cf html5-list -u -di <mtaId>-destination-service -u --runtime
+            launchpad
+        
+        The Launchpad URL will be displayed
+      
+      Option 2 - SAB BTP Cockpit
+      
+        Login to your SAP BTP cockpit
+        Select your Subaccount
+        Select HTML5 Applications
+        Select your deployed application
+      
+      Additional Notes
+      
+        
+          If the application does not load as expected, review the logs by
+          following Option 2 and selecting the
+          View Error Log icon next to your application
+        
+      
+      Outcomes:
+      
+        
+          My application deployed successfully, but the deployed app fails to
+          load
+        
+      
+      
+    
+    Deployment to ABAP System
+    
+      
+        
+          How it works?
+          
+            SAP Fiori Tools for deployment to ABAP utilizes the SAPUI5
+            Repository service exposed by the ABAP system for deploying
+            artifact. The ABAP backend provides all functionality to run the
+            application, such as hosting, routing, and authentication. As a
+            result, the deployment artifact is just an SAP Fiori application. In
+            other words, it is a zipped dist folder of the SAP Fiori Tools UI
+            project.
+          
+          
+            For more information around SAP Fiori Development and Deployment to
+            ABAP, please refer to this
+            link.
+          
+          Prerequisites
+          
+            To utilize the OData service /UI5/ABAP_REPOSITORY_SRV to upload an
+            SAPUI5 application, component, or library to the SAPUI5 ABAP
+            repository, please ensure the following requirements are met:
+          
+          
+            1. Activate the
+            /UI5/ABAP_REPOSITORY_SRV service in your back-end
+            system
+          
+          
+            2. You have S_DEVELOP authorization in your backend
+            system for your user
+          
+          
+            More Information about /UI5/ABAP_REPOSITORY_SRV and completing these
+            pre-requistes, can be found
+            here.
+          
+          
+            Any errors during deployment the HTTP status reports either success
+            or errors which may have occurred during the operation. The response
+            header or the response body contain additional information and below
+            is a list of common issues when deploying to ABAP.
+          
+        
+      
+      Outcomes:
+      
+        Deployment failed with Error Code 404
+        
+          Request failed with status code 400 - Transport req does not exist
+        
+        
+          Request failed with status code 400 - Test objects cannot be created
+          in foreign namespaces
+        
+        Request failed with status code 400 - Archive not okay
+        Request failed with status code 401
+        No default virus profile active or found
+        How do I capture my network trace calls
+        
+          A warning message appears that abap-deploy is deprecated in SAP
+          Business Application Studio.
+        
+        Application deployment to SAP S/4HANA Cloud takes too long
+        
+          Not uploaded as binary/text type is unknown: Adjust content of files
+        
+      
+      
+    
+    
+      Not uploaded as binary/text type is unknown: Adjust content of files.
+    
+    
+      
+        When deploying an application using SAP Fiori tools following error is
+        encountered: "Not uploaded as binary/text type is unknown: Adjust
+        content of files....."
+      
+      
+        Example -
+        info builder:custom deploy-to-abap IGNORE_FILE   : css/fonts/icomoon.eot (Not uploaded as binary/text type is unknown: Adjust content of files .UI5RepositoryTextFiles and .Ui5RepositoryBinaryFiles)
+      
+      Solution:
+      
+        
+          
+            You are getting this error because backend has detected that there
+            are unknown file types in the project. The unknown file types have
+            to be maintained in .Ui5RepositoryTextFiles or
+            .Ui5RepositoryBinaryFilesfiles, according to https://ui5.sap.com/#/topic/a883327a82ef4cc792f3c1e7b7a48de8
+          
+          
+            The following setup can help to avoid the deploy error. Create a
+            text file with name .Ui5RepositoryBinaryFiles
+            at <projectRootFolder>/webapp/.Ui5RepositoryBinaryFiles.
+          
+          
+            Add the relative file paths of the binary files that have been
+            complained for in the backend log to .Ui5RepositoryBinaryFiles.
+          
+          
+            Run npm rum deploy. It should rebuild the
+            archive.zip to include .Ui5RepositoryBinaryFiles at the root of the
+            zip file. The backend will use .Ui5RepositoryBinaryFiles to identify
+            affected files as binary file type, and it will not fail the deploy.
+          
+        
+      
+       
+      
+    
+    Application deployment to SAP S/4HANA Cloud takes too long
+    
+      
+        If the application deployment to SAP S/4HANA Cloud is taking too long,
+        ensure to confirm the deployment. 
+      
+      The line requesting deployment confirmation looks as follows
+      
+        ? Start deployment (Y/n)?Start by typing "Y" character in
+        the terminal when requested.
+      
+      
+        The deployment will not begin until your confirmation is provided
+      
+      
+    
+    
+      Warning message appears that abap-deploy is deprecated in SAP Business
+      Application Studio.
+    
+    
+      
+        The abap-deploy command is now replaced with a new
+        command that can be used in both VS Code and SAP Business
+        Application Studio.
+      
+      
+        For more information on how to deploy applications, see Deploy an Application in the Users Guide.
+      
+      
+    
+    No default virus profile active or found
+    
+      Issue
+      
+        You have made an attempt to deploy your Fiori application to an ABAP
+        target system, the deployment fails with the following exception:
+      
+      Request failed with the status code 400
+      
+        No default virus profile active or found. Please check the official
+          guide
+      
+      Root Cause
+      
+        The virus scan provider in your system hasn't been configured correctly.
+      
+      Solution
+      You have two options to resolve your issue:
+      Option 1. Install a virus scanner
+      
+        Certified products can be found here 1494278, additional documentation can be found on
+        SAP Help site
+      
+      Option 2. Disable virus scan
+      
+        
+          Check that no virus scan provider is maintained in transaction VSCAN
+        
+        
+          Check that no virus scan group is maintained in transaction VSCANGROUP
+        
+        
+          Check that no virus scan profile is active in transaction VSCANPROFILE
+        
+        
+          Check that the checkbox "virus Scan Switched Off" and
+          "Omit Exceptions for virus Scan"  are marked in
+          transaction /n/IWFND/VIRUS_SCAN
+        
+      
+      
+        Please note, disabling the virus scanner should only be a
+        short term solution and should not be enabled
+        permanently.
+      
+      
+        For further information please check SAP Note
+        3052386
+      
+      
+    
+    Request failed with status code 401 using VS Code
+    
+      Issue
+      
+        You have made an attempt to deploy your Fiori application to an ABAP
+        target system, the deployment fails with the following exception using
+        VS Code:
+      
+      
+        info builder:custom deploy-to-abap Create Archiveinfo builder:custom deploy-to-abap Starting Deployment.info builder:custom deploy-to-abap info builder:custom deploy-to-abap Using system [TestSystem] from
+          System storeinfo builder:custom deploy-to-abap Refresh token passed ininfo builder:custom deploy-to-abap Got access token
+          successfullyERR! builder:custom deploy-to-abap Request failed with status code
+          401ERR! builder:custom deploy-to-abap Deployment Failed. You can re-run
+          deployment with the following command to get more detailed log
+          information:ERR! builder:custom deploy-to-abap MacOs/Linux: DEBUG=ux-odata-client
+          npm run deployERR! builder:custom deploy-to-abap Windows:     set
+          DEBUG=ux-odata-client & npm run deployERR! builder:custom deploy-to-abap Request failed with status code
+          401
+      
+      Root Cause
+      
+        The credentials used to authenticate and obtain a new refresh token have
+        expired or are incorrect.
+      
+      Solution
+      
+        If the refresh token has expired, a new browser tab using your default
+        browser will open which will try to autenticate you using the details
+        provided in your System Store. The details from the System Store are
+        those that have been been appended using a service file which contains
+        all the necessary details to automate this process. 
+      
+      
+        Here is a blog on the Saved SAP Systems in VS Code using SAP Fiori tools for further information.
+      
+      
+        
+      
+      
+        You can review these details, selecting the
+        SAP Fiori tab on your left navigation bar, selecting
+        Test Connection. Please address any issues that might
+        appear.
+      
+      
+        To re-authenticate using your default browser, get the URL address under
+        the UAA properties in your service file, for exmaple, using this
+        example, the URL is
+        https://test.authentication.sap.hana.ondemand.com
+        found under uaa -> url;
+      
+       
+      
+        { "binding": {  "env": "cf",  "id":
+        "4178d53a",  "type": "oauth",  "version":
+        "1.0.1.1" }, "catalogs": {  "abap":
+        {   "path":
+        "/sap/opu/odata/IWFND/CATALOGSERVICE;v=2",   "type":
+        "sap_abap_catalog_v1"  } }, "endpoints":
+        {  "abap": "https://test.abap.ondemand.com" }, "preserve_host_header": true, "sap.cloud.service":
+        "com.sap.cloud.abap", "systemid": "Y11", "uaa":
+        {  "apiurl": "https://api.authentication.sap.hana.ondemand.com",  "clientid": "testb2274",  "clientsecret":
+        "s9sxRTlvW",  "credential-type": "instance-secret", 
+        "identityzone": "abapcp-backend",  "identityzoneid":
+        "f57f211e",  "sburl": "https://xsuaa.authentication.sap.hana.ondemand.com",  "subaccountid": "f57f211e",  "tenantid":
+        "f57f211e",  "tenantmode": "dedicated", 
+        "uaadomain": "authentication.sap.hana.ondemand.com",  "url":
+        "https://test.authentication.sap.hana.ondemand.com",  "verificationkey": "-----BEGIN PUBLIC
+        KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKDQIDAQAB-----END PUBLIC
+        KEY-----",  "xsappname": "xsuaa-abapcp", 
+        "zoneid": "f57f211e" }, "url": "https://test.abap.ondemand.com"}
+      
+       
+       
+      
+    
+    Request failed with status code 400 - Archive not okay
+    
+      
+        SAP Fiori tools before deploying creates a zipped dist folder of
+        the SAP Fiori tools project. This file is then uploaded as part of
+        deployment to the backend system.
+      
+      
+        If the backend throws an error of code 400 - Archive not okay, then you
+        have the following options:
+      
+      
+        
+          Run the deployment scenario again in "test mode". Running deployment
+          in test mode will show you the results where operations
+          (create, read, update, delete) would be done in a real run for each
+          file to help you make an informed decision. For more information on
+          this, please visit
+          Deployment to ABAP system in test mode.
+        
+        
+          If the issue cannot be resolved based on the above option, please
+          create a ticket with SAP Fiori tools team with component
+          CA-UX-IDE. As part this ticket, attach your zipped
+          project. To archive your project, please use the command "Fiori: Archive Project" -> Select your project -> Click on Open Folder -> select
+          the archived project to be used as an attachment in your ticket.
+        
+      
+       
+      
+    
+    
+      Request failed with status code 400 - Test objects cannot be created in
+      foreign namespaces
+    
+    
+      
+        During deployment, you might use app name which is in a namespace or
+        name range reserved for objects from SAP or another vendor. This
+        namespace or name rangecannot therefore be used for developments
+        in this system.
+      
+      
+        Check the app name in your project's ui5-deploy.yaml file. Sample
+        snapshot below:
+      
+      
+      
+        To overcome this issue, please choose another app name for your own
+        development/testing work or from a namespace or name range set up for
+        this purpose.
+      
+      
+        If this issue persists, please contact your system admin BASIS
+        colleague.
+      
+       
+       
+      
+    
+    Request failed with status code 400 - Transport req does not exist
+    
+      
+        One of the reasons to get this error during deployment is if
+        Transport Request/Task does not exist in the system.
+      
+      
+        Please go to your project ->UI5-deploy.yaml file and verify against
+        your backend system that the transport request number is correct.
+        If required, either create a new Transport request or use an existing
+        one. 
+      
+      Sample snapshot of ui5-deploy.yaml file below:
+      
+      
+    
+    Request failed with status code 404
+    
+      
+        There are two reasons why you are unable to deploy to a SAPUI5 ABAP
+        Repository
+      
+      Reason 1. UI5 Service is disabled
+      
+        The reason deployment can fail is due to disabled
+        SICF UI5 service "/UI5/ABAP_REPOSITORY_SRV"
+      
+      
+        
+          
+            Activate the /UI5/ABAP_REPOSITORY_SRV service
+            in your back-end system as described here: Activate and Maintain Services
+          
+        
+        
+          In transaction SICF, check
+          for /UI5/ABAP_REPOSITORY_SRV that
+          the ui5 service (namespace) is activated as
+          described here: ICF Services
+        
+      
+      
+        For example, in your ABAP system, goto transaction "SICF", look up
+        service "ABAP_REPOSITORY_SRV". See sample snapshot below. If not
+        activated, right-click on the entry and select "Activate Service"
+      
+      
+         
+      
+      
+        Addtional information can be found the
+        SAPUI5 Documentation
+        website.
+      
+      Reason 2. UI5 Service is not found
+      
+        You can get the same error if the service "/UI5/ABAP_REPOSITORY_SRV" is
+        not found. In that case, please implement SAP
+        Note 2999557
+      
+       
+      
+    
+    Fiori Generator
+    
+      SAP Fiori Application Generator
+      
+        The SAP Fiori Application generator provides a
+        wizard that enables you to generate an SAP Fiori application
+        conforming to the structure and development
+        practices that the SAP Fiori team
+        recommends.   
+      
+      
+        By simply choosing your desired floorplan (from either SAP Fiori Elements
+        or SAP Fiori Freestyle templates), and an OData source (V2 or
+        V4), you can kick start your development and have the SAP Fiori
+        application generator create an application locally that is available
+        for use with the other tools in the SAP Fiori tools suite. The
+        generator is a NodeJS library published to npmjs.org and is installed as part of the SAP Fiori
+        tools installation.  It can be invoked from the command
+        palette using Fiori: Open Application Generator.
+      
+      
+        For more details on SAP Fiori Application Generator, please visit our
+        help portal.
+      
+      
+        Some problem areas might be different based on your development
+        environment. 
+      
+       
+      Outcomes:
+      
+        VS Code
+        SAP Business Application Studio
+      
+      
+    
+    Application Generation in SAP Business Application Studio
+    
+      While generating an application in SAP Business Application Studio
+      Outcomes:
+      
+        Configure an SAP BTP Destination
+        Destination does not show up in System List
+        Services unavailable, All catalog service request failed
+        
+          Accessing OData service with a SAP S/4HANA Cloud communication user
+        
+        
+          Error while creating SAP Fiori Elements application in SAP BTP
+          environment
+        
+        
+          While creating SAPUI5 app, versions below 1.65 are not available
+        
+        
+          The system URL requires a missing or invalid security certificate
+        
+      
+      
+    
+    The system URL requires a missing or invalid security certificate
+    
+      
+        Issue
+      
+      The system URL requires a missing or invalid security certificate.
+      
+         SolutionThe certificate is not trusted because the issuer is unknown.
+        Please see
+        https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/4b318bede7eb4021a8be385c46c74045.html
+        for more details on how to resolve this.
+      
+      
+    
+    In generator, SAPUI5 versions below 1.65 are not available
+    
+      
+        Currently, SAP Fiori tools support SAP Fiori
+        elements and SAPUI5 freestyle projects with
+        minimum SAPUI5 versions 1.65 or higher.
+      
+      
+        In case there’s a need to test an existing projects with a
+        lower SAPUI5 version, the following workaround can be used to
+        preview the application:
+      
+      
+        
+          
+            In the ui5.yaml file, manually set
+            the SAPUI5 version to the needed one, such as 1.38.50.
+          
+          
+            In the HTML files, manually remove the “sap.f” references
+            as they aren’t available in 1.38.50.
+          
+          
+            Additionally, update the
+            theme data-sap-ui-theme="sap_fiori_3" to a
+            theme supported by the required version, such as 1.38.50:
+            
+              data-sap-ui-theme="sap_bluecrystal"
+            
+          
+        
+      
+      
+    
+    Error creating application in SAP BTP ABAP environment
+    
+      Error:
+      
+        
+          
+            Failed to create destination instance You are not authorized to
+            perform the requested action
+          
+           
+          Solution:
+          
+            During the SAP Fiori application generation with the template
+            wizard, a destination is created automatically for the SAP ABAP
+            cloud service instance. To manage destinations and certificates
+            on the service instance level as well as to perform all CRUD
+            operations, you must be assigned to one of the following roles:
+          
+        
+      
+      
+        
+          OrgManager
+          SpaceManager
+          SpaceDeveloper
+        
+      
+      
+        After the respective role is assigned, execute the following command to
+        ensure the application generation succeeds in the SAP Business
+        Application Studio template wizard:
+      
+      
+        
+          cf create-service destination lite testdest1
+        
+      
+      
+    
+    Accessing OData service with a SAP S/4HANA Cloud communication user
+    
+      Issue
+      
+        Unable to retrieve a list of services using an S/4 HANA destination,
+        errors include;
+      
+      
+        All catalog service requests failed for system: MyService OData
+          version(s): V2
+      
+      
+        The selected system is returning an authentication error. Please
+          verify the destination configuration
+      
+      
+        An error occurred retrieving service(s) for SAP System
+      
+      
+        Typical S/4Hana Destination configuration, please note, the
+        Authentication type can be different but the same logic
+        applies;
+      
+      
+        
+      
+      Root Cause
+      
+        The communication user does not have access to the communication
+        scenario which restricts their access to retrieving a catalog services
+        for the defined endpoint.
+      
+      
+        The API only returns catalogs that the user has permission to view or
+        edit. For example, a cmsmanager has read and write
+        permissions for the Staged version of the
+        Electronics content catalog, but does not have permissions for
+        its Online version. When a call is made to
+        the Catalog API with the cmsmanager's credentials, the result
+        would contain: catalog: Electronics, versions: Staged.
+      
+      Solution
+      
+        The existing destination configuration is expecting an OData catalog of
+        services to be available based on the property
+        WebIDESystem = odata_abap.
+      
+      
+        However, since the user is restriced from consuming this OData catalog
+        request, we will expose a Full or
+        Partial URL destination instead.
+      
+      
+        Create a new destination by cloning the existing destination and use
+        this new destination as your destination to generate a Fiori application
+        using Fiori Tools or Service Centre.
+      
+      
+        
+          Log on to the SAP BTP Cockpit as an
+          administrator
+        
+        
+          From your global account, navigate to your Cloud Foundry environment
+          subaccount
+        
+        
+          In the navigation area, choose Connectivity
+          -> Destinations
+        
+        Select your destination and select clone
+        A new cloned destination is now available in edit mode
+        
+          Change the name of the destination to something appropiate, for
+          example S4H_Full or S4H_Partial
+        
+        
+          Verify
+          Additional Properties contains HTML5.DynamicDestination = true
+          and WebIDEEnabled = true
+        
+        
+          Change WebIDESystem from
+          odata_abap to odata_gen and remove
+          any other properties defined in the WebIDESystem field
+        
+      
+      
+        The next set of changes will define the destination as either a
+        Full URL or Partial service
+        destination.
+      
+      Full URL Destination
+      
+        
+          Update the URL path to the full path for example
+          https://myexample-api.s4hana.ondemand.com/sap/opu/odata/sap/YY1_TESTCDS
+        
+        
+          Add an Additional property
+          WebIDEAdditionalData = full_url
+        
+      
+      Partial URL Destination
+      
+        
+          Update the URL path to the partial path, for example
+          https://myexample-api.s4hana.ondemand.com/
+        
+      
+      
+        In the case of the Partial URL destination, when the user selects this
+        destination in Fiori Tools, they will be prompted for the service path,
+        for example;
+      
+      /sap/opu/odata/sap/YY1_TESTCDS
+      
+        In some instances if an error is returned, you may need to append a
+        trailing slash for example
+      
+      /sap/opu/odata/sap/YY1_TESTCDS/
+       
+       
+       
+       
+       
+      Outcomes:
+      
+        How to validate a Full or Partial URL OData service destination
+      
+      
+    
+    Services unavailable, All catalog service requests failed
+    
+      Issue
+      
+        In SAP Business Application Studio, while generating a project using SAP
+        Fiori Application Generator, when you select a system, you receive the
+        following error:
+      
+      
+        "Services unavailable, All catalog service requests failed"
+      
+      
+        
+      
+      Root Cause
+      
+        There are a number of reasons why a destination configuration will not
+        load a list of XML OData services or an XML OData service;
+      
+      
+        Destination properties are misconfigured
+        XML type document is not returned
+        OData catalog or OData service is not exposed correctly
+        Connectivity issues to backend host
+      
+      Solution
+      
+        Before debugging the root cause of your issue, please ensure the URL
+        defined in the destination properties is accessible and responding as
+        expected. Any issues relating to SSL certs need to be resolved
+        beforehand in order to support connectivity via the destination on the
+        Cloud Foundry platform.
+      
+      
+        Option 1: Use SAP Fiori tools Environment Check (Recommended)
+      
+      
+        
+          From SAP Business Application Studio, open command pallete via
+          View -> Command Palette and enter
+          Fiori: Open Environment Check -> Select
+          Check Destination -> Select your destination ->
+          Enter credentials if prompted -> Select
+          Save and view results -> Choose a location to
+          save
+        
+        
+          A generated Preview results.md file is opened and a
+          zip file named envcheck-YYYY-MM-DD.zip is created
+          (This file can be shared with SAP Product Support if needed)
+        
+        Please check the section Destination Details
+        
+          SAP Fiori tools Environment Check will find and suggest if any
+          destination parameters are missing
+        
+        
+          Log on to the SAP BTP cockpit as an administrator
+        
+        
+          From your global account, navigate to your Cloud Foundry environment
+          subaccount
+        
+        
+          In the navigation area, choose Connectivity
+          -> Destinations
+        
+        
+          Select your destination, and verify that in the
+          Additional Properties of your selected destination
+        
+        
+          Review the generated output and ensure
+          Destination Details and the
+          Debug summary
+        
+        Attach the zip file to any support ticket for further review
+      
+      
+        If the envcheck-results.md contains an
+        HTTP error 503 error, please refer to the link
+        Invalid proxy response status: 503 Service Unavailable
+        at the bottom of the page to resolve the issue.
+      
+      Option 2: SAP BTP Destination Properties
+      
+        
+          Log on to the SAP BTP Cockpit as an administrator
+        
+        
+          From your global account, navigate to your Cloud Foundry environment
+          subaccount
+        
+        
+          In the left navigation area, choose
+          Connectivity -> Destinations
+        
+        
+          Select your destination, and verify
+          Additional Properties of your selected destination
+          has the required minimium properties:
+          
+            HTML5.DynamicDestination = true
+            WebIDEEnabled = true
+            
+              WebIDEUsage = odata_abap OR
+                odata_gen
+            
+          
+        
+      
+      Option 3: Service Centre
+      
+        
+          From SAP Business Application Studio, select the
+          Service Centre tab on the left navigation bar
+        
+        Select your subaccount,
+        
+          Select your destination, if configured correctly, the service and
+          system properties will be returned
+        
+      
+      Option 4: Debugging Destination API Call
+      
+        
+          From SAP Business Application Studio, select the cog icon, located on
+          the bottom left of your screen
+        
+        Select Open Preferences
+        Search for Application wizard
+        
+          Change Logging Level to trace
+        
+        
+          Close down your perferences as the change is automatically saved
+        
+        
+          From the top menu list, select View and choose
+          Output, a new tab will open on your screen
+        
+        
+          Re-run Fiori Tools wizard flow again, selecting Help from the top menu
+          list then selecting Welcome
+        
+        
+          Select Start from Template, then
+          SAP Fiori Application and then Start
+        
+        
+          Select your Application Type, select
+          Next
+        
+        
+          Select Connect to a System and select your
+          destination
+        
+        
+          The same error should appear, in the output window change the output
+          from host-instance-log to
+          Application Wizard.templates
+        
+        
+          The generated log will show the API calls being made and why the API
+          request failed
+        
+        
+          Once you have diagnosed the issue, please ensure to reset the log
+          level back to fatal
+        
+      
+      Option 5: Validating URL is accessible
+      
+        A destination URL can be inaccessible for differents reasons, typically
+        the issue relates to;
+      
+      
+        
+          Firewall / proxies blocking HTTP requests due to
+          outdated whitelist host file
+        
+        SSL cert issues
+        Backend host is down for maintenance
+        
+          User does not have the correct privileges to access the endpoint
+        
+      
+      
+        To determine if the SAP BTP destination URL is accessible, open a new
+        browser tab and append the catalog service API to the destination URL
+        property, for example here is an OData destination;
+      
+      
+        
+      
+      The URL with the catalog service api appended;
+      
+        https://sap-ux-mock-services.hana.ondemand.com/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/ServiceCollection/
+      
+      This should return a valid XML OData response. 
+      Additional Links
+      
+        Connecting to external services
+      
+      
+        Destination Properties
+      
+      
+        Still need help? Please open an incident with component
+        CA-UX-IDE and upload the generated
+        envcheck-YYYY-MM-DD.zip file as an attachment so that
+        SAP Product Support has a complete information about your destination.
+      
+       
+       
+      Outcomes:
+      
+        Configure an SAP BTP Destination
+        Request failed with status code 403 - V4 Catalog
+        Invalid proxy response status: 503 Service Unavailable
+        How can I validate my SAP BTP destination configuration
+        
+          Invalid configuration for a Full or Partial OData service URL
+          destination
+        
+        Host is protected by SAML
+        
+          The system URL requires a missing or invalid security certificate
+        
+      
+      
+    
+    Host is protected by SAML
+    
+      Pre-requisites
+      
+        
+          You’ll need an SAP Business Technology Platform (SAP BTP) account
+        
+        
+          You have access to your subaccount destinations to modify their
+          properties
+        
+        Destination is configured with SAML authentication
+      
+      Issue
+      
+        You have a destination that is protected by SAML authentication, this
+        type of authentication is supported in Fiori Tools and is exposed using
+        a SAP destination.
+      
+      Solution
+      
+        As a first step, please communicate with your IT Admin team to ensure
+        you understand how the host is configured as this will have a bearing on
+        how the destination properties are configured on the SAP BTP platform.
+      
+      
+        Review the different HTTP destination types that can be configured to
+        reflect your type of authentication method; 
+      
+      
+        https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/42a0e6b966924f2e902090bdf435e1b2.html
+      
+      For SAML related configurations, refer to the following blog posts;
+      
+        https://blogs.sap.com/2022/06/10/sap-btp-how-to-call-protected-app-across-regions-with-saml-and-oauth-2-tutorial/
+      
+      
+        https://blogs.sap.com/2022/06/10/sap-btp-how-to-call-protected-app-across-regions-with-saml-and-oauth-1-intro/
+      
+      
+        https://blogs.sap.com/2021/06/04/how-to-generate-saml-bearer-assertion-token-with-sap-btp-destination-service/
+      
+      
+        https://help.sap.com/docs/btp/sap-business-technology-platform/creating-destination-for-cross-subaccount-communication
+      
+       
+      Outcomes:
+      
+        How can I validate my SAP BTP destination configuration
+      
+      
+    
+    How to validate a Full or Partial URL OData service destination
+    
+      Issue
+      
+        In SAP BTP Cockpit how do I validate my Full or Partial URL OData
+        service configuration?
+      
+      Root Cause
+      
+        
+          A destination has been configured with incorrect additional properties
+        
+        The destination URL is not referencing the correct URL path
+        The username and/or password is incorrect
+      
+      Solution
+      
+        For both a Full or Partial URL service destinations, these steps are
+        required;
+      
+      
+        
+          Log on to the SAP BTP Cockpit as an administrator
+        
+        
+          From your global account, navigate to your Cloud Foundry environment
+          subaccount
+        
+        
+          In the navigation area, choose Connectivity
+          -> Destinations
+        
+        
+          Select your destination, and verify
+          Additional Properties of your selected
+          destination has the required minimium properties:
+          
+            HTML5.DynamicDestination = true
+            WebIDEEnabled = true
+            WebIDEUsage = odata_gen
+          
+        
+      
+      Full URL OData Service Destination Configuration
+      
+        Ensure the URL contains the full URL to the OData service
+        The service URL is returning an OData XML schema
+        
+          WebIDESystem should only contain
+          odata_gen as this destination is only exposing a
+          single OData service
+        
+        
+          WebIDEAdditionalData is append with
+          full_url
+        
+        
+          Authenication details should reflect the details required to access
+          the service
+        
+      
+      
+        
+      
+      Partial URL OData Service Destination Configuration
+      
+        
+          Ensure the URL contains the partial path to the service, for example
+          the full path of your service
+          is https://myexample-api.s4hana.ondemand.com/sap/opu/odata/sap/YY1_TESTCDS but
+          the partial path is https://myexample-api.s4hana.ondemand.com
+        
+        
+          WebIDESystem should only contain
+          odata_gen as this destination is only exposing a
+          single service
+        
+        
+          Authenication details should reflect the details required to access
+          the service
+        
+      
+      
+        
+      
+      
+        Please remember, when using Service Centre or
+        Fiori tools to retrieve the service, you will need to
+        append a trailing slash to the name of your service i.e.
+        YY1_TESTCDS/
+      
+       
+      
+       
+      Outcomes:
+      
+        How can I validate my SAP BTP destination configuration
+      
+      
+    
+    Invalid proxy response status: 503 Service Unavailable
+    
+      Issue
+      
+        Unable to retrieve a valid HTTP response from the secure tunnel that is
+        created between your SAP Business Application Studio (BAS) using a SAP
+        S4 backend (OnPremise) system connected to a SAP Cloud Connector (SCC).
+        In some cases, a firewall or proxy can exist between the SC and the SAP
+        S4 backend.
+      
+      
+        When using either Service Centre or Fiori Tools, the following error
+        messages are shown to the user, the actual root exception thrown by the
+        SCC is not propagated to the UI as this could expose application
+        settings or configurations.
+      
+      503 service unavailable 
+      or 
+      
+        The selected destination references an instance that is not
+          available 
+      
+      or
+      
+        Timed out waiting for tunnel to open for tunnelId account
+      
+      Issue 1 - Environment Check
+      
+        You have ran Environment Check and reviewed the
+        contents of the generated zip, the output files contain any of the above
+        error messages.
+      
+      
+        
+          From SAP Business Application Studio, open command pallete
+          via View -> Command Palette and enter Fiori: Open Environment Check -> Select Check Destination ->
+          Select your destination -> Enter credentials if prompted ->
+          Select Save and view results -> Choose a
+          location to save
+        
+        
+          A generated Preview results.md file is
+          opened and a zip file named envcheck-YYYY-MM-DD.zip
+          is created, this file can be shared with SAP Product Support if needed
+        
+      
+      Issue 2 - Terminal Commands
+      
+        Running any of following commands in a terminal window and reviewing the
+        generated output files, they contain one or any of the above error
+        messages.
+      
+      
+        Replace <destination-name> with the name of your specific
+        destination when running the following commands:
+      
+      OData V2 Catalog
+      
+        curl
+        "$H2O_URL/destinations/<destination-name>/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/ServiceCollection"
+        -vs > curl-v2catalog-output.txt 2>&1
+      
+      OData V4 Catalog
+      
+        curl
+        "$H2O_URL/destinations/<destination_name>/sap/opu/odata4/iwfnd/config/default/iwfnd/catalog/0002/ServiceGroups?$expand=DefaultSystem($expand=Services)"
+        -vs > curl-v4catalog-output.txt 2>&1
+      
+      OData Service URL
+      
+        curl "$H2O_URL/destinations/<destination_name>/$metadata" -vs >
+        curl-serviceurl-output.txt 2>&1
+      
+      SAPUI5 ABAP Repository
+      
+        curl
+        "$H2O_URL/destinations/sap/opu/odata/UI5/ABAP_REPOSITORY_SRV/?saml2=disabled"
+        -vs > curl-abaprepo-output.txt 2>&1
+      
+      Issue 3 - Debugging SAP CC
+      
+        You have debugged your SCC logs following the
+        SAP KBA Note
+        and the logs contain any of the following errors:
+      
+      invalid proxy response status: 403 Forbidden
+      or
+      
+        Invalid proxy response: DefaultHttpResponse(decodeResult: success,
+          version: HTTP/1.1) HTTP/1.1 403 Forbidden
+      
+      or
+      Connection reset by peer
+      Issue 4 - Debugging SAP CC with SSL Certificate Issues
+      
+        You have debugged your SCC logs following the
+        SAP KBA Note
+        and the logs contain SSL exceptions, for example:
+      
+      
+        javax.net.ssl.SSLException: Received fatal alert:
+          certificate_expired
+      
+      
+        Errors relating to SSL certificates need to be addressed by the
+        BC-MID-SCC support component and the solutions listed
+        below will not resolve these types of issues.
+      
+      
+        For the SSL expiration exception, its addressed by the following
+        SAP KBA Note.
+      
+      
+        Similiar SSL exceptions and their root causes can be searched at
+        SAP KBA Search portal.
+      
+      Root Cause
+      
+        There are multiple reasons why SAP BTP (SCP) and SCC secure tunnel could
+        not be created, here are a typcial list of reasons;
+      
+      
+        1. Missing destination property, for example,
+        sap-client is missing in additonal properties
+      
+      
+        2. There is a firewall/proxy between the SCC and SCP host that prevents
+        the connection being established
+      
+      
+        3. SCC configuration URL mapping is blocking the request, for example
+        where the Access Policy and URL path
+        do not have the correct paths exposed. In the attached screenshot, URL
+        Path / does not have sub-paths exposed and will block
+        any request i.e. /sap/bc/bsp or
+        /sap/bc but will support /myservice.
+        The second URL Path /sap/opu/odata/ exposes all
+        sub-paths i.e. /sap/opu/odata/IWFND/CATALOGSERVICE but
+        will equally block /sap/bc/bsp
+      
+      
+        
+      
+      4. Gateway is not active in your backend system
+      
+        5. Required roles to access this service in your backend system are not
+        granted to the user
+      
+      
+        6. A third party component like a gateway or load balancer is managing
+        connections and not handling cookies or CSRF tokens correctly, please
+        refer to
+        how CSRF tokens work
+      
+      7. SSL certificates have either expired or invalid
+      Solution
+      
+        1. Validate Network Connectivity, refer to the
+        following
+        SAP KBA Note
+        for a more detailed solution as this might involve getting support from
+        your IT Admin, in alot of cases, its an issue with a firewall or proxy,
+        typically resolved by following
+        SAP KBA Note
+      
+      
+        2. Validate if SCC host is able to communicate with the Business
+        Application Studio endpoints, the inbound IPs and connectivity host for
+        your region should be added to your internal firewall as described in
+        this
+        SAP Help Note. HTTP and WebSocket protocols need to be enabled, please refer to your
+        IT department for further help.
+      
+      
+        3. Ensure matching Virtual Host and
+        Internal Host in your
+        Mapping Virtual To Internal System configuration, found
+        under Cloud To On-Premise in your SCC instance
+      
+      
+        4. If you are have port redirects enabled on your exposed internal host,
+        for example port 8000 gets redirected to https/443, this will not work
+        when using SCC. These redirects are only browser supported, the endpoint
+        port and scheme i.e. HTTP/443 must match the final endpoint port and
+        scheme that is defined in your SCC protocol definition
+      
+      5. Update destination property
+      
+        
+          Log on to the SAP BTP cockpit as an administrator
+        
+        
+          From your global account, navigate to your Cloud Foundry environment
+          subaccount
+        
+        
+          In the navigation area, choose Connectivity
+          -> Destinations
+        
+        
+          Select your destination, and verify in the
+          Additional Properties contains
+          HTML5.DynamicDestination = true
+        
+        
+          Append sap-client if required as an Additional
+          Property
+        
+        
+          Depending on your configuration, you can also add
+          HTML5.Timeout=6000 (1 minute), this time can be
+          configured to reflect your environment setup and latency
+        
+      
+      
+        6. For all other issues, follow the next section to debug your SCC to
+        determine the root cause
+      
+      How to enabled and debug SCC
+      Check SAP Cloud Connector (SCC) availability
+      
+        
+          From your SCC UI, select Connector, select
+          Subaccount, select Access Control,
+          select Virtual Host, select
+          Check Availablity
+        
+      
+      Generate SCC ljs trace logs
+      
+        
+          From your SCC UI, under Log and Trace file section,
+          set Cloud Connector Loggers to ALL
+        
+        
+          Set Other Loggers to Information
+        
+        
+          Set Payload Trace flag on, ensure that the affected
+          subaccount is selected in the header
+        
+        Replicate the issue or flow causing the 503 issue
+        
+          Review the generated logs as these should indicate the root cause
+          
+            ljs_trace.log from cloud connector
+            
+              traffic_trace_<subaccount>_on_<region>.trc
+              from cloud connector 
+            
+          
+        
+        
+          Attach ljs_trace.log to the support ticket for
+          further review
+        
+      
+      
+        You can review these logs as it will indicate the root cause why the
+        connection was not created, take the exception and search on the
+        SAP KBA Search portal
+        for the solution.
+      
+      Additional Notes
+      
+        
+          Please follow
+          SAP KBA Note 2746754 "Log and Trace files to troubleshoot scenarios involving SAP
+          BTP > SCC > AS ABAP" to get SCC ljs trace(debug level), payload
+          trace, HTTP trace and ICM trace
+        
+        
+          Understanding Cloud Connector https://blogs.sap.com/2022/02/03/cloud-connector-explained-in-simple-terms/
+        
+        
+          Access denied to ABAP system
+          https://answers.sap.com/questions/493025/error-access-denied-to-resource-sapbcadtdiscovery-.html
+        
+        
+          Trouble shooting ABAP deployment
+          https://blogs.sap.com/2016/02/25/troubleshooting-deployment-to-abap-system-from-sap-web-ide/
+        
+      
+       
+      Outcomes:
+      
+        Still unable to receive a valid response?
+      
+      
+    
+    Request failed with status code 403 - V4 Catalog
+    
+      Pre-requisites
+      
+        You have access to your subaccount destination properties
+      
+      Issue
+      
+        When trying to retrieve the V4 catalog, the following exception is
+        thrown in the console logs;
+      
+      
+        Request to URL:
+          'http://S4HANA.dest/sap/opu/odata4/iwfnd/config/default/iwfnd/catalog/0002/ServiceGroups?$expand=DefaultSystem($expand=Services)&sap-client=100'
+          failed with message:
+        
+      
+      
+        Request failed with status code 403. Complete error object: {     "message": "Request failed with status code
+          403",      "name": "Error",
+               "stack": "Error: Request failed with status code
+          403 at module.exports
+          (/tmp/vscode-unpacked/sap-ux-application-modeler-extension-1.5.5.vsix/extension/dist/extension-min.js:2:2541894)
+          at          module.exports
+          (/tmp/vscode-unpacked/sap-ux-application-modeler-extension-1.5.5.vsix/extension/dist/extension-min.js:2:2546227)
+          at IncomingMessage. (/tmp/vscode-unpacked/sap-ux-   
+           application-modeler-extension-1.5.5.vsix/extension/dist/extension-min.js:2:2530167)
+          at IncomingMessage.emit (events.js:412:35) at endReadableNT
+          (internal/streams/readable.js:1334:12) at        
+           processTicksAndRejections
+          (internal/process/task_queues.js:82:21)",      "config": {
+                    "transitional": {
+                       
+           "silentJSONParsing": true,
+                       
+           "forcedJSONParsing": true,
+                       
+           "clarifyTimeoutError": false           },
+                    "transformRequest":
+          [null],
+                    "transformResponse":
+          [null],           "timeout": 0,
+                    "xsrfCookieName":
+          "XSRF-TOKEN",
+                    "xsrfHeaderName":
+          "X-XSRF-TOKEN",
+                    "maxContentLength": -1,
+                    "maxBodyLength": -1,           "headers": {
+                         "Accept":
+          "application/json, text/plain, */*",
+                       
+           "User-Agent": "axios/0.26.0",
+                         "host":
+          "S4HANA.dest"           },
+                    "auth": {
+                       
+           "username": "DS4_ADMIN"            },           "method": "get",
+                    "url": "http://S4HANA.dest/sap/opu/odata4/iwfnd/config/default/iwfnd/catalog/0002/ServiceGroups?$expand=DefaultSystem($expand=Services)&sap-client=100"      },
+               "status": 403}
+      
+      Root Cause
+      
+        V4 catalog endpoint is not available, you dont have the necessary
+        permissions required or the V4 catalog is not configured correctly.
+      
+      Solution 1 - S4HANA OnPremise Destination
+      
+        This solution assumes you have the following destination properties and
+        your endpoint is exposing an ABAP backend with V4 as a requirement;
+      
+      ProxyType: OnPremise
+      WebIDEUsage: odata_abap
+      URL: https://virtual.host:44300
+      
+        Step 1. Configure /IWFND/CONFIG
+        on SAP NetWeaver https://launchpad.support.sap.com/#/notes/3155686
+      
+      
+        Step 2. Activate the ICF nodes in the SAP gateway https://launchpad.support.sap.com/#/notes/0002928752
+      
+      Step 3. Update your destination properties
+      
+        a) Ensure HTML5.DynamicDestination is set to
+        true
+      
+      
+        b) Ensure WebIDEEnabled is to true
+      
+      
+        c) Remove any reference to odata_gen if it
+        exists as a property in the WebIDEUsage
+      
+      
+        Step 4. Re-run your V4 request again, you should receive a valid XML
+        response
+      
+      Sample curl command (Sap Business Application Studio only):
+      - replace MyDestinationName with the name of your destination
+      
+        curl "$H2O_URL/destinations/MyDestinationName/sap/opu/odata4/iwfnd/config/default/iwfnd/catalog/0002/ServiceGroups?$expand=DefaultSystem($expand=Services)" -vs > curl-datasrv-output.txt 2>&1
+      
+      Solution 2 - S4HANA Cloud
+      
+        The communication user defined in the user and password does NOT
+        have access to a V4 catalog and the following destination properties
+        exist: 
+      
+      ProxyType: Internet
+      WebIDEUsage: odata_abap, etc etc
+      URL: https://my30000-api.s4hana.ondemand.com
+      
+        Step 1. Login to your SAP BTP Subaccount, select
+        Destinations, select your destination
+      
+      
+        Step 2. Select clone to generate a copy of your
+        existing destination
+      
+      Step 3. Make the following changes
+      
+        a) Replace all WebIDEUsage properties with odata_gen
+      
+      
+        b) Update the URL to include the full service
+        path /sap/opu/odata/sap/, for example
+          https://my30000-api.s4hana.ondemand.com/sap/opu/odata/sap/ 
+      
+      
+        c) Ensure HTML5.DynamicDestination is set to
+        true
+      
+      
+        d) Ensure WebIDEEnabled is to true
+      
+      
+        Step 4. A partial destination is now generated and can be used in Fiori
+        Tools generator wizard
+      
+      
+        Step 5. When creating a Fiori application you will be prompted to input
+        the Service name
+      
+      Sample curl command (Sap Business Application Studio only):
+      
+        - replace MyDestinationName and MyService with the name of your
+        destination and the name of your service
+      
+      
+        curl
+          "$H2O_URL/destinations/MyDestinatName/MyService"
+          -vs > curl-datasrv-output.txt 2>&1
+      
+       
+       
+       
+      Outcomes:
+      
+        How can I validate my SAP BTP destination configuration
+      
+      
+    
+    Destination does not show up in System List
+    
+      Pre-requisites
+      
+        
+          You have access to
+          the Connectivity -> Destinations tab
+          in your subaccount, however, if you dont have the correct permissions
+          to access your subaccount, you can still validate the destinations and
+          their configurations using SAP Business Application Studio but you
+          will not be able to edit the properties. This will require admin
+          privileges to make destination property changes.
+        
+        
+          You have created a dev space using SAP Fiori or Full Stack Cloud
+          Application
+        
+      
+      Issue
+      
+        When using SAP Fiori Application Generator in SAP Business Application
+        Studio, you do not see any destinations listed.
+      
+      Root Cause
+      There are two reasons why destinations are not shown;
+      
+        1. There are no destinations configured on your SAP BTP subaccount2.
+        The destinations properties are misconfigured on your SAP BTP account
+      
+      Solution
+      Option 1: Verify SAB BTP destinations
+      
+        If you have the appropiate permissions, login to your SAP BTP
+        subaccount, select Destinations from the left
+        navigation menu under Connectivity, you will see all
+        the destinations available. Filter the list with the name of of the
+        specific destination you are trying to consume. Select
+        Edit and ensure the
+        Additional Properties contain the following properties;
+      
+      
+        HTML5.DynamicDestination = trueWebIDEEnabled = true
+      
+      
+        Option 2: Verify destinations on SAP Business Application
+          Studio
+      
+      
+        In SAP Business Application Studio, from the main menu, select
+        Terminal -> New Terminal and
+        execute the following curl commands:
+      
+      Refresh destination list
+      curl localhost:8887/reload
+      Generate destinations list
+      curl $H2O_URL/api/listDestinations -o dests.json
+      
+        The generated dests.json file will contain a list of
+        all the destinations available to you on your subaccount. Open the
+        dests.json file, right click anywhere on the file and
+        select Format Document to make it more readable. Locate
+        the specific destination you are trying to consume and verify the
+        following properties are present;
+      
+      
+        HTML5.DynamicDestination = trueWebIDEEnabled = true
+      
+      
+        If these are not present, please refer to Option 1 to
+        modify the destination properties.
+      
+      Option 3: Verify using Environment Check
+      
+        In SAP Business Application Studio, from the main menu, select
+        View -> Find Command and enter
+        Fiori: Open Environment Check. A list of all available
+        subaccount destinations will be shown, select your specific destination.
+      
+      
+        If your destination requires authentication, it will prompt you for the
+        username and password, select
+        Save and view results and save to a known area,
+        for example /home/user/projects. This will generate a report on your
+        chosen destination and will also list all the destinations available to
+        you on your subaccount.
+      
+      
+        The generated report tries to retrieve the V2 and V4 OData service
+        catalog. If your destination is not an ABAP backend with these catalog
+        requests supported, the report summary will highlight this.
+      
+      Option 4. Add a destination
+      
+        This option assumes no destinations are available and you want to add a
+        new destination to your subaccount, you have two options;
+      
+      
+        
+          Using Service Centre
+          to add a new system
+        
+        
+          Create a destination to the
+          ABAP System
+          which assumes you are exposing a V2 and/or V4 catalog of services
+        
+      
+       
+      Outcomes:
+      
+        How can I validate my SAP BTP destination configuration
+      
+      
+    
+    Configure an SAP BTP Destination
+    
+      Pre-requisites
+      
+        
+          You are subscribed to SAP Business Application Studio, follow this tutorial for more information
+        
+        
+          You’ll need an SAP Business Technology Platform (SAP BTP)
+          account
+        
+        
+          You have access to your subaccount destinations to modify their
+          properties
+        
+      
+      Issue
+      
+        In order to consume an SAP BTP destination within Fiori tools, certain
+        properties need to be defined to reflect your type of destination.
+      
+      Solution
+      
+        You need to ensure you have the correct properties configured to reflect
+        the type of destination being used;
+      
+      
+        The following Additonal Properties are the minimium
+        requirement to consume an SAP BTP destination using Fiori tools;
+      
+      
+        
+      
+      
+        To understand more around properties, please refer to this
+        guide.
+      
+      
+        Destinations are broken down into three categories, each type assumes
+        its returning an OData XML response;
+      
+      
+        ABAP OData Catalog of services
+        Generic OData Full URL service
+        Generic OData Partial URL service
+      
+      
+        The key difference between the types is the
+        WebIDEUsage property which is either
+        odata_abap or odata_gen, these
+        properties are mutually exclusive. Additional values can be added to
+        WebIDEUsage to reflect your unique environment setup,
+        for example;
+      
+      
+        dev_abap → /sap/bc/adt to be able to deploy into the
+        SAP system’s SAPUI5 repositoryui5_execute_abap →
+        /sap/bc_ui5_ui5 to be able to execute SAPUI5 applications from the
+        SAPUI5 repository
+      
+      ABAP OData Catalog of services
+      
+        The catalog service provides a list of all available services for your
+        area. Exploration of OData services is crucial for several tools to
+        identify a suitable service for the realization of a business use case.
+        Therefore certain search capabilities are required. The catalog
+        service retrieves a list of all available services on SAP
+        Gateway. It is based on a catalog service pattern proposed by Microsoft™
+        and consists of an implementation approach of the catalog service
+        pattern in the context of SAP Gateway.
+      
+      OData catalog of services destination;
+       
+      
+        
+      
+      Sample properties;
+      
+        Type=HTTPHTML5.Timeout=60000HTML5.DynamicDestination=trueAuthentication=NoAuthenticationWebIDEUsage=odata_abapName=MyCatalogWebIDEEnabled=trueCloudConnectorLocationId=scloudProxyType=OnPremiseURL=http://my-api.int.net.sap:50000sap-client=100
+      
+      
+        Please note, there are properties listed here that will be different for
+        your environment, for example sap-client might have a
+        different value or is not required. The
+        Authentication type will also be configured
+        differently to reflect your environment, for example it would be typical
+        for OnPremise type destinations to use either
+        BasicAuth or PrincipalPropagation.
+      
+      
+        Opening a new terminal window in SAP Business Application Studio, run
+        the following command(s) and review the generated output text files to
+        ensure an XML response is being returned;
+      
+      
+        curl -L
+        "$H2O_URL/destinations/<destination-name>/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/ServiceCollection"
+        -vs > curl-v2catalog-output.txt 2>&1
+      
+      
+        curl -L
+        "$H2O_URL/destinations/<destination_name>/sap/opu/odata4/iwfnd/config/default/iwfnd/catalog/0002/ServiceGroups?$expand=DefaultSystem($expand=Services)"
+        -vs > curl-v4catalog-output.txt 2>&1
+      
+      Generic OData Full URL service
+      
+        Exposes a single service with the full host and path to the unique
+        service. Additional properties are required to support this flow, the
+        WebIDEAdditionalData is enabled with
+        full_url and the WebIDEUsage is
+        changed to odata_gen.
+      
+      
+        
+      
+      Sample properties;
+      
+        Type=HTTPHTML5.Timeout=60000HTML5.DynamicDestination=trueWebIDEAdditionalData=full_urlAuthentication=NoAuthenticationWebIDEUsage=odata_genName=MyFullURLWebIDEEnabled=trueProxyType=InternetURL=https://services.odata.org/V2/Northwind/Northwind.svc/
+      
+      
+        Opening a new terminal window in SAP Business Application Studio, run
+        the following command(s) and review the generated output text files to
+        ensure an XML response is being returned;
+      
+      
+        curl -L "$H2O_URL/destinations/<destination-name>/$metadata" -vs
+        > curl-datafull-srv-output.txt 2>&1
+      
+      Generic OData Partial URL service
+      
+        Similar to how the full URL destination operates but only exposes a
+        partial path to the service, allowing the user to append a known path to
+        retrieve an individual service. The only additional property required
+        is WebIDEUsage and configured as
+        odata_gen.
+      
+      
+        
+      
+      Sample properties;
+      
+        Type=HTTPHTML5.Timeout=60000HTML5.DynamicDestination=trueAuthentication=NoAuthenticationWebIDEUsage=odata_genName=MyPartialURLWebIDEEnabled=trueProxyType=InternetURL=https://services.odata.org/
+      
+      
+        Opening a new terminal window in SAP Business Application Studio, run
+        the following command(s) and review the generated output text files to
+        ensure an XML response is being returned;
+      
+      
+        curl -L
+        "$H2O_URL/destinations/<destination-name>/<path-to-my-service>/$metadata"
+        -vs > curl-datapartial-srv-output.txt 2>&1
+      
+       
+      Additional Links
+      
+        Exposing Custom Business Objects - https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/2105.500/en-US/a71e8ffa917545c8af0a7c77992f8eba.html
+      
+      
+        Creating a destination - https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/2105.500/en-US/31876c06f99645f289d802f9c95fb62b.html
+      
+      
+        Exposing V4 Catalog -
+        https://blogs.sap.com/2020/10/12/odata-v4-service-catalog/
+      
+      Outcomes:
+      
+        How can I validate my SAP BTP destination configuration
+      
+      
+    
+    Application Generation in VS Code
+    
+      While generating an application in Visual Studio code,
+      Outcomes:
+      
+        Application Generator fails to launch
+        Generation of an application failure
+        
+          The system URL requires a missing or invalid security certificate
+        
+      
+      
+    
+    Generation of application fails in VS Code
+    
+      
+        Error: Application Generation fails with the
+        following 
+      
+      
+        
+      
+       
+      Solution:
+      
+        
+          From the command line, execute the following commands:
+          
+            
+              npm config get proxy
+            
+            
+              and
+            
+          
+          
+            
+              npm config get https-proxy
+            
+            
+               
+            
+          
+        
+        
+          If these commands do not return the details of your corporate proxy,
+          you will need to replace the parameters below with your proxy details:
+          
+            
+              npm config set proxy \http://<username><password>@proxy-server-url>:<port>
+            
+             
+          
+          and
+          
+            
+              npm config set https-proxy \http://<username><password>@proxy-server-url>:<port>
+            
+            
+               
+            
+          
+        
+        Restart VS Code.
+      
+      
+          You can see an example of how it works
+        here
+      
+      
+    
+    Application Generator fails to launch
+    
+      
+        Error: Application Generator fails to launch with the
+        following error
+      
+       
+      
+        
+      
+       
+       
+      
+        Solution: Perform the following steps:
+        
+          
+            Create a folder under your home directory, such
+            as /home/user/generators.
+          
+          
+            Navigate to VS Code -> Preferences and
+            enter the full path to the field in the Application Wizard: Installation Location setting.
+            
+              
+            
+          
+          
+            By using the command palette, select Open Template Wizard.
+          
+          
+            Click Explore and Install Generators, and
+            search for “fiori.”
+          
+          Install the @sap/generator-fiori generator.
+        
+      
+      
+        As a result, you are now able to use the command Fiori: Open Application Generator without any issues.

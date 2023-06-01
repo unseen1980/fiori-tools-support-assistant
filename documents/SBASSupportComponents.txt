@@ -1,0 +1,166 @@
+5/19/2023
+
+SAP Business Application Studio
+Generated on: 2023-05-19 12:09:44 GMT+0000
+SAP Business Application Studio | Cloud
+PUBLIC
+Original content: https://help.sap.com/docs/SAP Business Application Studio/9d1db9835307451daa8c930fbd9ab264?
+locale=en-US&state=PRODUCTION&version=Cloud
+
+Warning
+This document has been generated from the SAP Help Portal and is an incomplete version of the oﬃcial SAP product
+documentation. The information included in custom documentation may not re ect the arrangement of topics in the SAP Help
+Portal, and may be missing important aspects and/or correlations to other topics. For this reason, it is not for productive use.
+For more information, please visit the https://help.sap.com/docs/disclaimer.
+
+This is custom documentation. For more information, please visit the SAP Help Portal
+
+1
+
+5/19/2023
+
+Contact SAP Support
+We suggest you report an incident or error through the SAP Support Portal.
+1. Create a new incident. See Getting Support.
+Select the relevant component from the list below:
+
+Component
+
+Description
+
+CA-BAS
+
+SAP Business Application Studio issues.
+
+Component
+
+Description
+
+CA-BAS
+
+SAP Business Application Studio issues.
+
+CA-BAS-BLD-HTML5
+
+HTML5 module build - SAP Business Application Studio
+
+CA-BAS-BLD-MTA
+
+Build MTA applications - SAP Business Application Studio
+
+CA-BAS-DPL-ABAP
+
+Deploy to ABAP - SAP Business Application Studio
+
+CA-BAS-DPL-MTA
+
+Deploy MTA applications - SAP Business Application Studio
+
+CA-BAS-RUN-
+
+Run HTML5 Module - SAP Business Application Studio
+
+HTML5
+CA-BAS-RUN-CFG
+
+Run Con gurations view - SAP Business Application Studio
+
+CA-BAS-RUN-CAP
+
+Run CAP application - SAP Business Application Studio
+
+CA-BAS-TPL-FIORI
+
+SAP Fiori project template - SAP Business Application Studio
+
+CA-BAS-TPL-MTA
+
+MTA templates - SAP Business Application Studio
+
+CA-BAS-WS-MNG
+
+Dev space Manager - SAP Business Application Studio
+
+CA-BAS-WS-CTRL
+
+Dev Space Controller - SAP Business Application Studio
+
+CA-BAS-EDT-HTML5
+
+Fiori development (code assist, validations, i18n) - SAP Business Application Studio
+
+CA-BAS-EDT-W5G
+
+Layout Editor (WYSIWYG) - SAP Business Application Studio
+
+CA-BAS-EDT-JAVA
+
+JAVA tools - SAP Business Application Studio
+
+CA-BAS-EDT-MTA
+
+MTA descriptor (mta.yaml) editor
+
+CA-BAS-CNSM
+
+Consume SAP Services - SAP Business Application Studio
+
+CA-BAS-BSC
+
+Basic Tools (npm, GIT) - SAP Business Application Studio
+
+CA-BAS-CF
+
+Cloud Foundry Tools command palette - SAP Business Application Studio
+
+CA-BAS-WIZ
+
+Yeoman-UI generator - SAP Business Application Studio
+
+CA-BAS-FLO
+
+File system, logging, Operator Clusters - SAP Business Application Studio
+
+CA-BAS-MON
+
+Monitoring - SAP Business Application Studio
+
+CA-BAS-AUT
+
+Login, roles, authentication, authorizations - SAP Business Application Studio
+
+This is custom documentation. For more information, please visit the SAP Help Portal
+
+2
+
+5/19/2023
+
+Component
+
+Description
+
+CA-BAS-WEX
+
+Extension management - SAP Business Application Studio
+
+CA-BAS-HAN-DPL
+
+HANA Explorer for SAP Business Application Studio
+
+ Note
+Contact the Customer Interaction Center (CIC) in order to ask for a speed-up to your request. You will nd additional
+information in SAP Note 560499
+
+.
+
+We invite you to participate in the SAP Product Support Accreditation Program. This program will show you how you can
+work best with Product Support to get faster, easier closure to your incidents. For additional information see the SAP KBA
+2911278
+
+.
+
+This is custom documentation. For more information, please visit the SAP Help Portal
+
+3
+
+
