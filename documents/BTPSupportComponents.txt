@@ -1,74 +1,27 @@
-5/19/2023
-
-SAP Business Technology Platform
-Generated on: 2023-05-19 12:18:13 GMT+0000
-SAP Business Technology Platform (SAP BTP) | Cloud
-PUBLIC
-Original content: https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b?locale=enUS&state=PRODUCTION&version=Cloud
-
-Warning
-This document has been generated from the SAP Help Portal and is an incomplete version of the oﬃcial SAP product
-documentation. The information included in custom documentation may not re ect the arrangement of topics in the SAP Help
-Portal, and may be missing important aspects and/or correlations to other topics. For this reason, it is not for productive use.
-For more information, please visit the https://help.sap.com/docs/disclaimer.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-1
-
-5/19/2023
-
 Support Components
-A list of support components for SAP BTP services and tools. Filter for the service you want to nd the component for or have a
+A list of support components for SAP BTP services and tools. Filter for the service you want to find the component for or have a
 look at the tools and software logistics section.
-
- Note
-The table below lists the support components for services. If you are looking for components of tools or issues related to
-software logistics, see Additional Components.
-
 Service Components
 Service Availability
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
 Agentry
-
 Develop and run
-
-MOB-CLD-
-
-Agentry metadata-
-
-AGS
-
-driven mobile
+Agentry metadata-driven mobile
 applications.
-
+MOB-CLD-AGS
 Neo
-
 SAP
-
 Europe (Rot)*
-
-Available
-
-Release
-
-as Trial
-
-Status
-Available
-
 Europe
 (Frankfurt)
 Europe
@@ -91,66 +44,33 @@ Canada
 Japan (Tokyo)
 UAE (Dubai)
 KSA (Riyadh)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-2
-
-5/19/2023
-
+Available
+Note
+The table below lists the support components for services. If you are looking for components of tools or issues related to
+software logistics, see
+Additional Components.
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Alert Noti cation
-
-Create and
-
-BC-CP-LCM-
-
-receive real-time
-
-ANS
-
-Neo
-
-SAP
-
-Europe (Rot)*
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Europe
-
+Alert Notification
+Create and
+receive real-time
 alerts about your
-
-(Frankfurt)
-
 services
-
+BC-CP-LCM-ANS
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
 Europe
 (Amsterdam)
 US East
@@ -171,25 +91,17 @@ KSA (Riyadh)
 UAE (Dubai)
 Brazil (São
 Paulo)
-Alert Noti cation
-
+Yes
+Available
+Alert Notification
 Create and
-
-BC-CP-LCM-
-
-Cloud
-
 receive real-time
-
-ANS
-
-Foundry
-
 alerts about your
 services
-
+BC-CP-LCM-ANS
+Cloud
+Foundry
 AWS
-
 Europe
 (Frankfurt)
 US East (VA)
@@ -206,72 +118,31 @@ Europe
 Access
 South Korea
 (Seoul)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-3
-
-5/19/2023
-
+Yes
+Available
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Alert Noti cation
-
-Create and
-
-BC-CP-LCM-
-
-Cloud
-
-receive real-time
-
-ANS
-
-Foundry
-
-Azure
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Netherlands)
-
+Alert Notification
+Create and
+receive real-time
 alerts about your
-
-US West (WA)
-
 services
-
+BC-CP-LCM-ANS
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
 US East (VA)
 Singapore
 Japan (Tokyo)
@@ -280,48 +151,33 @@ Australia
 Switzerland
 (Zurich) EU
 Access
-Alert Noti cation
-
+Yes
+Available
+Alert Notification
 Create and
-
-BC-CP-LCM-
-
-Cloud
-
 receive real-time
-
-ANS
-
+alerts about your
+services
+BC-CP-LCM-ANS
+Cloud
 Foundry
-
 GCP
-
 US Central
 (IA)
-
-alerts about your
-
 Europe
-
-services
-
 (Frankfurt)
 India
 (Mumbai)
-
+Yes
+Available
 API Management
-
 Expose your data
 and processes as
 APIs and manage
 their lifecycles.
-
 OPU-API-OD
-
 Neo
-
 SAP
-
 Europe (Rot)*
 Europe
 (Frankfurt)
@@ -342,74 +198,31 @@ Canada
 (Toronto)
 UAE (Dubai)
 KSA (Riyadh)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-4
-
-5/19/2023
-
+Yes
+Available
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-API Management
-
-Expose your data
-
-OPU-API-OD
-
-and processes as
-
-Cloud
-
-AWS
-
-Foundry
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Frankfurt)
-
+API Management
+Expose your data
+and processes as
 APIs and manage
-
-US East (VA)
-
 their lifecycles.
-
+OPU-API-OD
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
 Singapore
 Japan (Tokyo)
 Australia
@@ -418,68 +231,47 @@ Brazil (São
 Paulo)
 Canada
 (Montreal)
+Yes
+Available
 API Management
-
 Expose your data
-
-OPU-API-OD
-
 and processes as
-
+APIs and manage
+their lifecycles.
+OPU-API-OD
 Cloud
-
-Azure
-
 Foundry
-
+Azure
 Japan (Tokyo)
 Europe
-
-APIs and manage
-
 (Netherlands)
-
-their lifecycles.
-
 US West (WA)
 US East (VA)
 Singapore
 Japan (Tokyo)
+Yes
+Available
 API Management
-
 Expose your data
-
-OPU-API-OD
-
 and processes as
-
-Cloud
-
-Alibaba
-
-Foundry
-
-China
-(Shanghai)**
-
 APIs and manage
 their lifecycles.
+OPU-API-OD
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
 Mobile App and
-
-Manage your
-
 Device
-
-mobile devices.
-
 Management
-
+Manage your
+mobile devices.
 MOB-SEC
-
 Neo
-
 SAP
-
 Europe (Rot)*
 US East
 (Ashburn)
@@ -490,86 +282,36 @@ Australia
 Japan (Tokyo)
 US East
 (Sterling)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-5
-
-5/19/2023
-
+Yes
+Available
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Application
-
-Automatically
-
-BC-CP-CF-
-
-Cloud
-
-Autoscaler
-
-increase or
-
-AUTOSCALE
-
-Foundry
-
-AWS
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Frankfurt)
-
+Application
+Autoscaler
+Automatically
+increase or
 decrease the
-
-Europe
-
 number of
-
-(Frankfurt) EU
-
 application
-
-Access
-
 instances.
-
+BC-CP-CF-AUTOSCALE
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
 US East (VA)
 Brazil (São
 Paulo)
@@ -579,158 +321,86 @@ Australia
 Singapore
 Canada
 (Montreal)
+Yes
+Available
 Application
-
-Automatically
-
-BC-CP-CF-
-
-Cloud
-
 Autoscaler
-
+Automatically
 increase or
-
-AUTOSCALE
-
-Foundry
-
-Azure
-
-Europe
-(Netherlands)
-
 decrease the
-
-US West (WA)
-
 number of
 application
-
-US East (VA)
-
 instances.
-
+BC-CP-CF-AUTOSCALE
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
 Singapore
 Japan (Tokyo)
 Australia
 (Sydney)
+Yes
+Available
 Application
-
-Automatically
-
-BC-CP-CF-
-
-Cloud
-
 Autoscaler
-
+Automatically
 increase or
-
-AUTOSCALE
-
+decrease the
+number of
+application
+instances.
+BC-CP-CF-AUTOSCALE
+Cloud
 Foundry
-
 GCP
-
 US Central
 (IA)
-
-decrease the
-
 Europe
-
-number of
-
 (Frankfurt)
-
+Yes
+Available
+Application
+Autoscaler
+Automatically
+increase or
+decrease the
+number of
 application
 instances.
-Application
-
-Automatically
-
-BC-CP-CF-
-
+BC-CP-CF-AUTOSCALE
 Cloud
-
-Autoscaler
-
-increase or
-
-AUTOSCALE
-
 Foundry
-
 Alibaba
-
 China
 (Shanghai)**
-
-decrease the
-number of
-application
-instances.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-6
-
-5/19/2023
-
+Yes
+Available
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Application
-
-Create, store,
-
-Logging Service
-
-access, and
-
-BC-NEO-LOG
-
-Neo
-
-SAP
-
-Europe (Rot)*
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Europe
-
+Application
+Logging Service
+Create, store, access, and
 analyze
-
-(Frankfurt)
-
 application logs.
-
+BC-NEO-LOG
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
 Europe
 (Amsterdam)
 US East
@@ -748,27 +418,17 @@ Brazil (São
 Paulo)
 UAE (Dubai)
 KSA (Riyadh)
+Yes
+Available
 Application
-
-Create, store,
-
-BC-CP-CF-
-
-Cloud
-
 Logging Service
-
-access, and
-
-APPLOG
-
-Foundry
-
+Create, store, access, and
 analyze
 application logs.
-
+BC-CP-CF-APPLOG
+Cloud
+Foundry
 AWS
-
 Europe
 (Frankfurt)
 Europe
@@ -785,161 +445,79 @@ South Korea
 (Seoul)
 Canada
 (Montreal)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-7
-
-5/19/2023
-
+Yes
+Available
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Application
-
-Create, store,
-
-BC-CP-CF-
-
-Cloud
-
-Logging Service
-
-access, and
-
-APPLOG
-
-Foundry
-
-Azure
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Netherlands)
-
+Application
+Logging Service
+Create, store, access, and
 analyze
-
-US West (WA)
-
 application logs.
-
+BC-CP-CF-APPLOG
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
 US East (VA)
 Singapore
 Japan (Tokyo)
 Australia
 (Sydney)
+Yes
+Available
 Application
-
-Create, store,
-
-BC-CP-CF-
-
-Cloud
-
 Logging Service
-
-access, and
-
-APPLOG
-
+Create, store, access, and
+analyze
+application logs.
+BC-CP-CF-APPLOG
+Cloud
 Foundry
-
 GCP
-
 US Central
 (IA)
-
-analyze
-
 Europe
-
-application logs.
-
 (Frankfurt)
-
+Yes
+Available
 Application
-
-Create, store,
-
-BC-CP-CF-
-
-Cloud
-
 Logging Service
-
-access, and
-
-APPLOG
-
+Create, store, access, and
+analyze
+application logs.
+BC-CP-CF-APPLOG
+Cloud
 Foundry
-
-Neo
-
 Alibaba
-
 China
 (Shanghai)**
-
-analyze
-application logs.
+Yes
+Available
 Authorization and
-
-Manage
-
-BC-NEO-
-
 Trust
-
-application
-
-SEC-IAM
-
 Management
-
-authorizations and
-
 Service
-
+Manage
+application
+authorizations and
 trusted
 connections to
 identity providers.
-
+BC-NEO-SEC-IAM
+Neo
 SAP
-
 Europe (Rot)*
 Europe
 (Frankfurt)
@@ -963,85 +541,37 @@ Brazil (São
 Paulo)
 UAE (Dubai)
 KSA (Riyadh)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-8
-
-5/19/2023
-
+Yes
+Available
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Authorization and
-
-Manage
-
-Trust
-
-application
-
-Management
-
-authorizations and
-
-Service
-
-trusted
-
-BC-XS-SEC
-
-Cloud
-
-AWS
-
-Foundry
-
-US East (VA)
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
+Authorization and
+Trust
+Management
+Service
+Manage
+application
+authorizations and
+trusted
+connections to
+identity providers.
+BC-XS-SEC
+Cloud
+Foundry
+AWS
+US East (VA)
 Europe
 (Frankfurt)
-
-connections to
-
 Europe
-
-identity providers.
-
 (Frankfurt) EU
 Access
 Brazil (São
@@ -1054,228 +584,130 @@ South Korea
 (Seoul)
 Canada
 (Montreal)
-
+Yes
+Available
 Authorization and
-
-Manage
-
 Trust
-
-application
-
 Management
-
-authorizations and
-
 Service
-
+Manage
+application
+authorizations and
 trusted
-
+connections to
+identity providers.
 BC-XS-SEC
-
 Cloud
-
-Azure
-
 Foundry
-
+Azure
 Europe
 (Netherlands)
 US West (WA)
-
-connections to
-
 US East (VA)
-
-identity providers.
-
 Australia
 (Sydney)
 Singapore
 Japan (Tokyo)
+Yes
+Available
 Authorization and
-
-Manage
-
 Trust
-
-application
-
 Management
-
-authorizations and
-
 Service
-
+Manage
+application
+authorizations and
 trusted
-
+connections to
+identity providers.
 BC-XS-SEC
-
 Cloud
-
-GCP
-
 Foundry
-
+GCP
 US Central
 (IA)
 Europe
 (Frankfurt)
-
+Yes
+Available
+Authorization and
+Trust
+Management
+Service
+Manage
+application
+authorizations and
+trusted
 connections to
 identity providers.
-Authorization and
-
-Manage
-
-Trust
-
-application
-
-Management
-
-authorizations and
-
-Service
-
-trusted
-
 BC-XS-SEC
-
 Cloud
-
-Alibaba
-
 Foundry
-
+Alibaba
 China
 (Shanghai)**
-
-connections to
-identity providers.
+Yes
+Available
 Big Data
-
-Ready-to-use,
-
 Services
-
-fully managed
-
+Ready-to-use, fully managed
+Hadoop and
+Spark.
 BC-NEO-BDS
-
 SAP
-
 This service
 does not run
-
-Hadoop and
-
 on standard
-
-Spark.
-
 SAP Cloud
-
-Available
-
 Platform
 regions.
 Check out this
 note for
 further
 details.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-9
-
-5/19/2023
-
+Available
+10
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Blockchain
-
-Deliver
-
-Application
-
-blockchain-based
-
-Enablement
-
-services on any
-
-BC-BCS-VAS
-
-Cloud
-
-AWS
-
-Foundry
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Frankfurt)
-US East (VA)
-
+Blockchain
+Application
+Enablement
+Deliver
+blockchain-based
+services on any
 connected
 blockchain
 network.
-SAP Build
-
-Create interactive
-
-MOB-UIA-
-
-prototypes based
-
-BLD-GEN
-
-Neo
-
-SAP
-
-Europe (Rot)*
+BC-BCS-VAS
+Cloud
+Foundry
+AWS
 Europe
-
-on end-user
-
 (Frankfurt)
-
+US East (VA)
+Yes
+Available
+SAP Build
+Create interactive
+prototypes based
+on end-user
 feedback without
 code writing.
-
+MOB-UIA-BLD-GEN
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
 Europe
 (Amsterdam)
 US East
@@ -1296,25 +728,19 @@ Canada
 Brazil (São
 Paulo)
 KSA (Riyadh)
-
+Yes
+Available
 Business Entity
-
-Detect and
-
 Recognition
-
+Detect and
 highlight entities
 from unstructured
 text using
 machine learning.
-
 CA-ML-BER
-
 Cloud
 Foundry
-
 AWS
-
 Europe
 (Frankfurt)
 US East (VA)
@@ -1324,65 +750,33 @@ Australia
 Europe
 (Frankfurt) EU
 Access
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-10
-
-5/19/2023
-
+Yes
+Available
+11
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Business Rules
-
-Enrich cloud
-
-LOD-BPM-
-
-oﬀerings with
-
-RUL
-
-Neo
-
-SAP
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Europe (Rot)*
-
-Available
-
-Europe
-
+Business Rules
+Enrich cloud
+offerings with
 decision
-
-(Frankfurt)
-
-modeling,
-management, and
-
-Europe
-
+modeling, management, and
 execution service.
-
+LOD-BPM-RUL
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
 (Amsterdam)
 US East
 (Ashburn)
@@ -1402,34 +796,18 @@ Australia
 Japan (Tokyo)
 UAE (Dubai)
 KSA (Riyadh)
-
-Business Rules
-
-Enrich cloud
-
-LOD-BPM-
-
-Cloud
-
-oﬀerings with
-
-RUL
-
-Foundry
-
-decision
-modeling,
-management, and
-execution service.
-
-AWS
-
-Europe
-
-Yes
-
 Available
-
+Business Rules
+Enrich cloud
+offerings with
+decision
+modeling, management, and
+execution service.
+LOD-BPM-RUL
+Cloud
+Foundry
+AWS
+Europe
 (Frankfurt)
 Australia
 (Sydney)
@@ -1445,247 +823,132 @@ Europe
 Access
 Canada
 (Montreal)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-11
-
-5/19/2023
-
+Yes
+Available
+12
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Business Rules
-
-Enrich cloud
-
-LOD-BPM-
-
-Cloud
-
-oﬀerings with
-
-RUL
-
-Foundry
-
-Azure
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Netherlands)
-
+Business Rules
+Enrich cloud
+offerings with
 decision
-
-US West (WA)
-
-modeling,
-management, and
-
-US East (VA)
-
+modeling, management, and
 execution service.
-
+LOD-BPM-RUL
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
 Singapore
 Japan (Tokyo)
 Australia
 (Sydney)
+Yes
+Available
 Business Rules
-
 Enrich cloud
-
-LOD-BPM-
-
+offerings with
+decision
+modeling, management, and
+execution service.
+LOD-BPM-RUL
 Cloud
-
-oﬀerings with
-
-RUL
-
 Foundry
-
 GCP
-
 US Central
 (IA)
-
-decision
-
 Europe
-
-modeling,
-
 (Frankfurt)
-
-management, and
-execution service.
+Yes
+Available
 Business Rules
-
 Enrich cloud
-
-LOD-BPM-
-
+offerings with
+decision
+modeling, management, and
+execution service.
+LOD-BPM-RUL
 Cloud
-
-oﬀerings with
-
-RUL
-
 Foundry
-
-Neo
-
 Alibaba
-
 China
 (Shanghai)**
-
-decision
-modeling,
-management, and
-execution service.
+Yes
+Available
 Process
-
-Seamlessly
-
-LOD-HCI-PI-
-
 Integration
-
+Seamlessly
 orchestrate
-
-OPS-PROV
-
 business
 processes and
 integrate data in
 real time.
-
-SAP
-
-Europe (Rot)*
-
-Available
-
-Europe
-(Frankfurt)
-Europe
-(Amsterdam)
-US East
-(Ashburn)
-US West
-(Chandler)
-US East
-(Sterling)
-US West
-(Colorado
-Springs)
-Australia
-(Sydney)
-Japan (Tokyo)
-Canada
-(Toronto)
-Brazil (São
-Paulo)
-KSA (Riyadh)
-UAE (Dubai)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-12
-
-5/19/2023
-
-Service Name
-
-Short Description
-
-Support
-
-Environment
-
-Infrastructure
-
-Region
-
-Component
-Connectivity
-
-Establish
-
-BC-NEO-
-
-Service
-
-connections
-
-CON
-
+LOD-HCI-PI-OPS-PROV
 Neo
-
 SAP
-
 Europe (Rot)*
-
-Available
-
-Release
-
-as Trial
-
-Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
 Europe
-
-between cloud
-
 (Frankfurt)
-
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+KSA (Riyadh)
+UAE (Dubai)
+Available
+13
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Connectivity
+Service
+Establish
+connections
+between cloud
 applications and
 on-premise
-
-Europe
-
 systems.
-
+BC-NEO-CON
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
 (Amsterdam)
 US East
 (Ashburn)
@@ -1705,30 +968,20 @@ Brazil (São
 Paulo)
 UAE (Dubai)
 KSA (Riyadh)
-
+Yes
+Available
 Connectivity
-
-Establish
-
-BC-CP-CON-
-
-Cloud
-
 Service
-
+Establish
 connections
-
-CF
-
-Foundry
-
 between cloud
 applications and
 on-premise
 systems.
-
+BC-CP-CON-CF
+Cloud
+Foundry
 AWS
-
 Europe
 (Frankfurt)
 Europe
@@ -1745,194 +998,105 @@ South Korea
 (Seoul)
 Canada
 (Montreal)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-13
-
-5/19/2023
-
+Yes
+Available
+14
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Connectivity
-
-Establish
-
-BC-CP-CON-
-
-Cloud
-
-Service
-
-connections
-
-CF
-
-Foundry
-
-Azure
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Netherlands)
-
+Connectivity
+Service
+Establish
+connections
 between cloud
-
-US West (WA)
-
 applications and
 on-premise
-
-US East (VA)
-
 systems.
-
+BC-CP-CON-CF
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
 Singapore
 Japan (Tokyo)
 Australia
 (Sydney)
+Yes
+Available
 Connectivity
-
-Establish
-
-BC-CP-CON-
-
-Cloud
-
 Service
-
+Establish
 connections
-
-CF
-
+between cloud
+applications and
+on-premise
+systems.
+BC-CP-CON-CF
+Cloud
 Foundry
-
 GCP
-
 US Central
 (IA)
-
-between cloud
-
 Europe
-
-applications and
-
 (Frankfurt)
-
+Yes
+Available
+Connectivity
+Service
+Establish
+connections
+between cloud
+applications and
 on-premise
 systems.
-Connectivity
-
-Establish
-
-BC-CP-CON-
-
+BC-CP-CON-CF
 Cloud
-
-Service
-
-connections
-
-CF
-
 Foundry
-
 Alibaba
-
 China
 (Shanghai)**
-
-between cloud
-applications and
-on-premise
-systems.
+Yes
+Available
 Continuous
-
-Con gure and run
-
-BC-CP-CF-
-
-Cloud
-
 Integration and
-
-prede ned
-
-CICD
-
-Foundry
-
 Delivery
-
+Configure and run
+predefined
 pipelines for
-
-AWS
-
-(Frankfurt)
-US East (VA)
-
 continuous
 integration and
-
-Japan (Tokyo)
-
 delivery.
+BC-CP-CF-CICD
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Japan (Tokyo)
+Yes
+Available
 Data Integration
-
 Integrate data
-between onpremise and cloud
+between on-premise and cloud
 applications on a
 scheduled (batch)
 basis.
-
-Europe
-
 LOD-HCI-DS
-
 Neo
-
 SAP
-
 UAE (Dubai)
-
-Available
-
 Australia
 (Sydney)
 Europe (Rot)*
@@ -1941,80 +1105,33 @@ KSA (Riyadh)
 US West
 (Colorado
 Springs)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-14
-
-5/19/2023
-
+Available
+15
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Credential Store
-
-Store and retrieve
-
-BC-CP-CF-
-
-Cloud
-
-credentials such
-
-SEC-CPG
-
-Foundry
-
-AWS
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Frankfurt)
-
+Credential Store
+Store and retrieve
+credentials such
 as cryptographic
-
-Australia
-
 keys and
-
-(Sydney)
-
 passwords.
-
+BC-CP-CF-SEC-CPG
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Australia
+(Sydney)
 US East (VA)
 Brazil (São
 Paulo)
@@ -2022,136 +1139,78 @@ Singapore
 Canada
 (Montreal)
 Japan (Tokyo)
+Yes
+Available
 Credential Store
-
 Store and retrieve
-
-BC-CP-CF-
-
-Cloud
-
 credentials such
-
-SEC-CPG
-
-Foundry
-
-Azure
-
-Japan (Tokyo)
-Europe
-
 as cryptographic
-
-(Netherlands)
-
 keys and
 passwords.
-
+BC-CP-CF-SEC-CPG
+Cloud
+Foundry
+Azure
+Japan (Tokyo)
+Europe
+(Netherlands)
 US West (WA)
 US East (VA)
 Singapore
-
+Yes
+Available
 Credential Store
-
 Store and retrieve
-
-BC-CP-CF-
-
-Cloud
-
 credentials such
-
-SEC-CPG
-
-Foundry
-
-Store and retrieve
-
-BC-CP-CF-
-
-Cloud
-
-credentials such
-
-SEC-CPG
-
-Foundry
-
-GCP
-
-Europe
-(Frankfurt)
-
 as cryptographic
 keys and
 passwords.
+BC-CP-CF-SEC-CPG
+Cloud
+Foundry
+GCP
+Europe
+(Frankfurt)
+Yes
+Available
 Credential Store
-
+Store and retrieve
+credentials such
+as cryptographic
+keys and
+passwords.
+BC-CP-CF-SEC-CPG
+Cloud
+Foundry
 Alibaba
-
 China
 (Shanghai)**
-
-as cryptographic
-keys and
-passwords.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-15
-
-5/19/2023
-
+Yes
+Available
+16
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Custom Domain
-
-Con gure and
-
-BC-NEO-
-
-Service
-
-expose your
-
-INFR
-
-Neo
-
-SAP
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Europe (Rot)*
-
-Available
-
-Europe
-
+Custom Domain
+Service
+Configure and
+expose your
 application under
-
-(Frankfurt)
-
 your own domain.
-
+BC-NEO-INFR
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
 Europe
 (Amsterdam)
 US East
@@ -2172,33 +1231,18 @@ Brazil (São
 Paulo)
 UAE (Dubai)
 KSA (Riyadh)
+Available
 Custom Domain
-
-Con gure and
-
-BC-CP-CF-
-
-Cloud
-
 Service
-
+Configure and
 expose your
-
-SEC-DOM
-
-Foundry
-
 application under
 your own domain.
-
+BC-CP-CF-SEC-DOM
+Cloud
+Foundry
 AWS
-
 Europe
-
-Yes
-
-Available
-
 (Frankfurt)
 Europe
 (Frankfurt) EU
@@ -2214,487 +1258,136 @@ South Korea
 (Seoul)
 Canada
 (Montreal)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-16
-
-5/19/2023
-
+Yes
+Available
+17
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Custom Domain
-
-Con gure and
-
-BC-CP-CF-
-
-Cloud
-
-Service
-
-expose your
-
-SEC-DOM
-
-Foundry
-
-Azure
-
-Japan (Tokyo)
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Europe
-
+Custom Domain
+Service
+Configure and
+expose your
 application under
-
-(Netherlands)
-
 your own domain.
-
+BC-CP-CF-SEC-DOM
+Cloud
+Foundry
+Azure
+Japan (Tokyo)
+Europe
+(Netherlands)
 US West (WA)
 US East (VA)
 Australia
 (Sydney)
 Singapore
+Yes
+Available
 Custom Domain
-
-Con gure and
-
-BC-CP-CF-
-
-Cloud
-
 Service
-
+Configure and
 expose your
-
-SEC-DOM
-
+application under
+your own domain.
+BC-CP-CF-SEC-DOM
+Cloud
 Foundry
-
 GCP
-
 US Central
 (IA)
-
-application under
-
 Europe
-
-your own domain.
-
 (Frankfurt)
-
+Yes
+Available
 Custom Domain
-
-Con gure and
-
-BC-CP-CF-
-
-Cloud
-
 Service
-
+Configure and
 expose your
-
-SEC-DOM
-
-Foundry
-
-CA-ML-DAR
-
+application under
+your own domain.
+BC-CP-CF-SEC-DOM
 Cloud
-
+Foundry
 Alibaba
-
 China
 (Shanghai)**
-
-application under
-your own domain.
+Yes
+Available
 Data Attribute
-
-Apply machine
-
 Recommendation
-
+Apply machine
 learning to predict
-
-AWS
-
-Foundry
-
-(Frankfurt)
-
 and classify data
-
-US East (VA)
-
 records.
-Data Enrichment
-
-Europe
-
-Create or enrich
-
-LOD-MDM-
-
+CA-ML-DAR
 Cloud
-
-master data using
-
-DE
-
 Foundry
-
 AWS
-
 Europe
 (Frankfurt)
-
-trusted third-party
-
 US East (VA)
-
+Yes
+Available
+Data Enrichment
+Create or enrich
+master data using
+trusted third-party
 data.
-
+LOD-MDM-DE
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
 Singapore
+Yes
+Available
 Data Quality
-
-Embed data
-
-EIM-DQM-
-
 Services
-
+Embed data
 quality services to
-
-SVS
-
 validate
 addresses and
-
-Neo
-
-SAP
-
-Europe (Rot)*
-Europe
-(Frankfurt)
-
 enrich with
 geocodes.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-17
-
-5/19/2023
-
-Service Name
-
-Short Description
-
-Support
-
-Environment
-
-Infrastructure
-
-Region
-
-Component
-Java Debugging
-
-Debug your Java
-
-BC-JVM
-
+EIM-DQM-SVS
 Neo
-
 SAP
-
-application even
-
 Europe (Rot)*
-
-Available
-
-Release
-
-as Trial
-
-Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Europe
-
-through networks
-
-(Frankfurt)
-
-with high latency.
-
-Europe
-(Amsterdam)
-US East
-(Ashburn)
-US West
-(Chandler)
-US East
-(Sterling)
-US West
-(Colorado
-Springs)
-Australia
-(Sydney)
-Japan (Tokyo)
-Canada
-(Toronto)
-Brazil (São
-Paulo)
-UAE (Dubai)
-KSA (Riyadh)
-Destination
-
-Retrieve
-
-BC-CP-
-
-Cloud
-
-Service
-
-information about
-
-DEST-CF
-
-Foundry
-
-destinations in the
-Cloud Foundry
-environment.
-
-AWS
-
 Europe
 (Frankfurt)
-Europe
-(Frankfurt) EU
-Access
-Brazil (São
-Paulo)
-Japan (Tokyo)
-Australia
-(Sydney)
-Singapore
-South Korea
-(Seoul)
-Canada
-(Montreal)
-US East (VA)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
+Yes
+Available
 18
-
-5/19/2023
-
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Destination
-
-Retrieve
-
-BC-CP-
-
-Cloud
-
-Service
-
-information about
-
-DEST-CF
-
-Foundry
-
-Azure
-
-Japan (Tokyo)
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Europe
-
-destinations in the
-
-(Netherlands)
-
-Cloud Foundry
-environment.
-
-US West (WA)
-US East (VA)
-Singapore
-Australia
-(Sydney)
-
-Destination
-
-Retrieve
-
-BC-CP-
-
-Cloud
-
-Service
-
-information about
-
-DEST-CF
-
-Foundry
-
-GCP
-
-US Central
-(IA)
-
-destinations in the
-
-Europe
-
-Cloud Foundry
-
-(Frankfurt)
-
-environment.
-Destination
-
-Retrieve
-
-BC-CP-
-
-Cloud
-
-Service
-
-information about
-
-DEST-CF
-
-Foundry
-
+Java Debugging
+Debug your Java
+application even
+through networks
+with high latency.
+BC-JVM
 Neo
-
-Alibaba
-
-China
-(Shanghai)**
-
-destinations in the
-Cloud Foundry
-environment.
-Mobile Services,
-
-Build and run
-
-MOB-CLD-
-
-users
-
-mobile apps for
-
-OPS
-
-B2E and B2B use
-cases.
-
 SAP
-
 Europe (Rot)*
 Europe
 (Frankfurt)
@@ -2712,234 +1405,118 @@ Springs)
 Australia
 (Sydney)
 Japan (Tokyo)
-Brazil (São
-Paulo)
 Canada
 (Toronto)
-KSA (Riyadh)
+Brazil (São
+Paulo)
 UAE (Dubai)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
+KSA (Riyadh)
+Yes
+Available
+Destination
+Service
+Retrieve
+information about
+destinations in the
+Cloud Foundry
+environment.
+BC-CP-DEST-CF
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Canada
+(Montreal)
+US East (VA)
+Yes
+Available
 19
-
-5/19/2023
-
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Mobile Services,
-
-Build and run
-
-MOB-CLD-
-
-Cloud
-
-users
-
-mobile apps for
-
-OPS
-
-Foundry
-
-AWS
-
-Australia
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Sydney)
-
-B2E and B2B use
-
-Brazil (São
-
-cases.
-
-Paulo)
-Japan (Tokyo)
-US East (VA)
-Europe
-(Frankfurt)
-Singapore
-Canada
-(Montreal)
-South Korea
-(Seoul)
-Europe
-(Frankfurt) EU
-Access
-
-Mobile Services,
-
-Build and run
-
-MOB-CLD-
-
+Destination
+Service
+Retrieve
+information about
+destinations in the
+Cloud Foundry
+environment.
+BC-CP-DEST-CF
 Cloud
-
-users
-
-mobile apps for
-
-OPS
-
 Foundry
-
 Azure
-
+Japan (Tokyo)
 Europe
 (Netherlands)
-
-B2E and B2B use
-
 US West (WA)
-
-cases.
-
-Japan (Tokyo)
 US East (VA)
 Singapore
-Mobile Services,
-
-Build and run
-
-MOB-CLD-
-
+Australia
+(Sydney)
+Yes
+Available
+Destination
+Service
+Retrieve
+information about
+destinations in the
+Cloud Foundry
+environment.
+BC-CP-DEST-CF
 Cloud
-
-users
-
-mobile apps for
-
-OPS
-
 Foundry
-
 GCP
-
+US Central
+(IA)
 Europe
 (Frankfurt)
-
-B2E and B2B use
-
-US Central
-
-cases.
-
-(IA)
-India
-(Mumbai)
-
-Mobile Services,
-
-Build and run
-
-MOB-CLD-
-
+Yes
+Available
+Destination
+Service
+Retrieve
+information about
+destinations in the
+Cloud Foundry
+environment.
+BC-CP-DEST-CF
 Cloud
-
-users
-
-mobile apps for
-
-OPS
-
 Foundry
-
 Alibaba
-
 China
 (Shanghai)**
-
+Yes
+Available
+Mobile Services, users
+Build and run
+mobile apps for
 B2E and B2B use
 cases.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-20
-
-5/19/2023
-
-Service Name
-
-Short Description
-
-Support
-
-Environment
-
-Infrastructure
-
-Region
-
-Component
-Mobile Services,
-
-Build and run
-
-MOB-CLD-
-
-consumers
-
-mobile apps for
-
-OPS
-
+MOB-CLD-OPS
 Neo
-
 SAP
-
-Available
-
-Release
-
-as Trial
-
-Status
-
 Europe (Rot)*
-
-Available
-
 Europe
-
-B2C use cases.
-
 (Frankfurt)
 Europe
 (Amsterdam)
@@ -2961,33 +1538,30 @@ Canada
 (Toronto)
 KSA (Riyadh)
 UAE (Dubai)
-
-Mobile Services,
-
-Build and run
-
-MOB-CLD-
-
-Cloud
-
-consumers
-
-mobile apps for
-
-OPS
-
-Foundry
-
-B2C use cases.
-
-AWS
-
-Australia
-
 Yes
-
 Available
-
+20
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Mobile Services, users
+Build and run
+mobile apps for
+B2E and B2B use
+cases.
+MOB-CLD-OPS
+Cloud
+Foundry
+AWS
+Australia
 (Sydney)
 Brazil (São
 Paulo)
@@ -3003,176 +1577,207 @@ South Korea
 Europe
 (Frankfurt) EU
 Access
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-21
-
-5/19/2023
-
-Service Name
-
-Short Description
-
-Support
-
-Environment
-
-Infrastructure
-
-Region
-
-Component
-Mobile Services,
-
+Yes
+Available
+Mobile Services, users
 Build and run
-
-MOB-CLD-
-
-Cloud
-
-consumers
-
 mobile apps for
-
-OPS
-
+B2E and B2B use
+cases.
+MOB-CLD-OPS
+Cloud
 Foundry
-
 Azure
-
 Europe
-
-Available
-
-Release
-
-as Trial
-
-Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
 (Netherlands)
-
-B2C use cases.
-
 US West (WA)
 Japan (Tokyo)
 US East (VA)
 Singapore
-
-Mobile Services,
-
+Yes
+Available
+Mobile Services, users
 Build and run
-
-MOB-CLD-
-
-Cloud
-
-consumers
-
 mobile apps for
-
-OPS
-
+B2E and B2B use
+cases.
+MOB-CLD-OPS
+Cloud
 Foundry
-
 GCP
-
 Europe
 (Frankfurt)
-
-B2C use cases.
-
 US Central
 (IA)
 India
 (Mumbai)
-
-Mobile Services,
-
+Yes
+Available
+Mobile Services, users
 Build and run
-
-MOB-CLD-
-
-Cloud
-
-consumers
-
 mobile apps for
-
-OPS
-
-Foundry
-
-CA-ML-BDP
-
+B2E and B2B use
+cases.
+MOB-CLD-OPS
 Cloud
-
+Foundry
 Alibaba
-
 China
 (Shanghai)**
-
+Yes
+Available
+21
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Mobile Services, consumers
+Build and run
+mobile apps for
 B2C use cases.
-Document
-
-Classify business
-
-Classi cation
-
-documents
-
-AWS
-
-Foundry
-
+MOB-CLD-OPS
+Neo
+SAP
+Europe (Rot)*
 Europe
 (Frankfurt)
-
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Brazil (São
+Paulo)
+Canada
+(Toronto)
+KSA (Riyadh)
+UAE (Dubai)
+Available
+Mobile Services, consumers
+Build and run
+mobile apps for
+B2C use cases.
+MOB-CLD-OPS
+Cloud
+Foundry
+AWS
+Australia
+(Sydney)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+US East (VA)
+Europe
+(Frankfurt)
+Singapore
+Canada
+(Montreal)
+South Korea
+(Seoul)
+Europe
+(Frankfurt) EU
+Access
+Yes
+Available
+22
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Mobile Services, consumers
+Build and run
+mobile apps for
+B2C use cases.
+MOB-CLD-OPS
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+Japan (Tokyo)
+US East (VA)
+Singapore
+Yes
+Available
+Mobile Services, consumers
+Build and run
+mobile apps for
+B2C use cases.
+MOB-CLD-OPS
+Cloud
+Foundry
+GCP
+Europe
+(Frankfurt)
+US Central
+(IA)
+India
+(Mumbai)
+Yes
+Available
+Mobile Services, consumers
+Build and run
+mobile apps for
+B2C use cases.
+MOB-CLD-OPS
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+Document
+Classification
+Classify business
+documents
 automatically
 using machine
 learning.
+CA-ML-BDP
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Yes
+Available
 Document
-
-Automate your
-
 Information
-
-document
-
 Extraction
-
+Automate your
+document
 information
 extraction
 processes.
-
 CA-ML-BDP
-
 Cloud
 Foundry
-
 AWS
-
 Europe
 (Frankfurt)
 Europe
@@ -3182,84 +1787,38 @@ Japan (Tokyo)
 US East (VA)
 Australia
 (Sydney)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-22
-
-5/19/2023
-
+Yes
+Available
+23
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Document
-
-Provide API and UI
-
-BC-CP-CF-
-
-Cloud
-
-Management
-
-based document
-
-SDM
-
-Foundry
-
-Service,
-
-management
-
-Integration
-
-capabilities to
-
-Option
-
-your business
-
-AWS
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
+Document
+Management
+Service, Integration
+Option
+Provide API and UI
+based document
+management
+capabilities to
+your business
+applications.
+BC-CP-CF-SDM
+Cloud
+Foundry
+AWS
+Europe
 (Frankfurt)
 US East (VA)
 Japan (Tokyo)
-
-applications.
-
 Australia
 (Sydney)
 Singapore
@@ -3272,131 +1831,70 @@ Europe
 Access
 South Korea
 (Seoul)
+Yes
+Available
 Document
-
-Provide API and UI
-
-BC-CP-CF-
-
-Cloud
-
 Management
-
-based document
-
-SDM
-
-Foundry
-
-Service,
-
-management
-
-Integration
-
-capabilities to
-
+Service, Integration
 Option
-
+Provide API and UI
+based document
+management
+capabilities to
 your business
-
+applications.
+BC-CP-CF-SDM
+Cloud
+Foundry
 Azure
-
 Europe
 (Netherlands)
 US West (WA)
 US East (VA)
-
-applications.
-
 Japan (Tokyo)
 Singapore
+Yes
+Available
 Document
-
-Provide API and UI
-
-BC-CP-CF-
-
-Cloud
-
 Management
-
-based document
-
-SDM
-
-Foundry
-
-Service,
-
-management
-
-Integration
-
-capabilities to
-
+Service, Integration
 Option
-
+Provide API and UI
+based document
+management
+capabilities to
 your business
-
+applications.
+BC-CP-CF-SDM
+Cloud
+Foundry
 GCP
-
 Europe
 (Frankfurt)
 US Central
 (IA)
-
-applications.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-23
-
-5/19/2023
-
-Service Name
-
-Short Description
-
-Support
-
-Environment
-
-Infrastructure
-
-Region
-
-Component
-Document
-
-Store and manage
-
-BC-NEO-
-
-Service
-
-your documents.
-
-ECM-DS
-
-Neo
-
-SAP
-
-Europe (Rot)*
-
-Available
-
-Release
-
-as Trial
-
-Status
-
 Yes
-
 Available
-
+24
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Document
+Service
+Store and manage
+your documents.
+BC-NEO-ECM-DS
+Neo
+SAP
+Europe (Rot)*
 Europe
 (Frankfurt)
 Europe
@@ -3419,65 +1917,33 @@ Brazil (São
 Paulo)
 UAE (Dubai)
 KSA (Riyadh)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-24
-
-5/19/2023
-
-Service Name
-
-Short Description
-
-Support
-
-Environment
-
-Infrastructure
-
-Region
-
-Component
-Dynatrace Agent
-
-Connect your Java
-
-BC-NEO-
-
-Activation
-
-applications to a
-
-MON-APM
-
-Neo
-
-SAP
-
-Europe (Rot)*
-
-Available
-
-Release
-
-as Trial
-
-Status
-
 Yes
-
 Available
-
-Europe
-
+25
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Dynatrace Agent
+Activation
+Connect your Java
+applications to a
 Dynatrace SaaS
-
-(Frankfurt)
-
 monitoring
 environment.
-
+BC-NEO-MON-APM
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
 Europe
 (Amsterdam)
 US East
@@ -3498,30 +1964,19 @@ Canada
 (Toronto)
 UAE (Dubai)
 KSA (Riyadh)
-
+Yes
+Available
 Enhanced
-
-Restore your cloud
-
 Disaster
-
-production
-
 Recovery
-
+Restore your cloud
+production
 environment with
 minimal data loss.
-
 BC-NEO-DR
-
 Neo
-
 SAP
-
 Europe (Rot)*
-
-Available
-
 US East
 (Ashburn)
 US West
@@ -3530,85 +1985,33 @@ US East
 (Sterling)
 Australia
 (Sydney)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-25
-
-5/19/2023
-
+Available
+26
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Event Mesh
-
-Connect
-
-BC-CP-EM-
-
-Cloud
-
-applications,
-
-MES
-
-Foundry
-
-AWS
-
-US East (VA)
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Australia
-
-services and
-
-(Sydney)
-
+Event Mesh
+Connect
+applications, services and
 systems across
-diﬀerent
-
-Singapore
-
+different
 landscapes.
-
+BC-CP-EM-MES
+Cloud
+Foundry
+AWS
+US East (VA)
+Australia
+(Sydney)
+Singapore
 Brazil (São
 Paulo)
 Japan (Tokyo)
@@ -3616,111 +2019,65 @@ Europe
 (Frankfurt)
 Canada
 (Montreal)
+Yes
+Available
 Event Mesh
-
 Connect
-
-BC-CP-EM-
-
+applications, services and
+systems across
+different
+landscapes.
+BC-CP-EM-MES
 Cloud
-
-applications,
-
-MES
-
 Foundry
-
 Azure
-
 Japan (Tokyo)
 Europe
-
-services and
-
 (Netherlands)
-
-systems across
-diﬀerent
-
 US West (WA)
-
-landscapes.
-
 US East (VA)
 Singapore
+Yes
+Available
 Event Mesh
-
 Connect
-
-BC-CP-EM-
-
+applications, services and
+systems across
+different
+landscapes.
+BC-CP-EM-MES
 Cloud
-
-applications,
-
-MES
-
 Foundry
-
-Connect
-
-BC-CP-EM-
-
-Cloud
-
-applications,
-
-MES
-
-Foundry
-
 GCP
-
 Europe
 (Frankfurt)
-
-services and
-systems across
-diﬀerent
-landscapes.
+Yes
+Available
 Event Mesh
-
+Connect
+applications, services and
+systems across
+different
+landscapes.
+BC-CP-EM-MES
+Cloud
+Foundry
 Alibaba
-
 China
 (Shanghai)**
-
-services and
-systems across
-diﬀerent
-landscapes.
+Yes
+Available
 Extension
-
-Allows you to
-
-BC-CP-XF-
-
-Cloud
-
-Factory,
-
-create, manage,
-
-SRT
-
-Foundry
-
-serverless
-
-con gure
-
+Factory, serverless
 runtime
-
+Allows you to
+create, manage, configure
 extensions on SAP
 Cloud Platform
-
+BC-CP-XF-SRT
+Cloud
+Foundry
 AWS
-
 Europe
 (Frankfurt)
 US East (VA)
@@ -3734,107 +2091,46 @@ Brazil (São
 Paulo)
 Canada
 (Montreal)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-26
-
-5/19/2023
-
+Yes
+Available
+27
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Extension
-
-Allows you to
-
-BC-CP-XF-
-
-Cloud
-
-Factory,
-
-create, manage,
-
-SRT
-
-Foundry
-
-serverless
-
-con gure
-
-runtime
-
-extensions on SAP
-
-Azure
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
+Extension
+Factory, serverless
+runtime
+Allows you to
+create, manage, configure
+extensions on SAP
+Cloud Platform
+BC-CP-XF-SRT
+Cloud
+Foundry
+Azure
+Europe
 (Netherlands)
 US West (WA)
-
-Cloud Platform
-
 US East (VA)
 Japan (Tokyo)
 Singapore
-
+Yes
+Available
 Feature Flags
-
 Control the rollout
-
-BC-CP-CF-
-
-Cloud
-
 of new features.
-
-FEATUREFLG
-
+BC-CP-CF-FEATUREFLG
+Cloud
 Foundry
-
 AWS
-
 Europe
 (Frankfurt)
 Europe
@@ -3853,23 +2149,15 @@ South Korea
 (Seoul)
 Canada
 (Montreal)
-
+Yes
+Available
 Feature Flags
-
 Control the rollout
-
-BC-CP-CF-
-
-Cloud
-
 of new features.
-
-FEATUREFLG
-
+BC-CP-CF-FEATUREFLG
+Cloud
 Foundry
-
 Azure
-
 Japan (Tokyo)
 Europe
 (Netherlands)
@@ -3878,106 +2166,55 @@ US East (VA)
 Australia
 (Sydney)
 Singapore
-
+Yes
+Available
 Feature Flags
-
 Control the rollout
-
-BC-CP-CF-
-
-Cloud
-
 of new features.
-
-FEATUREFLG
-
+BC-CP-CF-FEATUREFLG
+Cloud
 Foundry
-
 GCP
-
 US Central
 (IA)
 Europe
 (Frankfurt)
-
+Yes
+Available
 Feature Flags
-
 Control the rollout
-
-BC-CP-CF-
-
-Cloud
-
 of new features.
-
-FEATUREFLG
-
+BC-CP-CF-FEATUREFLG
+Cloud
 Foundry
-
 Alibaba
-
 China
 (Shanghai)**
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-27
-
-5/19/2023
-
+Yes
+Available
+28
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-SAP Fiori Cloud
-
-Revamp your user
-
-EP-CPP-
-
-experience with
-
-NEO-OPS
-
-Neo
-
-SAP
-
-Europe (Rot)*
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Europe
-
+SAP Fiori Cloud
+Revamp your user
+experience with
 SAP Fiori on SAP
-
-(Frankfurt)
-
 Cloud Platform.
-
+EP-CPP-NEO-OPS
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
 US East
 (Ashburn)
 US West
@@ -3998,20 +2235,16 @@ Europe
 (Amsterdam)
 UAE (Dubai)
 KSA (Riyadh)
+Yes
+Available
 SAP Fiori Mobile
-
-Optimize, build,
-manage, and
+Optimize, build, manage, and
 monitor SAP Fiori
 apps on mobile
 devices.
-
 MOB-FM
-
 Neo
-
 SAP
-
 Europe (Rot)*
 US East
 (Ashburn)
@@ -4026,60 +2259,31 @@ Canada
 (Toronto)
 Brazil (São
 Paulo)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-28
-
-5/19/2023
-
+Yes
+Available
+29
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
 Forms Service by
-
-Generate print and
-
-BC-SRV-FP-
-
 Adobe
-
+Generate print and
 interactive forms
-
-NEO
-
 using Adobe
 Document
 Services.
-
+BC-SRV-FP-NEO
 Neo
-
 SAP
-
 Europe (Rot)*
-
-Available
-
-Release
-
-as Trial
-
-Status
-
-Yes
-
-Available
-
 US East
 (Ashburn)
 US West
@@ -4102,57 +2306,29 @@ Europe
 US West
 (Colorado
 Springs)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-29
-
-5/19/2023
-
+Yes
+Available
+30
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Gami cation
-
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Gamification
 Introduce
-
-BC-NEO-
-
-gami cation
-
-SVC-GAM
-
+gamification
 concepts into your
 applications.
-
+BC-NEO-SVC-GAM
 Neo
-
 SAP
-
 Europe (Rot)*
-
-Available
-
-Release
-
-as Trial
-
-Status
-
-Yes
-
-Available
-
 Europe
 (Frankfurt)
 Europe
@@ -4175,60 +2351,29 @@ Brazil (São
 Paulo)
 UAE (Dubai)
 KSA (Riyadh)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-30
-
-5/19/2023
-
+Yes
+Available
+31
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Git Service
-
-Store and version
-
-BC-NEO-GIT
-
-Neo
-
-SAP
-
-source code in Git
-
-Europe (Rot)*
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Europe
-
+Git Service
+Store and version
+source code in Git
 repositories.
-
+BC-NEO-GIT
+Neo
+SAP
+Europe (Rot)*
+Europe
 (Frankfurt)
 Europe
 (Amsterdam)
@@ -4250,36 +2395,23 @@ Brazil (São
 Paulo)
 UAE (Dubai)
 KSA (Riyadh)
-
+Yes
+Available
 HTML5
-
-Enables storage of
-
-BC-CP-CF-
-
-Cloud
-
 Application
-
-HTML5
-
-HTML5
-
-Foundry
-
 Repository
-
-applications and
-
 Service
-
+Enables storage of
+HTML5
+applications and
 provides runtime
 environment for
 HTML5
 applications.
-
+BC-CP-CF-HTML5
+Cloud
+Foundry
 AWS
-
 Europe
 (Frankfurt)
 Europe
@@ -4296,303 +2428,160 @@ Paulo)
 Canada
 (Montreal)
 Japan (Tokyo)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-31
-
-5/19/2023
-
+Yes
+Available
+32
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-HTML5
-
-Enables storage of
-
-BC-CP-CF-
-
-Cloud
-
-Application
-
-HTML5
-
-HTML5
-
-Foundry
-
-Repository
-
-applications and
-
-Service
-
-provides runtime
-
-Azure
-
-Japan (Tokyo)
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
+HTML5
+Application
+Repository
+Service
+Enables storage of
+HTML5
+applications and
+provides runtime
+environment for
+HTML5
+applications.
+BC-CP-CF-HTML5
+Cloud
+Foundry
+Azure
+Japan (Tokyo)
 Europe
 (Netherlands)
-
-environment for
-
 US West (WA)
-
-HTML5
-
 US East (VA)
-
-applications.
-
 Singapore
+Yes
+Available
 HTML5
-
-Enables storage of
-
-BC-CP-CF-
-
-Cloud
-
 Application
-
-HTML5
-
-HTML5
-
-Foundry
-
 Repository
-
-applications and
-
 Service
-
+Enables storage of
+HTML5
+applications and
 provides runtime
-
+environment for
+HTML5
+applications.
+BC-CP-CF-HTML5
+Cloud
+Foundry
 GCP
-
 US Central
 (IA)
-
+Yes
+Available
+HTML5
+Application
+Repository
+Service
+Enables storage of
+HTML5
+applications and
+provides runtime
 environment for
 HTML5
 applications.
-HTML5
-
-Enables storage of
-
-BC-CP-CF-
-
+BC-CP-CF-HTML5
 Cloud
-
-Application
-
-HTML5
-
-HTML5
-
 Foundry
-
-Repository
-
-applications and
-
-Service
-
-provides runtime
-
-BC-BCS-HL
-
-Cloud
-
 Alibaba
-
 China
 (Shanghai)**
-
-environment for
-HTML5
-applications.
+Yes
+Available
 Hyperledger
-
-Create
-
 Fabric
-
+Create
 Hyperledger
-
-AWS
-
-Foundry
-
-Europe
-(Frankfurt)
-
 Fabric nodes and
-
-US East (VA)
-
 connect them to a
 blockchain
 network.
-Identity
-
-Secure
-
-Authentication -
-
-authentication and
-
-BC-IAM-IDS
-
-SAP
-
-This service
-does not run
-
-Additional Tenant
-
-single sign-on for
-
-on standard
-
-users in the cloud.
-
-SAP Cloud
-
-Available
-
-Platform
-regions.
-Check out this
-note for
-further
-details.
-Identity
-
-Secure
-
-BC-IAM-IDS
-
-SAP
-
-This service
-
-Authentication
-
-authentication and
-
-does not run
-
-single sign-on for
-
-on standard
-
-users in the cloud.
-
-SAP Cloud
-
-Available
-
-Platform
-regions.
-Check out this
-note for
-further
-details.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-32
-
-5/19/2023
-
-Service Name
-
-Short Description
-
-Support
-
-Environment
-
-Infrastructure
-
-Region
-
-Component
-Identity
-
-Manage identity
-
-Provisioning
-
-lifecycle
-
-BC-IAM-IPS
-
-Neo
-
-SAP
-
-UAE (Dubai)
-
-Available
-
-Release
-
-as Trial
-
-Status
-
+BC-BCS-HL
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
 Yes
-
 Available
-
-Australia
-
+Identity
+Authentication -Additional Tenant
+Secure
+authentication and
+single sign-on for
+users in the cloud.
+BC-IAM-IDS
+SAP
+This service
+does not run
+on standard
+SAP Cloud
+Platform
+regions.
+Check out this
+note for
+further
+details.
+Available
+Identity
+Authentication
+Secure
+authentication and
+single sign-on for
+users in the cloud.
+BC-IAM-IDS
+SAP
+This service
+does not run
+on standard
+SAP Cloud
+Platform
+regions.
+Check out this
+note for
+further
+details.
+Available
+33
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Identity
+Provisioning
+Manage identity
+lifecycle
 processes for
-
+cloud and on-premise systems.
+BC-IAM-IPS
+Neo
+SAP
+UAE (Dubai)
+Australia
 (Sydney)
-
-cloud and onpremise systems.
-
 Brazil (São
 Paulo)
 Canada
@@ -4613,190 +2602,103 @@ US East
 US West
 (Colorado
 Springs)
-
+Yes
+Available
 Intelligent
-
-Accelerate
-
 Product Design
-
+Accelerate
 product innovation
-
+with instant
+collaboration and
+live product
+intelligence.
 PLM-DC
-
 Neo
-
 SAP
-
 Europe (Rot)*
-
-Available
-
 Europe
-
-with instant
-
 (Frankfurt)
-
-collaboration and
-live product
-intelligence.
+Available
 Intelligent
-
-Accelerate
-
 Product Design
-
+Accelerate
 product innovation
-
-PLM-DC
-
-Cloud
-
-AWS
-
-Foundry
-
-Europe
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Frankfurt)
-
 with instant
 collaboration and
 live product
 intelligence.
-Internet of Things
-
-Develop,
-
-BC-NEO-
-
+PLM-DC
 Cloud
-
-customize, and
-
-SVC-IOT
-
 Foundry
-
 AWS
-
 Europe
 (Frankfurt)
-
+Yes
+Available
+Internet of Things
+Develop, customize, and
 operate IoT
-
-US East (VA)
-
 business
 applications in the
 cloud.
-Invoice Object
-
-Recommendation
-
-Recommendation
-
-of the G/L
-
-CA-ML-AR-GL
-
+BC-NEO-SVC-IOT
 Cloud
 Foundry
-
 AWS
-
 Europe
 (Frankfurt)
-
+US East (VA)
+Yes
+Available
+Invoice Object
+Recommendation
+Recommendation
+of the G/L
 accounts using
 machine learning.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-33
-
-5/19/2023
-
+CA-ML-AR-GL
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Yes
+Available
+34
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Peppol Exchange
-
-Meet compliance
-
-LOD-LH-
-
-requirements by
-
-DCS-PAP
-
-Neo
-
-SAP
-
-Europe (Rot)*
-
-Neo
-
-SAP
-
-Europe (Rot)*
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-Available
-
+Peppol Exchange
+Meet compliance
+requirements by
 exchanging
 documents with
 the Peppol
 network.
+LOD-LH-DCS-PAP
+Neo
+SAP
+Europe (Rot)*
+Available
 Java Server
-
 Develop and run
-
-BC-NEO-RT-
-
 Java Web
-
-JAV
-
 applications on
 SAP Cloud
 Platform Neo
 Environment.
-
-Yes
-
-Available
-
+BC-NEO-RT-JAV
+Neo
+SAP
+Europe (Rot)*
 Europe
 (Frankfurt)
 Europe
@@ -4819,87 +2721,38 @@ Brazil (São
 Paulo)
 UAE (Dubai)
 KSA (Riyadh)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-34
-
-5/19/2023
-
+Yes
+Available
+35
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Job Scheduling
-
-De ne and
-
-BC-XS-SRV-
-
-Cloud
-
-Service
-
-manage your jobs
-
-JBS
-
-Foundry
-
-AWS
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Frankfurt)
-
+Job Scheduling
+Service
+Define and
+manage your jobs
 or Cloud Foundry
-
-Europe
-
 tasks that run on
-
-(Frankfurt) EU
-
 one-time or
-
-Access
-
 recurring
 schedules.
-
+BC-XS-SRV-JBS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
 US East (VA)
 Brazil (São
 Paulo)
@@ -4911,164 +2764,90 @@ South Korea
 (Seoul)
 Canada
 (Montreal)
-
+Yes
+Available
 Job Scheduling
-
-De ne and
-
-BC-XS-SRV-
-
-Cloud
-
 Service
-
+Define and
 manage your jobs
-
-JBS
-
-Foundry
-
-Azure
-
-Japan (Tokyo)
-Europe
-
 or Cloud Foundry
-
-(Netherlands)
-
 tasks that run on
 one-time or
-
-US West (WA)
-
 recurring
-
-US East (VA)
-
 schedules.
-
+BC-XS-SRV-JBS
+Cloud
+Foundry
+Azure
+Japan (Tokyo)
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
 Australia
 (Sydney)
 Singapore
+Yes
+Available
 Job Scheduling
-
-De ne and
-
-BC-XS-SRV-
-
-Cloud
-
 Service
-
+Define and
 manage your jobs
-
-JBS
-
-Foundry
-
-GCP
-
-US Central
-(IA)
-
 or Cloud Foundry
-
-Europe
-
 tasks that run on
-
-(Frankfurt)
-
 one-time or
 recurring
 schedules.
-Job Scheduling
-
-De ne and
-
-BC-XS-SRV-
-
+BC-XS-SRV-JBS
 Cloud
-
-Service
-
-manage your jobs
-
-JBS
-
 Foundry
-
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+Job Scheduling
+Service
+Define and
+manage your jobs
+or Cloud Foundry
+tasks that run on
+one-time or
+recurring
+schedules.
+BC-XS-SRV-JBS
+Cloud
+Foundry
 Alibaba
-
 China
 (Shanghai)**
-
-or Cloud Foundry
-tasks that run on
-one-time or
-recurring
-schedules.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-35
-
-5/19/2023
-
+Yes
+Available
+36
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Keystore Service
-
-Manage
-
-BC-NEO-
-
-cryptographic
-
-SEC-CPG
-
-Neo
-
-SAP
-
-Europe (Rot)*
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Europe
-
+Keystore Service
+Manage
+cryptographic
 keys and
-
+certificates.
+BC-NEO-SEC-CPG
+Neo
+SAP
+Europe (Rot)*
+Europe
 (Frankfurt)
-
-certi cates.
-
 Europe
 (Amsterdam)
 US East
@@ -5089,88 +2868,49 @@ Brazil (São
 Paulo)
 UAE (Dubai)
 KSA (Riyadh)
+Yes
+Available
 Kyma runtime
-
 Extend SAP
-
-BC-CP-XF-
-
-Cloud
-
 solutions using
-
-KYMA
-
-Foundry
-
 cloud-native
 microservices and
-
+serverless
+Functions.
+BC-CP-XF-KYMA
+Cloud
+Foundry
 AWS
-
 Europe
 (Frankfurt)
 US East (VA)
-
-serverless
-Functions.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-36
-
-5/19/2023
-
-Service Name
-
-Short Description
-
-Support
-
-Environment
-
-Infrastructure
-
-Region
-
-Component
-Java Apps
-
-Manage the
-
-Lifecycle
-
-lifecycle of Java
-
-Management
-
-applications by
-
-BC-NEO-DPL
-
-Neo
-
-SAP
-
-Europe (Rot)*
-
-Available
-
-Release
-
-as Trial
-
-Status
-
 Yes
-
 Available
-
+37
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Java Apps
+Lifecycle
+Management
+Manage the
+lifecycle of Java
+applications by
+using a REST API.
+BC-NEO-DPL
+Neo
+SAP
+Europe (Rot)*
 Europe
 (Frankfurt)
-
-using a REST API.
-
 Europe
 (Amsterdam)
 US East
@@ -5191,179 +2931,91 @@ Brazil (São
 Paulo)
 UAE (Dubai)
 KSA (Riyadh)
+Yes
+Available
 SAP Live Link
-
-Generate and
-
 365 for
-
-validate
-
-BC-IAM-IDS
-
-SAP
-
-This service
-does not run
-
 Authentication
-
-con gurable one-
-
+Generate and
+validate
+configurable one-time PINs or
+verification codes.
+BC-IAM-IDS
+SAP
+This service
+does not run
 on standard
-
-time PINs or
-
 SAP Cloud
-
-veri cation codes.
-
 Platform
-
-Available
-
 regions.
 Check out this
 note for
 further
 details.
+Available
 SAP Live Link
-
-Send and receive
-
 365 for SMS
-
+Send and receive
 SMSs globally via
-
-CEC-DI-INE
-
-SAP
-
-This service
-does not run
-
 REST APIs. View
-
-on standard
-
-traﬃc logs and
-
-SAP Cloud
-
+traffic logs and
 analytics.
-
-Platform
-
-Available
-
-regions.
-Check out this
-note for
-further
-details.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-37
-
-5/19/2023
-
-Service Name
-
-Short Description
-
-Support
-
-Environment
-
-Infrastructure
-
-Region
-
-Component
-Rapid
-
-Develop SAP
-
-XX-PART-
-
-Application
-
-business
-
-MDX-RAD
-
+CEC-DI-INE
 SAP
-
-Development by
-
-applications with
-
-on standard
-
-Mendix
-
-a low-code,
-
-SAP Cloud
-
-graphical toolset.
-
-Platform
-
-Available
-
-Release
-
-as Trial
-
-Status
-
 This service
-
-Available
-
 does not run
-
+on standard
+SAP Cloud
+Platform
 regions.
 Check out this
 note for
 further
 details.
+Available
+38
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Rapid
+Application
+Development by
+Mendix
+Develop SAP
+business
+applications with
+a low-code, graphical toolset.
+XX-PART-MDX-RAD
+SAP
+This service
+does not run
+on standard
+SAP Cloud
+Platform
+regions.
+Check out this
+note for
+further
+details.
+Available
 MongoDB
-
 Implement a
-
-BC-NEO-BS-
-
-Cloud
-
 NoSQL document
-
-MONGO
-
-Foundry
-
-AWS
-
-Europe
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Frankfurt)
-
 store.
-
+BC-NEO-BS-MONGO
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
 Europe
 (Frankfurt) EU
 Access
@@ -5378,118 +3030,64 @@ South Korea
 (Seoul)
 Canada
 (Montreal)
-
+Yes
+Available
 MongoDB
-
 Implement a
-
-BC-NEO-BS-
-
-Cloud
-
 NoSQL document
-
-MONGO
-
+store.
+BC-NEO-BS-MONGO
+Cloud
 Foundry
-
 Azure
-
 Europe
 (Netherlands)
-
-store.
-
 US West (WA)
 US East (VA)
 Singapore
 Japan (Tokyo)
 Australia
 (Sydney)
-
+Yes
+Available
 MongoDB
-
 Implement a
-
-BC-NEO-BS-
-
-Cloud
-
 NoSQL document
-
-MONGO
-
-Foundry
-
 store.
-
+BC-NEO-BS-MONGO
+Cloud
+Foundry
 GCP
-
 US Central
 (IA)
 Europe
 (Frankfurt)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-38
-
-5/19/2023
-
+Yes
+Available
+39
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Monitoring
-
-Monitor Java, SAP
-
-BC-NEO-
-
-HANA XS and
-
-MON
-
-Neo
-
-SAP
-
-Europe (Rot)*
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Europe
-
+Monitoring
+Monitor Java, SAP
+HANA XS and
 HTML5
-
-(Frankfurt)
-
 applications, and
 databases.
-
+BC-NEO-MON
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
 Europe
 (Amsterdam)
 US East
@@ -5510,86 +3108,46 @@ Brazil (São
 Paulo)
 UAE (Dubai)
 KSA (Riyadh)
-
+Yes
+Available
 MultiChain
-
 Create MultiChain
 nodes and
 connect them to a
 blockchain
-
+network.
 BC-BCS-MC
-
 Cloud
 Foundry
-
 AWS
-
 Europe
 (Frankfurt)
 US East (VA)
-
-network.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-39
-
-5/19/2023
-
+Yes
+Available
+40
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-OAuth 2.0
-
-Protect
-
-BC-NEO-
-
-applications and
-
-SEC-IAM
-
-Neo
-
-SAP
-
-Europe (Rot)*
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Europe
-
+OAuth 2.0
+Protect
+applications and
 APIs with OAuth
-
-(Frankfurt)
-
 2.0.
-
+BC-NEO-SEC-IAM
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
 Europe
 (Amsterdam)
 US East
@@ -5610,26 +3168,17 @@ Brazil (São
 Paulo)
 UAE (Dubai)
 KSA (Riyadh)
+Yes
+Available
 Object Store
-
 Supports storage
-
-BC-CP-CF-
-
-Cloud
-
 and management
-
-OSAAS
-
-Foundry
-
 of unstructured
-data ( les,
-BLOBs).
-
+data (files, BLOBs).
+BC-CP-CF-OSAAS
+Cloud
+Foundry
 AWS
-
 Europe
 (Frankfurt)
 Europe
@@ -5646,140 +3195,66 @@ South Korea
 Canada
 (Montreal)
 US East (VA)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-40
-
-5/19/2023
-
+Yes
+Available
+41
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Object Store
-
-Supports storage
-
-BC-CP-CF-
-
-Cloud
-
-and management
-
-OSAAS
-
-Foundry
-
-Azure
-
-Japan (Tokyo)
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Europe
-
+Object Store
+Supports storage
+and management
 of unstructured
-
+data (files, BLOBs).
+BC-CP-CF-OSAAS
+Cloud
+Foundry
+Azure
+Japan (Tokyo)
+Europe
 (Netherlands)
-
-data ( les,
-BLOBs).
-
 US West (WA)
 US East (VA)
 Australia
 (Sydney)
 Singapore
-
+Yes
+Available
 Object Store
-
 Supports storage
-
-BC-CP-CF-
-
-Cloud
-
 and management
-
-OSAAS
-
+of unstructured
+data (files, BLOBs).
+BC-CP-CF-OSAAS
+Cloud
 Foundry
-
 GCP
-
 US Central
 (IA)
-
-of unstructured
-
 Europe
-
-data ( les,
-
 (Frankfurt)
-
-BLOBs).
+Yes
+Available
 OData
-
-Access data in
-
-OPU-GW-OD-
-
 Provisioning
-
+Access data in
 SAP Business
-
-FW
-
+Suite using OData
+services.
+OPU-GW-OD-FW
 Neo
-
 SAP
-
 Europe (Rot)*
 Europe
-
-Suite using OData
-
 (Frankfurt)
-
-services.
-
 Europe
 (Amsterdam)
 US East
@@ -5799,126 +3274,60 @@ Canada
 (Toronto)
 Brazil (São
 Paulo)
+Yes
+Available
 OData
-
-Access data in
-
-OPU-GW-OD-
-
-Cloud
-
 Provisioning
-
+Access data in
 SAP Business
-
-FW
-
+Suite using OData
+services.
+OPU-GW-OD-FW
+Cloud
 Foundry
-
 AWS
-
-(Frankfurt)
-
-Suite using OData
-
-US East (VA)
-
-services.
-OData
-
-Access data in
-
-OPU-GW-OD-
-
-Cloud
-
-Provisioning
-
-SAP Business
-
-FW
-
-Foundry
-
-Suite using OData
-services.
-
 Europe
-
+(Frankfurt)
+US East (VA)
+Yes
+Available
+OData
+Provisioning
+Access data in
+SAP Business
+Suite using OData
+services.
+OPU-GW-OD-FW
+Cloud
+Foundry
 Azure
-
 Europe
 (Netherlands)
 US West (WA)
 Japan (Tokyo)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-41
-
-5/19/2023
-
+Yes
+Available
+42
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Open Connectors
-
-Simplify
-
-LOD-OCN-
-
-integration via
-
-OPS
-
-Neo
-
-SAP
-
-Europe (Rot)*
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Europe
-
+Open Connectors
+Simplify
+integration via
 APIs
-
+LOD-OCN-OPS
+Neo
+SAP
+Europe (Rot)*
+Europe
 (Frankfurt)
 Europe
 (Amsterdam)
@@ -5927,28 +3336,18 @@ US West
 US West
 (Colorado
 Springs)
-
+Yes
+Available
 Open Connectors
-
 Simplify
-
-LOD-OCN-
-
-Cloud
-
 integration via
-
-OPS
-
+APIs
+LOD-OCN-OPS
+Cloud
 Foundry
-
 AWS
-
 Europe
 (Frankfurt)
-
-APIs
-
 US East (VA)
 Australia
 (Sydney)
@@ -5958,174 +3357,101 @@ Canada
 Brazil (São
 Paulo)
 Japan (Tokyo)
-
+Yes
+Available
 Open Connectors
-
 Simplify
-
-LOD-OCN-
-
-Cloud
-
 integration via
-
-OPS
-
+APIs
+LOD-OCN-OPS
+Cloud
 Foundry
-
 Azure
-
 Europe
 (Netherlands)
-
-APIs
-
 US West (WA)
 US East (VA)
 Singapore
 Japan (Tokyo)
 Australia
 (Sydney)
-
+Yes
+Available
 Open Connectors
-
 Simplify
-
-LOD-OCN-
-
-Cloud
-
 integration via
-
-OPS
-
-Foundry
-
-LOD-PCI
-
+APIs
+LOD-OCN-OPS
 Cloud
-
+Foundry
 GCP
-
 US Central
 (IA)
-
-APIs
-SAP S/4HANA
-
-Enable an
-
-Cloud for
-
-intelligent
-
-Intelligent
-
-customer
-
-Product
-
-experience for
-
-Selection
-
-complex
-
-Foundry
-
-AWS
-
-Europe
-(Frankfurt)
-US East (VA)
-
-con gurable
-products
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-42
-
-5/19/2023
-
-Service Name
-
-Short Description
-
-Support
-
-Environment
-
-Infrastructure
-
-Region
-
-Component
-Personalized
-
-Personalized
-
-Recommendation
-
-Recommendation
-
-CA-ML-PR
-
-Cloud
-
-AWS
-
-Foundry
-
-Europe
-
-Available
-
-Release
-
-as Trial
-
-Status
-
 Yes
-
 Available
-
+SAP S/4HANA
+Cloud for
+Intelligent
+Product
+Selection
+Enable an
+intelligent
+customer
+experience for
+complex
+configurable
+products
+LOD-PCI
+Cloud
+Foundry
+AWS
+Europe
 (Frankfurt)
-
-draws insights
-
 US East (VA)
-
+Yes
+Available
+43
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Personalized
+Recommendation
+Personalized
+Recommendation
+draws insights
 from user data to
 deliver highly
 personalized
 recommendations.
+CA-ML-PR
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Yes
+Available
 Platform Identity
-
-Use your user
-
-BC-NEO-
-
 Provider
-
+Use your user
 base from the
-
-SEC-IAM
-
 identity
 authentication
 tenant for admin
 tasks.
-
+BC-NEO-SEC-IAM
 Neo
-
 SAP
-
 Europe (Rot)*
-
-Available
-
 Europe
 (Frankfurt)
 Europe
@@ -6148,69 +3474,31 @@ Brazil (São
 Paulo)
 UAE (Dubai)
 KSA (Riyadh)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-43
-
-5/19/2023
-
+Available
+44
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Cloud Portal
-
-Create role based,
-
-EP-CPP-
-
-Service
-
-multi-channel
-
-NEO-OPS
-
-Neo
-
-SAP
-
-Europe (Rot)*
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Europe
-
+Cloud Portal
+Service
+Create role based, multi-channel
 sites to access
-
-(Frankfurt)
-
 business apps
 and content.
-
+EP-CPP-NEO-OPS
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
 US East
 (Ashburn)
 US West
@@ -6231,29 +3519,18 @@ Europe
 (Amsterdam)
 UAE (Dubai)
 KSA (Riyadh)
-
+Yes
+Available
 Cloud Portal
-
-Create role based,
-
-EP-CPP-CF-
-
-Cloud
-
 Service
-
-multi-channel
-
-OPS
-
-Foundry
-
+Create role based, multi-channel
 sites to access
 business apps
 and content.
-
+EP-CPP-CF-OPS
+Cloud
+Foundry
 AWS
-
 Europe
 (Frankfurt)
 US East (VA)
@@ -6270,160 +3547,81 @@ Europe
 Access
 South Korea
 (Seoul)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-44
-
-5/19/2023
-
+Yes
+Available
+45
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Cloud Portal
-
-Create role based,
-
-EP-CPP-CF-
-
-Cloud
-
-Service
-
-multi-channel
-
-OPS
-
-Foundry
-
-Azure
-
-Singapore
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-US West (WA)
-
+Cloud Portal
+Service
+Create role based, multi-channel
 sites to access
 business apps
-
-US East (VA)
-
 and content.
-
+EP-CPP-CF-OPS
+Cloud
+Foundry
+Azure
+Singapore
+US West (WA)
+US East (VA)
 Europe
 (Netherlands)
 Japan (Tokyo)
 Australia
 (Sydney)
+Yes
+Available
 Cloud Portal
-
-Create role based,
-
-EP-CPP-CF-
-
-Cloud
-
 Service
-
-multi-channel
-
-OPS
-
+Create role based, multi-channel
+sites to access
+business apps
+and content.
+EP-CPP-CF-OPS
+Cloud
 Foundry
-
 GCP
-
 US Central
 (IA)
-
-sites to access
-
 Europe
-
-business apps
-
 (Frankfurt)
-
-and content.
-
 India
 (Mumbai)
+Yes
+Available
 Cloud Portal
-
-Create role based,
-
-EP-CPP-CF-
-
-Cloud
-
 Service
-
-multi-channel
-
-OPS
-
-Foundry
-
-Consume an
-
-BC-NEO-BS-
-
-Cloud
-
-object-relational
-
-POSTGRES
-
-Foundry
-
-Alibaba
-
-China
-(Shanghai)**
-
+Create role based, multi-channel
 sites to access
 business apps
 and content.
+EP-CPP-CF-OPS
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
 PostgreSQL
-
+Consume an
+object-relational
 database with
 PostgreSQL.
-
+BC-NEO-BS-POSTGRES
+Cloud
+Foundry
 AWS
-
 Europe
 (Frankfurt)
 Europe
@@ -6440,200 +3638,104 @@ South Korea
 (Seoul)
 Canada
 (Montreal)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-45
-
-5/19/2023
-
+Yes
+Available
+46
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-PostgreSQL
-
-Consume an
-
-BC-NEO-BS-
-
-Cloud
-
-object-relational
-
-POSTGRES
-
-Foundry
-
-Azure
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Netherlands)
-
+PostgreSQL
+Consume an
+object-relational
 database with
-
-US West (WA)
-
 PostgreSQL.
-
+BC-NEO-BS-POSTGRES
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
 US East (VA)
 Australia
 (Sydney)
 Singapore
 Japan (Tokyo)
+Yes
+Available
 PostgreSQL
-
 Consume an
-
-BC-NEO-BS-
-
-Cloud
-
 object-relational
-
-POSTGRES
-
-Foundry
-
-GCP
-
-(IA)
-
 database with
-
-Europe
-
 PostgreSQL.
-Pricing service
-
-Calculate prices
-
-(Frankfurt)
-LOD-CPS
-
-for con gurable-
-
+BC-NEO-BS-POSTGRES
 Cloud
-
-AWS
-
 Foundry
-
-US East (VA)
-
-con gurable
-products
-Calculate prices
-
+GCP
+US Central
+(IA)
 Europe
 (Frankfurt)
-
-and non-
-
+Yes
+Available
 Pricing service
-
-US Central
-
-Singapore
+Calculate prices
+for configurable-and non-configurable
+products
 LOD-CPS
-
-for con gurable-
-
 Cloud
-
-Azure
-
 Foundry
-
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Singapore
+Yes
+Available
+Pricing service
+Calculate prices
+for configurable-and non-configurable
+products
+LOD-CPS
+Cloud
+Foundry
+Azure
 Europe
 (Netherlands)
-
-and noncon gurable
-products
+Yes
+Available
 Print Service
-
 Manage print
-
-BC-CCM-
-
-Cloud
-
 queues, connect
-
-PRN-OM-SCP
-
-Foundry
-
-Cloud Oﬀering
-
-LOD-BPM-
-
-Cloud
-
-with End-to-End
-
-VIS
-
-Foundry
-
-AWS
-
-Europe
-(Frankfurt)
-
 print clients and
 monitor print
 status
+BC-CCM-PRN-OM-SCP
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Yes
+Available
 Process Visibility
-
+Cloud Offering
+with End-to-End
 visibility on
 Business
 Processes
-
+LOD-BPM-VIS
+Cloud
+Foundry
 AWS
-
 Europe
 (Frankfurt)
 US East (VA)
@@ -6650,248 +3752,127 @@ Europe
 Access
 Canada
 (Montreal)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-46
-
-5/19/2023
-
+Yes
+Available
+47
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Process Visibility
-
-Cloud Oﬀering
-
-LOD-BPM-
-
-Cloud
-
-with End-to-End
-
-VIS
-
-Foundry
-
-Azure
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Netherlands)
-
+Process Visibility
+Cloud Offering
+with End-to-End
 visibility on
-
-US West (WA)
-
 Business
 Processes
-
+LOD-BPM-VIS
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
 US East (VA)
 Singapore
 Japan (Tokyo)
 Australia
 (Sydney)
-
+Yes
+Available
 Process Visibility
-
-Cloud Oﬀering
-
-LOD-BPM-
-
-Cloud
-
+Cloud Offering
 with End-to-End
-
-VIS
-
-Foundry
-
-GCP
-
-(IA)
-
 visibility on
-
-Europe
-
 Business
-
-(Frankfurt)
-
 Processes
-Process Visibility
-
-US Central
-
-Cloud Oﬀering
-
-LOD-BPM-
-
+LOD-BPM-VIS
 Cloud
-
-with End-to-End
-
-VIS
-
 Foundry
-
-LOD-CPS
-
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+Process Visibility
+Cloud Offering
+with End-to-End
+visibility on
+Business
+Processes
+LOD-BPM-VIS
 Cloud
-
+Foundry
 Alibaba
-
 China
 (Shanghai)**
-
-visibility on
-Business
-Processes
+Yes
+Available
 Variant
-
-Con gure your
-
-Con guration
-
-SAP ERP or SAP
-
+Configuration
 service
-
+Configure your
+SAP ERP or SAP
 S/4HANA
-
-AWS
-
-Foundry
-
-(Frankfurt)
-US East (VA)
-
 products
 interactively in the
-
-Singapore
-
 cloud
-Variant
-
-Con gure your
-
-Con guration
-
-SAP ERP or SAP
-
-service
-
-S/4HANA
-
-Europe
-
 LOD-CPS
-
 Cloud
 Foundry
-
-Azure
-
+AWS
 Europe
-(Netherlands)
-
+(Frankfurt)
+US East (VA)
+Singapore
+Yes
+Available
+Variant
+Configuration
+service
+Configure your
+SAP ERP or SAP
+S/4HANA
 products
 interactively in the
 cloud
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-47
-
-5/19/2023
-
-Service Name
-
-Short Description
-
-Support
-
-Environment
-
-Infrastructure
-
-Region
-
-Component
-Java Pro ling
-
-Pro le and
-
-BC-JVM
-
-Neo
-
-SAP
-
-analyze your Java
-
-Europe (Rot)*
-
-Available
-
-Release
-
-as Trial
-
-Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
+LOD-CPS
+Cloud
+Foundry
+Azure
 Europe
-
+(Netherlands)
+Yes
+Available
+48
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Java Profiling
+Profile and
+analyze your Java
 applications.
-
+BC-JVM
+Neo
+SAP
+Europe (Rot)*
+Europe
 (Frankfurt)
 Europe
 (Amsterdam)
@@ -6913,236 +3894,47 @@ Brazil (São
 Paulo)
 UAE (Dubai)
 KSA (Riyadh)
-
+Yes
+Available
 Quorum
-
 Create Quorum
-
-BC-BCS-
-
-Cloud
-
 nodes and
-
-QRM
-
-Foundry
-
 connect them to a
 blockchain
-
-AWS
-
-Europe
-(Frankfurt)
-US East (VA)
-
 network.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-48
-
-5/19/2023
-
-Service Name
-
-Short Description
-
-Support
-
-Environment
-
-Infrastructure
-
-Region
-
-Component
-RabbitMQ
-
-Get robust
-
-BC-NEO-BS-
-
+BC-BCS-QRM
 Cloud
-
-asynchronous
-
-RABBITMQ
-
 Foundry
-
 AWS
-
-Europe
-
-Available
-
-Release
-
-as Trial
-
-Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Frankfurt)
-
-messaging
-
-Europe
-
-between
-
-(Frankfurt) EU
-
-applications.
-
-Access
-US East (VA)
-Brazil (São
-Paulo)
-Japan (Tokyo)
-Australia
-(Sydney)
-Singapore
-South Korea
-(Seoul)
-Canada
-(Montreal)
-
-RabbitMQ
-
-Get robust
-
-BC-NEO-BS-
-
-Cloud
-
-asynchronous
-
-RABBITMQ
-
-Foundry
-
-Azure
-
-Europe
-(Netherlands)
-
-messaging
-
-US West (WA)
-
-between
-applications.
-
-US East (VA)
-Australia
-(Sydney)
-Singapore
-Japan (Tokyo)
-
-RabbitMQ
-
-Get robust
-
-BC-NEO-BS-
-
-Cloud
-
-asynchronous
-
-RABBITMQ
-
-Foundry
-
-messaging
-between
-applications.
-
-GCP
-
-US Central
-(IA)
 Europe
 (Frankfurt)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
+US East (VA)
+Yes
+Available
 49
-
-5/19/2023
-
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Redis
-
-Implement an in-
-
-BC-NEO-BS-
-
-Cloud
-
-memory caching
-
-REDIS
-
-Foundry
-
-AWS
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
+RabbitMQ
+Get robust
+asynchronous
+messaging
+between
+applications.
+BC-NEO-BS-RABBITMQ
+Cloud
+Foundry
+AWS
+Europe
 (Frankfurt)
-
-layer with Redis.
-
 Europe
 (Frankfurt) EU
 Access
@@ -7157,79 +3949,121 @@ South Korea
 (Seoul)
 Canada
 (Montreal)
-
-Redis
-
-Implement an in-
-
-BC-NEO-BS-
-
+Yes
+Available
+RabbitMQ
+Get robust
+asynchronous
+messaging
+between
+applications.
+BC-NEO-BS-RABBITMQ
 Cloud
-
-memory caching
-
-REDIS
-
 Foundry
-
 Azure
-
 Europe
 (Netherlands)
-
-layer with Redis.
-
 US West (WA)
 US East (VA)
 Australia
 (Sydney)
 Singapore
 Japan (Tokyo)
-
-Redis
-
-Implement an in-
-
-BC-NEO-BS-
-
+Yes
+Available
+RabbitMQ
+Get robust
+asynchronous
+messaging
+between
+applications.
+BC-NEO-BS-RABBITMQ
 Cloud
-
-memory caching
-
-REDIS
-
 Foundry
-
 GCP
-
 US Central
 (IA)
-
-layer with Redis.
-
 Europe
 (Frankfurt)
-
+Yes
+Available
+50
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Redis
+Implement an in-memory caching
+layer with Redis.
+BC-NEO-BS-REDIS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Canada
+(Montreal)
+Yes
+Available
+Redis
+Implement an in-memory caching
+layer with Redis.
+BC-NEO-BS-REDIS
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Australia
+(Sydney)
+Singapore
+Japan (Tokyo)
+Yes
+Available
+Redis
+Implement an in-memory caching
+layer with Redis.
+BC-NEO-BS-REDIS
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
 Remote Data
-
-Synchronize data
-
-BC-NEO-
-
 Sync
-
+Synchronize data
 between remote
-
-CON
-
 databases and a
 cloud SAP HANA
 database.
-
+BC-NEO-CON
 Neo
-
 SAP
-
 Europe (Rot)*
 Europe
 (Frankfurt)
@@ -7242,139 +4076,67 @@ US East
 Australia
 (Sydney)
 Japan (Tokyo)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-50
-
-5/19/2023
-
+Yes
+Available
+51
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Data Retention
-
-Manage retention
-
-Manager
-
-and residence
-
-LOD-GDP-RM
-
-Cloud
-
-AWS
-
-Foundry
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Frankfurt)
-
+Data Retention
+Manager
+Manage retention
+and residence
 rules to block or
-
-US East (VA)
-
 delete personal
 data.
-
+LOD-GDP-RM
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
 Australia
 (Sydney)
-
+Yes
+Available
 Data Retention
-
-Manage retention
-
 Manager
-
+Manage retention
 and residence
-
-LOD-GDP-RM
-
-Cloud
-
-Azure
-
-Foundry
-
-Europe
-(Netherlands)
-
 rules to block or
-
-US West (WA)
-
 delete personal
 data.
-SAP Business
-
-Develop, debug,
-
-Application
-
-test, and deploy
-
-Studio
-
-SAP business
-
-CA-BAS
-
+LOD-GDP-RM
 Cloud
-
-AWS
-
 Foundry
-
+Azure
+Europe
+(Netherlands)
+US West (WA)
+Yes
+Available
+SAP Business
+Application
+Studio
+Develop, debug, test, and deploy
+SAP business
+applications.
+CA-BAS
+Cloud
+Foundry
+AWS
 Europe
 (Frankfurt)
 US East (VA)
-
-applications.
-
 Australia
 (Sydney)
 Canada
@@ -7388,167 +4150,86 @@ Europe
 Access
 South Korea
 (Seoul)
+Yes
+Available
 SAP Business
-
-Develop, debug,
-
 Application
-
-test, and deploy
-
 Studio
-
+Develop, debug, test, and deploy
 SAP business
-
+applications.
 CA-BAS
-
 Cloud
-
-Azure
-
 Foundry
-
+Azure
 Europe
 (Netherlands)
 US West (WA)
-
-applications.
-
 US East (VA)
 Japan (Tokyo)
 Singapore
+Yes
+Available
 SAP Business
-
-Develop, debug,
-
 Application
-
-test, and deploy
-
 Studio
-
+Develop, debug, test, and deploy
 SAP business
-
+applications.
 CA-BAS
-
 Cloud
-
-GCP
-
 Foundry
-
+GCP
+US Central
 (IA)
 India
-
-applications.
-SAP Business
-
-Develop, debug,
-
-Application
-
-test, and deploy
-
-Studio
-
-SAP business
-
-US Central
-
 (Mumbai)
+Yes
+Available
+SAP Business
+Application
+Studio
+Develop, debug, test, and deploy
+SAP business
+applications.
 CA-BAS
-
 Cloud
 Foundry
-
 Alibaba
-
 China
 (Shanghai)**
-
-applications.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-51
-
-5/19/2023
-
+Yes
+Available
+52
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Document
-
-Organize your
-
-BC-CP-CF-
-
-Cloud
-
-Management
-
-documents with
-
-SDM
-
-Foundry
-
-Service,
-
-ready-to-use
-
-Application
-
-document
-
-Option
-
-management
-
-AWS
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
+Document
+Management
+Service, Application
+Option
+Organize your
+documents with
+ready-to-use
+document
+management
+capabilities.
+BC-CP-CF-SDM
+Cloud
+Foundry
+AWS
+Europe
 (Frankfurt)
 US East (VA)
 Japan (Tokyo)
-
-capabilities.
-
 Australia
 (Sydney)
 Singapore
@@ -7561,108 +4242,62 @@ Europe
 Access
 South Korea
 (Seoul)
+Yes
+Available
 Document
-
-Organize your
-
-BC-CP-CF-
-
-Cloud
-
 Management
-
-documents with
-
-SDM
-
-Foundry
-
-Service,
-
-ready-to-use
-
-Application
-
-document
-
+Service, Application
 Option
-
+Organize your
+documents with
+ready-to-use
+document
 management
-
+capabilities.
+BC-CP-CF-SDM
+Cloud
+Foundry
 Azure
-
 Europe
 (Netherlands)
 US West (WA)
 US East (VA)
-
-capabilities.
-
 Japan (Tokyo)
 Singapore
+Yes
+Available
 Document
-
-Organize your
-
-BC-CP-CF-
-
-Cloud
-
 Management
-
-documents with
-
-SDM
-
-Foundry
-
-Service,
-
-ready-to-use
-
-Application
-
-document
-
+Service, Application
 Option
-
+Organize your
+documents with
+ready-to-use
+document
 management
-
+capabilities.
+BC-CP-CF-SDM
+Cloud
+Foundry
 GCP
-
 Europe
 (Frankfurt)
 US Central
 (IA)
-
-capabilities.
+Yes
+Available
 SAP Analytics
-
-Analyze data via
-
-LOD-ANA-
-
-Cloud
-
-Cloud,
-
-live connection to
-
-OEM-CP
-
-Foundry
-
-embedded
-
-your business
-
+Cloud, embedded
 edition
-
+Analyze data via
+live connection to
+your business
 application's SAP
 HANA database.
-
+LOD-ANA-OEM-CP
+Cloud
+Foundry
 AWS
-
 Europe
 (Frankfurt)
 US East (VA)
@@ -7672,56 +4307,30 @@ Japan (Tokyo)
 Australia
 (Sydney)
 Singapore
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-52
-
-5/19/2023
-
+Yes
+Available
+53
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-SAP API
-
-Discover, explore
-
-Business Hub
-
-and test the APIs
-
-LOD-CHB
-
-SAP
-
-does not run
-
-oﬀered by SAP.
-
-on standard
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
+SAP API
+Business Hub
+Discover, explore
+and test the APIs
+offered by SAP
+LOD-CHB
+SAP
 This service
-
-Available
-
+does not run
+on standard
 SAP Cloud
 Platform
 regions.
@@ -7729,28 +4338,15 @@ Check out this
 note for
 further
 details.
-SAP ASE Service
-
-Create and
-
-BC-NEO-
-
-consume SAP ASE
-
-PERS
-
-databases.
-
-Neo
-
-SAP
-
-Europe (Rot)*
-
-Yes
-
 Available
-
+SAP ASE Service
+Create and
+consume SAP ASE
+databases.
+BC-NEO-PERS
+Neo
+SAP
+Europe (Rot)*
 Europe
 (Frankfurt)
 Europe
@@ -7773,80 +4369,35 @@ Brazil (São
 Paulo)
 UAE (Dubai)
 KSA (Riyadh)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-53
-
-5/19/2023
-
+Yes
+Available
+54
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-SAP Build Work
-
-Simplify access to
-
-EP-CPP-CF-
-
-Cloud
-
-Zone, standard
-
-applications by
-
-LND
-
-Foundry
-
-edition
-
-establishing a
-
-AWS
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Frankfurt)
-US East (VA)
-
+SAP Build Work
+Zone, standard
+edition
+Simplify access to
+applications by
+establishing a
 central entry
 point.
-
+EP-CPP-CF-LND
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
 Brazil (São
 Paulo)
 Japan (Tokyo)
@@ -7860,163 +4411,92 @@ Europe
 Access
 South Korea
 (Seoul)
-
+Yes
+Available
 SAP Build Work
-
-Simplify access to
-
-EP-CPP-CF-
-
-Cloud
-
 Zone, standard
-
-applications by
-
-LND
-
-Foundry
-
 edition
-
+Simplify access to
+applications by
 establishing a
-
+central entry
+point.
+EP-CPP-CF-LND
+Cloud
+Foundry
 Azure
-
 Singapore
 US West (WA)
-
-central entry
-
 US East (VA)
-
-point.
-
 Europe
 (Netherlands)
 Japan (Tokyo)
 Australia
 (Sydney)
+Yes
+Available
 SAP Build Work
-
-Simplify access to
-
-EP-CPP-CF-
-
-Cloud
-
 Zone, standard
-
-applications by
-
-LND
-
-Foundry
-
 edition
-
+Simplify access to
+applications by
 establishing a
-
+central entry
+point.
+EP-CPP-CF-LND
+Cloud
+Foundry
 GCP
-
 US Central
 (IA)
 India
-
-central entry
-
 (Mumbai)
-
-point.
-
 Europe
 (Frankfurt)
+Yes
+Available
 SAP Build Work
-
-Simplify access to
-
-EP-CPP-CF-
-
-Cloud
-
 Zone, standard
-
-applications by
-
-LND
-
-Foundry
-
 edition
-
+Simplify access to
+applications by
 establishing a
-
-Alibaba
-
-China
-(Shanghai)**
-
 central entry
 point.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-54
-
-5/19/2023
-
-Service Name
-
-Short Description
-
-Support
-
-Environment
-
-Infrastructure
-
-Region
-
-Component
-SAP Analytics
-
-Carry out
-
+EP-CPP-CF-LND
 Cloud
-
-business
-
-LOD-ANA
-
-Neo
-
-SAP
-
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
 Available
-
-Release
-
+55
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
 as Trial
-
+Release
 Status
-
-Europe (Rot)*
-
-Available
-
-US East
-
-intelligence,
-
-(Ashburn)
-
-planning, and
+SAP Analytics
+Cloud
+Carry out
+business
+intelligence, planning, and
 predictive
-
-US West
-
 analysis tasks.
-
+LOD-ANA
+Neo
+SAP
+Europe (Rot)*
+US East
+(Ashburn)
+US West
 (Chandler)
 US East
 (Sterling)
@@ -8031,50 +4511,22 @@ Europe
 (Frankfurt)
 UAE (Dubai)
 KSA (Riyadh)
-
+Available
 SAP Analytics
-
+Cloud
 Carry out
-
-Cloud
-
 business
-
-LOD-ANA
-
-Cloud
-
-AWS
-
-Foundry
-
-Europe
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Frankfurt)
-
-intelligence,
-
-US East (VA)
-
-planning, and
+intelligence, planning, and
 predictive
-
-Brazil (São
-
 analysis tasks.
-
+LOD-ANA
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Brazil (São
 Paulo)
 Japan (Tokyo)
 Australia
@@ -8084,121 +4536,62 @@ South Korea
 (Seoul)
 Canada
 (Montreal)
-
+Yes
+Available
 SAP Analytics
-
+Cloud
 Carry out
-
-Cloud
-
 business
-
+intelligence, planning, and
+predictive
+analysis tasks.
 LOD-ANA
-
 Cloud
-
-Azure
-
 Foundry
-
+Azure
 US West (WA)
 Europe
-
-intelligence,
-
 (Netherlands)
-
-planning, and
+Yes
+Available
+SAP Analytics
+Cloud
+Carry out
+business
+intelligence, planning, and
 predictive
 analysis tasks.
-SAP Analytics
-
-Carry out
-
-Cloud
-
-business
-
 LOD-ANA
-
 Cloud
 Foundry
-
 Alibaba
-
 China
 (Shanghai)**
-
-intelligence,
-planning, and
-predictive
-analysis tasks.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-55
-
-5/19/2023
-
+Yes
+Available
+56
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Cloud Foundry
-
-Operate polyglot
-
-Runtime
-
-cloud applications
-
-BC-CP-CF
-
-Cloud
-
-AWS
-
-Foundry
-
-US East (VA)
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Europe
-
+Cloud Foundry
+Runtime
+Operate polyglot
+cloud applications
 in Cloud Foundry.
-
+BC-CP-CF
+Cloud
+Foundry
+AWS
+US East (VA)
+Europe
 (Frankfurt)
 Europe
 (Frankfurt) EU
@@ -8213,155 +4606,79 @@ Australia
 Singapore
 South Korea
 (Seoul)
-
+Yes
+Available
 Cloud Foundry
-
-Operate polyglot
-
 Runtime
-
+Operate polyglot
 cloud applications
-
+in Cloud Foundry.
 BC-CP-CF
-
 Cloud
-
-Azure
-
 Foundry
-
+Azure
 Europe
 (Netherlands)
-
-in Cloud Foundry.
-
 US West (WA)
 US East (VA)
 Singapore
 Japan (Tokyo)
 Australia
 (Sydney)
-
+Yes
+Available
 Cloud Foundry
-
-Operate polyglot
-
 Runtime
-
+Operate polyglot
 cloud applications
-
+in Cloud Foundry.
 BC-CP-CF
-
 Cloud
-
-GCP
-
 Foundry
-
+GCP
 US Central
 (IA)
-
-in Cloud Foundry.
-
 Europe
 (Frankfurt)
-
+Yes
+Available
 Cloud Foundry
-
-Operate polyglot
-
 Runtime
-
+Operate polyglot
 cloud applications
-
+in Cloud Foundry.
 BC-CP-CF
-
 Cloud
 Foundry
-
 Alibaba
-
 China
 (Shanghai)**
-
-in Cloud Foundry.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-56
-
-5/19/2023
-
+Yes
+Available
+57
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Integration Suite
-
-Integrate
-
-LOD-HCI-PI
-
-applications,
-
-Cloud
-
-AWS
-
-Foundry
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Frankfurt)
-
-services, and
-
-US East (VA)
-
+Integration Suite
+Integrate
+applications, services, and
 systems across
 landscapes.
-
+LOD-HCI-PI
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
 Brazil (São
 Paulo)
 Canada
@@ -8370,223 +4687,129 @@ Australia
 (Sydney)
 Singapore
 Japan (Tokyo)
-
+Yes
+Available
 Integration Suite
-
 Integrate
-
-LOD-HCI-PI
-
-applications,
-
-Cloud
-
-Azure
-
-Foundry
-
-Europe
-(Netherlands)
-
-services, and
-
-US West (WA)
-
+applications, services, and
 systems across
 landscapes.
-
+LOD-HCI-PI
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
 US East (VA)
 Singapore
 Japan (Tokyo)
-
+Yes
+Available
 Integration Suite
-
 Integrate
-
-LOD-HCI-PI
-
-applications,
-
-Cloud
-
-Alibaba
-
-Foundry
-
-China
-(Shanghai)**
-
-services, and
+applications, services, and
 systems across
 landscapes.
-SAP
-
-Build and deploy
-
-Conversational AI
-
-innovative
-
-CA-ML-CAI
-
+LOD-HCI-PI
 Cloud
-
-AWS
-
 Foundry
-
-Europe
-(Frankfurt)
-
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+SAP
+Conversational AI
+Build and deploy
+innovative
 chatbots using
 this
 comprehensive
 end-to-end
 platform.
-SAP Customer
-
-Calculate sourcing
-
-LOD-CID-
-
+CA-ML-CAI
 Cloud
-
-Order Sourcing
-
-results based on
-
-OSR
-
 Foundry
-
-CA-DI
-
-Cloud
-
 AWS
-
 Europe
 (Frankfurt)
-
+Yes
+Available
+SAP Customer
+Order Sourcing
+Calculate sourcing
+results based on
 your own sourcing
 strategies.
+LOD-CID-OSR
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Yes
+Available
 SAP Data
-
-Orchestrate,
-
 Intelligence
-
-re ne, enrich,
-apply intelligence
+Orchestrate, refine, enrich, apply intelligence
 on your governed
 data across your
 entire distributed
 data landscape.
-
+CA-DI
+Cloud
 Foundry
-
 AWS
-
 Europe
 (Frankfurt)
 US East (VA)
 Australia
 (Sydney)
 Japan (Tokyo)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-57
-
-5/19/2023
-
+Yes
+Available
+58
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-SAP Data
-
-Orchestrate,
-
-Intelligence
-
-re ne, enrich,
-
-CA-DI
-
-Cloud
-
-Azure
-
-Foundry
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Netherlands)
-
-apply intelligence
-
-US West (WA)
-
+SAP Data
+Intelligence
+Orchestrate, refine, enrich, apply intelligence
 on your governed
 data across your
 entire distributed
 data landscape.
-SAP Document
-
-Use uniform
-
-BC-NEO-
-
-Center
-
-standard-based
-
-ECM-APP
-
-Neo
-
-SAP
-
-Europe (Rot)*
+CA-DI
+Cloud
+Foundry
+Azure
 Europe
-
-le access and
-
-(Amsterdam)
-
+(Netherlands)
+US West (WA)
+Yes
+Available
+SAP Document
+Center
+Use uniform
+standard-based
+file access and
 mobilize your
 business content.
-
+BC-NEO-ECM-APP
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Amsterdam)
 US East
 (Ashburn)
 US West
@@ -8605,90 +4828,44 @@ Brazil (São
 Paulo)
 UAE (Dubai)
 KSA (Riyadh)
-
+Yes
+Available
 SAP Excise Tax
-
-Help Excise Tax
-
 Management
-
+Help Excise Tax
 customers
-
-LOD-ET-INT
-
-Cloud
-Foundry
-
-AWS
-
-Europe
-(Frankfurt)
-
-calculate, track,
-and comply with
+calculate, track, and comply with
 excise duty tax
 requirements in
 real time
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-58
-
-5/19/2023
-
-Service Name
-
-Short Description
-
-Support
-
-Environment
-
-Infrastructure
-
-Region
-
-Component
-SAP HANA Cloud
-
-A single gateway
-
-HAN-CLS-HC
-
-to all your data.
-
+LOD-ET-INT
 Cloud
-
-AWS
-
 Foundry
-
-Australia
-
+AWS
+Europe
+(Frankfurt)
+Yes
 Available
-
-Release
-
+59
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
+SAP HANA Cloud
+A single gateway
+to all your data.
+HAN-CLS-HC
+Cloud
+Foundry
+AWS
+Australia
 (Sydney)
 Singapore
 Brazil (São
@@ -8699,129 +4876,72 @@ Europe
 (Frankfurt)
 Japan (Tokyo)
 US East (VA)
-
+Yes
+Available
 SAP HANA Cloud
-
 A single gateway
-
-HAN-CLS-HC
-
 to all your data.
-
+HAN-CLS-HC
 Cloud
-
-Azure
-
 Foundry
-
+Azure
 Singapore
 Europe
 (Netherlands)
 Japan (Tokyo)
 US West (WA)
 US East (VA)
-
+Yes
+Available
 SAP HANA Cloud
-
 A single gateway
-
-HAN-CLS-HC
-
 to all your data.
-
+HAN-CLS-HC
 Cloud
-
-SAP HANA
-
-SAP HANA spatial
-
-BC-CP-CF-
-
-Cloud
-
-spatial services
-
-services provides
-
-HSS
-
 Foundry
-
-a set of APIs for
-location-based
-
 GCP
-
-Foundry
-
 Europe
 (Frankfurt)
-
+Yes
+Available
+SAP HANA
+spatial services
+SAP HANA spatial
+services provides
+a set of APIs for
+location-based
+services.
+BC-CP-CF-HSS
+Cloud
+Foundry
 AWS
-
 Europe
 (Frankfurt)
 US East (VA)
-
-services.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-59
-
-5/19/2023
-
+Yes
+Available
+60
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-SAP HANA
-
-Create and
-
-BC-NEO-
-
-Service
-
-consume SAP
-
-PERS
-
-Neo
-
-SAP
-
-Europe (Rot)*
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Europe
-
+SAP HANA
+Service
+Create and
+consume SAP
 HANA databases.
-
+BC-NEO-PERS
+Neo
+SAP
+Europe (Rot)*
+Europe
 (Frankfurt)
 Europe
 (Amsterdam)
@@ -8843,23 +4963,17 @@ Brazil (São
 Paulo)
 UAE (Dubai)
 KSA (Riyadh)
-
+Yes
+Available
 SAP HANA
-
-Create and
-
 Service
-
+Create and
 consume SAP
 HANA databases.
-
 HAN-CLS-DB
-
 Cloud
 Foundry
-
 AWS
-
 Europe
 (Frankfurt)
 US East (VA)
@@ -8871,345 +4985,178 @@ Australia
 Singapore
 South Korea
 (Seoul)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-60
-
-5/19/2023
-
+Yes
+Available
+61
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-SAP HANA
-
-Create and
-
-Service
-
-consume SAP
-
-HAN-CLS-DB
-
-Cloud
-
-Azure
-
-Foundry
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Netherlands)
-
+SAP HANA
+Service
+Create and
+consume SAP
 HANA databases.
-
+HAN-CLS-DB
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
 US West (WA)
 US East (VA)
 Singapore
 Japan (Tokyo)
 Australia
 (Sydney)
-
+Yes
+Available
 SAP HANA
-
-Create and
-
 Service
-
+Create and
 consume SAP
-
+HANA databases.
 HAN-CLS-DB
-
 Cloud
-
-GCP
-
 Foundry
-
+GCP
 US Central
 (IA)
-
-HANA databases.
+Yes
+Available
 SAP HANA
-
-Create and
-
 Service
-
+Create and
 consume SAP
-
+HANA databases.
 HAN-CLS-DB
-
 Cloud
-
-Alibaba
-
 Foundry
-
+Alibaba
 China
 (Shanghai)**
-
-HANA databases.
+Yes
+Available
 SAP Intelligent
-
-Design, con gure,
-
 Robotic Process
-
-and execute
-
 Automation
-
+Design, configure, and execute
 automation
-
+projects.
 CA-ML-IPA
-
 Cloud
-
-AWS
-
 Foundry
-
+AWS
 Europe
 (Frankfurt)
 Europe
-
-projects.
-
 (Frankfurt) EU
 Access
 Australia
 (Sydney)
 Japan (Tokyo)
 US East (VA)
-
+Yes
+Available
 SAP Intelligent
-
-Design, con gure,
-
 Robotic Process
-
-and execute
-
 Automation
-
+Design, configure, and execute
 automation
-
+projects.
 CA-ML-IPA
-
 Cloud
-
-Alibaba
-
 Foundry
-
+Alibaba
 China
 (Shanghai)**
-
-projects.
+Yes
+Available
 SAP IoT
-
 Put raw sensor
-
-IOT-BSV-APB
-
 data into business
-
+context and
+leverage it in
+analytical or
+transactional
+applications.
+IOT-BSV-APB
 Cloud
-
-AWS
-
 Foundry
-
+AWS
 Europe
 (Frankfurt)
-
-context and
-
 US East (VA)
-
-leverage it in
-analytical or
-transactional
-applications.
+Yes
+Available
 SAP IoT
-
 Put raw sensor
 data into business
-
-IOT-BSV-APB
-
-Cloud
-Foundry
-
-Azure
-
-Europe
-(Netherlands)
-
 context and
 leverage it in
 analytical or
 transactional
 applications.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-61
-
-5/19/2023
-
+IOT-BSV-APB
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+Yes
+Available
+62
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-SAP IoT Connect
-
-Simplify the
-
-BC-NEO-
-
-365
-
-complex
-
-SVC-IOT
-
-SAP
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-This service
-
-Available
-
-does not run
-
-connectivity,
-
-on standard
-
-scalability, and
-
-SAP Cloud
-
+SAP IoT Connect
+365
+Simplify the
+complex
+connectivity, scalability, and
 management of
-
-Platform
-
 IoT.
-
+BC-NEO-SVC-IOT
+SAP
+This service
+does not run
+on standard
+SAP Cloud
+Platform
 regions.
 Check out this
 note for
 further
 details.
-
+Available
 Launchpad
-
-Simplify access to
-
-EP-CPP-CF-
-
-Cloud
-
 Service
-
+Simplify access to
 applications by
-
-LND
-
-Foundry
-
-AWS
-
-Europe
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Frankfurt)
-
 establishing a
-
-US East (VA)
-
 central launchpad.
-
+EP-CPP-CF-LND
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
 Brazil (São
 Paulo)
 Japan (Tokyo)
@@ -9223,579 +5170,316 @@ Europe
 Access
 South Korea
 (Seoul)
+Yes
+Available
 Launchpad
-
-Simplify access to
-
-EP-CPP-CF-
-
-Cloud
-
 Service
-
+Simplify access to
 applications by
-
-LND
-
-Foundry
-
-Azure
-
-Singapore
-US West (WA)
-
 establishing a
 central launchpad.
-
+EP-CPP-CF-LND
+Cloud
+Foundry
+Azure
+Singapore
+US West (WA)
 US East (VA)
 Europe
 (Netherlands)
 Japan (Tokyo)
 Australia
 (Sydney)
-
+Yes
+Available
 Launchpad
-
-Simplify access to
-
-EP-CPP-CF-
-
-Cloud
-
 Service
-
+Simplify access to
 applications by
-
-LND
-
+establishing a
+central launchpad.
+EP-CPP-CF-LND
+Cloud
 Foundry
-
 GCP
-
 US Central
 (IA)
-
-establishing a
-
 India
-
-central launchpad.
-
 (Mumbai)
 Europe
 (Frankfurt)
-
+Yes
+Available
 Launchpad
-
-Simplify access to
-
-EP-CPP-CF-
-
-Cloud
-
 Service
-
+Simplify access to
 applications by
-
-LND
-
-Foundry
-
-Alibaba
-
-China
-(Shanghai)**
-
 establishing a
 central launchpad.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-62
-
-5/19/2023
-
-Service Name
-
-Short Description
-
-Support
-
-Environment
-
-Infrastructure
-
-Region
-
-Component
-SAP Leonardo
-
-Infuse your
-
-ML Foundation
-
-applications with
-
-CA-ML-PLT
-
+EP-CPP-CF-LND
 Cloud
-
-AWS
-
 Foundry
-
-Europe
-
+Alibaba
+China
+(Shanghai)**
+Yes
 Available
-
-Release
-
+63
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Frankfurt)
-
-intelligent, easy-
-
-Europe
-
-to-use services
-
-(Frankfurt) EU
-
+SAP Leonardo
+ML Foundation
+Infuse your
+applications with
+intelligent, easy-to-use services
 based on Machine
-
-Access
-
 Learning.
-
+CA-ML-PLT
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
 US East (VA)
 Japan (Tokyo)
+Yes
+Available
 SAP Leonardo
-
-Infuse your
-
 ML Foundation
-
+Infuse your
 applications with
-
-CA-ML-PLT
-
-Cloud
-
-GCP
-
-Foundry
-
-US Central
-(IA)
-
-intelligent, easyto-use services
+intelligent, easy-to-use services
 based on Machine
 Learning.
-Market Rates,
-
-Upload market
-
-Bring Your Own
-
-rates and
-
-Rates
-
-download the
-
-LOD-CBS-CS
-
+CA-ML-PLT
 Cloud
-
-AWS
-
 Foundry
-
+GCP
+US Central
+(IA)
+Yes
+Available
+Market Rates, Bring Your Own
+Rates
+Upload market
+rates and
+download the
+same multiple
+times from
+different systems.
+LOD-CBS-CS
+Cloud
+Foundry
+AWS
 Europe
 (Frankfurt)
 US East (VA)
-
-same multiple
-times from
-diﬀerent systems.
-Market Rates,
-
+Yes
+Available
+Market Rates, Refinitiv
 Get daily and
-
-Re nitiv
-
 historical
-
-LOD-CBS-CS
-
-Cloud
-
-AWS
-
-Foundry
-
-Europe
-(Frankfurt)
-
 Exchange Rates
 and Interest Rates
-from Re nitiv.
-SAP
-
-Calculate eﬀective
-
-LOD-CID-
-
+from Refinitiv.
+LOD-CBS-CS
 Cloud
-
-Omnichannel
-
-sales prices by
-
-OPP
-
 Foundry
-
-Promotion
-
-applying
-
-Pricing
-
-promotional rules.
-
-SAP
-
-Calculate eﬀective
-
-LOD-CID-
-
-Cloud
-
-Omnichannel
-
-sales prices by
-
-OPP
-
-Foundry
-
-Promotion
-
-applying
-
-Pricing
-
-promotional rules.
-
-SAP Process
-
-Mine data from
-
-XX-PART-CEL
-
-Cloud
-
-Mining by
-
-your operational
-
-Celonis, cloud
-
-systems, visualize
-
-edition
-
-processes, and
-
 AWS
-
 Europe
 (Frankfurt)
-
+Yes
+Available
+SAP
+Omnichannel
+Promotion
+Pricing
+Calculate effective
+sales prices by
+applying
+promotional rules.
+LOD-CID-OPP
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Yes
+Available
+SAP
+Omnichannel
+Promotion
+Pricing
+Calculate effective
+sales prices by
+applying
+promotional rules.
+LOD-CID-OPP
+Cloud
+Foundry
 Azure
-
 Europe
 (Netherlands)
-
-AWS
-
-Foundry
-
-Europe
-(Frankfurt)
-
+Yes
+Available
+SAP Process
+Mining by
+Celonis, cloud
+edition
+Mine data from
+your operational
+systems, visualize
+processes, and
 transform your
 business with AI.
-SAP Procurement
-
-Automate and
-
-Intelligence
-
-simplify your
-
-CA-ML-PA
-
+XX-PART-CEL
 Cloud
 Foundry
-
 AWS
-
 Europe
 (Frankfurt)
-
+Yes
+Available
+SAP Procurement
+Intelligence
+Automate and
+simplify your
 business
 processes by
 applying machine
 learning
 intelligence.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-63
-
-5/19/2023
-
-Service Name
-
-Short Description
-
-Support
-
-Environment
-
-Infrastructure
-
-Region
-
-Component
-SAP RealSpend
-
-Manage and track
-
-LOD-MAP-RS
-
-Neo
-
-SAP
-
-expenses, and
-
-Available
-
-Release
-
-as Trial
-
-Status
-
-Europe (Rot)*
-
-Available
-
+CA-ML-PA
+Cloud
+Foundry
+AWS
 Europe
-
-compare them
-
 (Frankfurt)
-
+Yes
+Available
+64
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+SAP RealSpend
+Manage and track
+expenses, and
+compare them
 against your
 budget in real
 time.
-SAP S/4HANA
-
-Connects
-
-BC-NEO-
-
-Cloud
-
-Cloud
-
-extension
-
-EXT-S4C
-
-Foundry
-
-Extensibility
-
-applications
-
-AWS
-
+LOD-MAP-RS
+Neo
+SAP
+Europe (Rot)*
 Europe
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
 (Frankfurt)
-US East (VA)
-
+Available
+SAP S/4HANA
+Cloud
+Extensibility
+Connects
+extension
+applications
 running in a
 subaccount in SAP
-
-Brazil (São
-
 BTP to an SAP
-
-Paulo)
-
 S/4HANA Cloud
-
-Japan (Tokyo)
-
 system.
-
+BC-NEO-EXT-S4C
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
 Australia
 (Sydney)
 Singapore
 Canada
 (Montreal)
+Yes
+Available
 SAP S/4HANA
-
-Connects
-
-BC-NEO-
-
 Cloud
-
-Cloud
-
-extension
-
-EXT-S4C
-
-Foundry
-
 Extensibility
-
+Connects
+extension
 applications
-
+running in a
+subaccount in SAP
+BTP to an SAP
+S/4HANA Cloud
+system.
+BC-NEO-EXT-S4C
+Cloud
+Foundry
 Azure
-
 Europe
 (Netherlands)
 US West (WA)
-
+Japan (Tokyo)
+Yes
+Available
+SAP S/4HANA
+Cloud
+Extensibility
+Connects
+extension
+applications
 running in a
 subaccount in SAP
-
-Japan (Tokyo)
-
 BTP to an SAP
 S/4HANA Cloud
 system.
-SAP S/4HANA
-
-Connects
-
-BC-NEO-
-
+BC-NEO-EXT-S4C
 Cloud
-
-Cloud
-
-extension
-
-EXT-S4C
-
 Foundry
-
-Extensibility
-
-applications
-
 GCP
-
 US Central
 (IA)
 Europe
-
-running in a
-
 (Frankfurt)
-
-subaccount in SAP
-BTP to an SAP
-S/4HANA Cloud
-system.
+Yes
+Available
 SAP
-
-Connects
-
-BC-NEO-
-
-Cloud
-
 SuccessFactors
-
-extension
-
-EXT-SF
-
-Foundry
-
 Extensibility
-
+Connects
+extension
 applications
 running in a
 subaccount in SAP
 BTP to an SAP
 SuccessFactors
 system.
-
+BC-NEO-EXT-SF
+Cloud
+Foundry
 AWS
-
 Brazil (São
 Paulo)
 Australia
@@ -9807,132 +5491,72 @@ Canada
 (Montreal)
 Singapore
 Japan (Tokyo)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-64
-
-5/19/2023
-
+Yes
+Available
+65
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-SAP
-
-Connects
-
-BC-NEO-
-
-Cloud
-
-SuccessFactors
-
-extension
-
-EXT-SF
-
-Foundry
-
-Extensibility
-
-applications
-
-Azure
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Netherlands)
-US West (WA)
-
+SAP
+SuccessFactors
+Extensibility
+Connects
+extension
+applications
 running in a
 subaccount in SAP
-
-Japan (Tokyo)
-
 BTP to an SAP
 SuccessFactors
 system.
-SAP
-
-Connects
-
-BC-NEO-
-
+BC-NEO-EXT-SF
 Cloud
-
-SuccessFactors
-
-extension
-
-EXT-SF
-
 Foundry
-
+Azure
+Europe
+(Netherlands)
+US West (WA)
+Japan (Tokyo)
+Yes
+Available
+SAP
+SuccessFactors
 Extensibility
-
+Connects
+extension
 applications
-
+running in a
+subaccount in SAP
+BTP to an SAP
+SuccessFactors
+system.
+BC-NEO-EXT-SF
+Cloud
+Foundry
 GCP
-
 US Central
 (IA)
 Europe
-
-running in a
-
 (Frankfurt)
-
-subaccount in SAP
-BTP to an SAP
-SuccessFactors
-system.
+Yes
+Available
 SAP Translation
-
-Translate UI texts
-
 Hub
-
+Translate UI texts
 and get
 suggestions for UI
 texts during
 development.
-
 LOD-TH
-
 Neo
-
 SAP
-
 Europe (Rot)*
 Europe
 (Amsterdam)
@@ -9947,73 +5571,33 @@ Australia
 Japan (Tokyo)
 Europe
 (Frankfurt)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-65
-
-5/19/2023
-
+Yes
+Available
+66
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-SAP Web IDE
-
-Create and extend
-
-CA-WDE-
-
-Full-Stack
-
-SAP full-stack
-
-PLFRM
-
-Neo
-
-SAP
-
-Europe (Rot)*
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Europe
-
+SAP Web IDE
+Full-Stack
+Create and extend
+SAP full-stack
 applications for
-
-(Frankfurt)
-
 browsers and
 mobile devices.
-
+CA-WDE-PLFRM
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
 Europe
 (Amsterdam)
 US East
@@ -10034,33 +5618,21 @@ Canada
 (Toronto)
 UAE (Dubai)
 KSA (Riyadh)
-
+Yes
+Available
 Service Manager
-
 The central
-
-BC-NEO-
-
-Cloud
-
 registry for
-
-SVCMGR
-
+service brokers
+and platforms in
+SAP BTP
+BC-NEO-SVCMGR
+Cloud
 Foundry
-
 AWS
-
 Europe
 (Frankfurt)
-
-service brokers
-
 US East (VA)
-
-and platforms in
-SAP BTP.
-
 Brazil (São
 Paulo)
 Japan (Tokyo)
@@ -10069,186 +5641,98 @@ Australia
 Singapore
 Canada
 (Montreal)
-
+Yes
+Available
 Service Manager
-
 The central
-
-BC-NEO-
-
-Cloud
-
 registry for
-
-SVCMGR
-
-Foundry
-
 service brokers
 and platforms in
-SAP BTP.
-
+SAP BTP
+BC-NEO-SVCMGR
+Cloud
+Foundry
 Azure
-
 Europe
 (Netherlands)
 US West (WA)
 US East (VA)
 Japan (Tokyo)
 Singapore
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-66
-
-5/19/2023
-
+Yes
+Available
+67
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Service Manager
-
-The central
-
-BC-NEO-
-
-Cloud
-
-registry for
-
-SVCMGR
-
-Foundry
-
-GCP
-
-customer service
-
-Yes
-
+Environment
+Infrastructure
+Region
 Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Frankfurt)
-
-SAP BTP.
-
-Intelligence
-
-Status
-
-Europe
-
-and platforms in
-
-Build a self-driven
-
-Release
-
 as Trial
-
-(IA)
-
+Release
+Status
+Service Manager
+The central
+registry for
 service brokers
-
-Service Ticket
-
-US Central
-
-Available
-
-CA-ML-STI
-
+and platforms in
+SAP BTP
+BC-NEO-SVCMGR
 Cloud
-
-AWS
-
 Foundry
-
+GCP
+US Central
+(IA)
 Europe
 (Frankfurt)
-
+Yes
+Available
+Service Ticket
+Intelligence
+Build a self-driven
+customer service
 powered by
-
-Europe
-
 machine learning.
-
+CA-ML-STI
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
 (Frankfurt) EU
 Access
-
+Yes
+Available
 Service Ticket
-
-Build a self-driven
-
 Intelligence
-
+Build a self-driven
 customer service
-
-CA-ML-STI
-
-Cloud
-
-GCP
-
-Foundry
-
-US Central
-(IA)
-
 powered by
 machine learning.
+CA-ML-STI
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Yes
+Available
 SAP Smart
-
-Expose KPIs and
-
-CA-GTF-SB-
-
 Business Service
-
+Expose KPIs and
 OPIs as SAP Fiori
-
-HCP
-
-Neo
-
-SAP
-
-Europe (Rot)*
-Europe
-
 applications
-
-(Frankfurt)
-
 without the need
 to write any code.
-
+CA-GTF-SB-HCP
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
 US East
 (Ashburn)
 US West
@@ -10266,90 +5750,49 @@ Canada
 (Toronto)
 Brazil (São
 Paulo)
-
+Yes
+Available
 SAP Smart
-
-Expose KPIs and
-
-CA-GTF-SB-
-
-Cloud
-
 Business Service
-
+Expose KPIs and
 OPIs as SAP Fiori
-
-HCP
-
-Foundry
-
 applications
 without the need
-
+to write any code.
+CA-GTF-SB-HCP
+Cloud
+Foundry
 AWS
-
 Europe
 (Frankfurt)
 US East (VA)
-
-to write any code.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-67
-
-5/19/2023
-
+Yes
+Available
+68
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
 Solutions
-
-Deploy, subscribe
-
-BC-NEO-
-
 Lifecycle
-
-and transport
-
-LCM-SRV
-
 Management
-
+Deploy, subscribe
+and transport
 solutions using
 multi-target
 applications
 (MTAs).
-
+BC-NEO-LCM-SRV
 Neo
-
 SAP
-
 Europe (Rot)*
-
-Available
-
-Release
-
-as Trial
-
-Status
-
-Yes
-
-Available
-
 Europe
 (Frankfurt)
 Europe
@@ -10372,65 +5815,35 @@ Brazil (São
 Paulo)
 UAE (Dubai)
 KSA (Riyadh)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-68
-
-5/19/2023
-
+Yes
+Available
+69
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Streaming
-
-Process
-
-Analytics
-
-continuous
-
-HAN-SDS
-
-Neo
-
-SAP
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Europe (Rot)*
-
-Available
-
-US East
-
+Streaming
+Analytics
+Process
+continuous
 streams of event
-
-(Ashburn)
-
 data in real time
 and act on the
-
-US West
-
 results.
-
+HAN-SDS
+Neo
+SAP
+Europe (Rot)*
+US East
+(Ashburn)
+US West
 (Chandler)
 US East
 (Sterling)
@@ -10447,150 +5860,72 @@ Europe
 Europe
 (Frankfurt)
 UAE (Dubai)
-
+Available
 Tax Service
-
 Determine and
-
+calculate indirect
+taxes to support
+tax compliance.
 LOD-LH-TAX
-
 Neo
-
 SAP
-
-calculate indirect
-
-(Sterling)
-
-tax compliance.
-Determine and
-
-LOD-LH-TAX
-
-calculate indirect
-
-Cloud
-
-AWS
-
-Foundry
-
-calculate indirect
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-US East (VA)
-
-tax compliance.
-Determine and
-
-Europe
-(Frankfurt)
-
-taxes to support
-
-Tax Service
-
-Available
-
-US East
-
-taxes to support
-
-Tax Service
-
 Europe (Rot)*
-
-LOD-LH-TAX
-
-Cloud
-
-Azure
-
-US West (WA)
-
-Foundry
-
+US East
+(Sterling)
+Available
+Tax Service
+Determine and
+calculate indirect
 taxes to support
 tax compliance.
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-69
-
-5/19/2023
-
-Service Name
-
-Short Description
-
-Support
-
-Environment
-
-Infrastructure
-
-Region
-
-Component
-Cloud Transport
-
-Provides
-
-BC-CP-LCM-
-
+LOD-LH-TAX
 Cloud
-
-Management
-
-programmatic
-
-TMS
-
 Foundry
-
 AWS
-
 Europe
-
-Available
-
-Release
-
-as Trial
-
-Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
 (Frankfurt)
-
+US East (VA)
+Yes
+Available
+Tax Service
+Determine and
+calculate indirect
+taxes to support
+tax compliance.
+LOD-LH-TAX
+Cloud
+Foundry
+Azure
+US West (WA)
+Yes
+Available
+70
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Cloud Transport
+Management
+Provides
+programmatic
 access to Cloud
-
-Europe
-
 Transport
-
-(Frankfurt) EU
-
 Management.
-
+BC-CP-LCM-TMS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
 Access
 US East (VA)
 Australia
@@ -10603,35 +5938,22 @@ Canada
 Brazil (São
 Paulo)
 Japan (Tokyo)
-
+Yes
+Available
 Cloud Transport
-
-Provides
-
-BC-CP-LCM-
-
-Cloud
-
 Management
-
+Provides
 programmatic
-
-TMS
-
-Foundry
-
-Azure
-
-Europe
-(Netherlands)
-
 access to Cloud
-
-US West (WA)
-
 Transport
 Management.
-
+BC-CP-LCM-TMS
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
 US East (VA)
 Australia
 (Sydney)
@@ -10640,104 +5962,54 @@ Japan (Tokyo)
 Switzerland
 (Zurich) EU
 Access
-
+Yes
+Available
 Cloud Transport
-
-Provides
-
-BC-CP-LCM-
-
-Cloud
-
 Management
-
+Provides
 programmatic
-
-TMS
-
-Foundry
-
 access to Cloud
 Transport
 Management.
-
+BC-CP-LCM-TMS
+Cloud
+Foundry
 GCP
-
 Europe
 (Frankfurt)
 US Central
 (IA)
 India
 (Mumbai)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-70
-
-5/19/2023
-
+Yes
+Available
+71
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-UI Theme
-
-Apply your
-
-Designer
-
-corporate
-
-CA-UI2-THD
-
-Neo
-
-SAP
-
-Europe (Rot)*
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Europe
-
+UI Theme
+Designer
+Apply your
+corporate
 branding to
-
-(Frankfurt)
-
 applications
 based on SAPUI5
-
-Europe
-
 technology.
-
+CA-UI2-THD
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
 (Amsterdam)
 US East
 (Ashburn)
@@ -10757,37 +6029,24 @@ Brazil (São
 Paulo)
 UAE (Dubai)
 KSA (Riyadh)
-
+Yes
+Available
 UI Theme
-
-Apply your
-
 Designer
-
+Apply your
 corporate
-
-CA-UI2-THD
-
-Cloud
-
-AWS
-
-Foundry
-
-Europe
-(Frankfurt)
-
 branding to
-
-Brazil (São
-
 applications
-
-Paulo)
-
 based on SAPUI5
 technology.
-
+CA-UI2-THD
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Brazil (São
+Paulo)
 Canada
 (Montreal)
 US East (VA)
@@ -10795,156 +6054,85 @@ Australia
 (Sydney)
 Singapore
 Japan (Tokyo)
-
+Yes
+Available
 UI Theme
-
-Apply your
-
 Designer
-
+Apply your
 corporate
 branding to
 applications
 based on SAPUI5
 technology.
-
 CA-UI2-THD
-
 Cloud
 Foundry
-
 Azure
-
 Europe
 (Netherlands)
 US West (WA)
 Japan (Tokyo)
 Singapore
 US East (VA)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-71
-
-5/19/2023
-
+Yes
+Available
+72
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-UI Theme
-
-Apply your
-
-Designer
-
-corporate
-
-CA-UI2-THD
-
-Cloud
-
-GCP
-
-Foundry
-
-US Central
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(IA)
-
+UI Theme
+Designer
+Apply your
+corporate
 branding to
-
-Europe
-
 applications
-
-(Frankfurt)
-
 based on SAPUI5
 technology.
-UI Theme
-
-Apply your
-
-Designer
-
-corporate
-
 CA-UI2-THD
-
 Cloud
-
-Alibaba
-
 Foundry
-
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+UI Theme
+Designer
+Apply your
+corporate
+branding to
+applications
+based on SAPUI5
+technology.
+CA-UI2-THD
+Cloud
+Foundry
+Alibaba
 China
 (Shanghai)**
-
-branding to
-applications
-based on SAPUI5
-technology.
-UI5 exibility for
-
-Add UI adaptation
-
-CA-UI5-FL-
-
-Cloud
-
+Yes
+Available
+UI5 fiexibility for
 key users
-
+Add UI adaptation
 to your UI5
-
-CLS
-
+applications.
+CA-UI5-FL-CLS
+Cloud
 Foundry
-
 AWS
-
 Europe
 (Frankfurt)
-
-applications.
-
 US East (VA)
 Japan (Tokyo)
 Singapore
@@ -10959,159 +6147,83 @@ Europe
 Access
 Brazil (São
 Paulo)
-
-UI5 exibility for
-
-Add UI adaptation
-
-CA-UI5-FL-
-
-Cloud
-
+Yes
+Available
+UI5 fiexibility for
 key users
-
+Add UI adaptation
 to your UI5
-
-CLS
-
+applications.
+CA-UI5-FL-CLS
+Cloud
 Foundry
-
 Azure
-
 Europe
 (Netherlands)
-
-applications.
-
 Australia
 (Sydney)
 US West (WA)
 US East (VA)
 Singapore
 Japan (Tokyo)
-
-UI5 exibility for
-
-Add UI adaptation
-
-CA-UI5-FL-
-
-Cloud
-
+Yes
+Available
+UI5 fiexibility for
 key users
-
+Add UI adaptation
 to your UI5
-
-CLS
-
-Foundry
-
 applications.
-
+CA-UI5-FL-CLS
+Cloud
+Foundry
 GCP
-
 US Central
 (IA)
 Europe
 (Frankfurt)
 India
 (Mumbai)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-72
-
-5/19/2023
-
+Yes
+Available
+73
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Virtual Machines
-
-Virtualized
-
-BC-NEO-
-
-hardware
-
-INFR-VM
-
-Neo
-
-SAP
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Europe (Rot)*
-
-Available
-
-Australia
-
-resources (CPU,
-
-(Sydney)
-
-RAM, disk space,
-installed OS) to
-
-US East
-
+Virtual Machines
+Virtualized
+hardware
+resources (CPU, RAM, disk space, installed OS) to
 install and
-
-(Sterling)
-
 maintain the
 Linux-based
 software.
+BC-NEO-INFR-VM
+Neo
+SAP
+Europe (Rot)*
+Australia
+(Sydney)
+US East
+(Sterling)
+Available
 Web Analytics
-
 Analyze usage of
-
-CA-SWA
-
 your websites and
-
-Cloud
-
-AWS
-
-Foundry
-
-Europe
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Frankfurt)
-
 web applications.
-
+CA-SWA
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
 US East (VA)
 Australia
 (Sydney)
@@ -11119,52 +6231,33 @@ Brazil (São
 Paulo)
 Japan (Tokyo)
 Singapore
-
+Yes
+Available
 Web Analytics
-
 Analyze usage of
-
-CA-SWA
-
 your websites and
-
+web applications.
+CA-SWA
 Cloud
-
-Azure
-
 Foundry
-
+Azure
 Europe
 (Netherlands)
-
-web applications.
-
 US West (WA)
 US East (VA)
 Singapore
 Japan (Tokyo)
-
-Work ow
-
-Digitize work ows,
-
-LOD-BPM-
-
-Cloud
-
+Yes
+Available
+Workfiow
 Management
-
-manage decisions
-
-PFS
-
-Foundry
-
-and gain end-toend process
+Digitize workfiows, manage decisions
+and gain end-to-end process
 visibility
-
+LOD-BPM-PFS
+Cloud
+Foundry
 AWS
-
 Europe
 (Frankfurt)
 Australia
@@ -11181,149 +6274,75 @@ Europe
 Access
 Canada
 (Montreal)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-73
-
-5/19/2023
-
+Yes
+Available
+74
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Work ow
-
-Digitize work ows,
-
-LOD-BPM-
-
-Cloud
-
-Management
-
-manage decisions
-
-PFS
-
-Foundry
-
-Azure
-
-Europe
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Netherlands)
-
-and gain end-to-
-
-US West (WA)
-
-end process
+Workfiow
+Management
+Digitize workfiows, manage decisions
+and gain end-to-end process
 visibility
-
+LOD-BPM-PFS
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
 US East (VA)
 Singapore
 Japan (Tokyo)
 Australia
 (Sydney)
-
-Work ow
-
-Digitize work ows,
-
-LOD-BPM-
-
-Cloud
-
+Yes
+Available
+Workfiow
 Management
-
-manage decisions
-
-PFS
-
+Digitize workfiows, manage decisions
+and gain end-to-end process
+visibility
+LOD-BPM-PFS
+Cloud
 Foundry
-
 GCP
-
 US Central
 (IA)
-
-and gain end-toend process
-visibility
-Work ow
-
-Digitize work ows,
-
-LOD-BPM-
-
-Cloud
-
+Yes
+Available
+Workfiow
 Management
-
-manage decisions
-
-PFS
-
+Digitize workfiows, manage decisions
+and gain end-to-end process
+visibility
+LOD-BPM-PFS
+Cloud
 Foundry
-
-Automate
-
-LOD-BPM-
-
-Neo
-
-business
-
-WFS
-
 Alibaba
-
 China
 (Shanghai)**
-
-and gain end-toend process
-visibility
-Work ow
-
-processes using
-work ow
-technology.
-
-SAP
-
-UAE (Dubai)
-
+Yes
 Available
-
+Workfiow
+Automate
+business
+processes using
+workfiow
+technology.
+LOD-BPM-WFS
+Neo
+SAP
+UAE (Dubai)
 Australia
 (Sydney)
 Brazil (São
@@ -11346,77 +6365,32 @@ US East
 US West
 (Colorado
 Springs)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-74
-
-5/19/2023
-
+Available
+75
 Service Name
-
 Short Description
-
 Support
-
-Environment
-
-Infrastructure
-
-Region
-
 Component
-Work ow
-
-Automate
-
-LOD-BPM-
-
-Cloud
-
-business
-
-WFS
-
-Foundry
-
-AWS
-
-Australia
-
+Environment
+Infrastructure
+Region
 Available
-
-Release
-
 as Trial
-
+Release
 Status
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-Yes
-
-Available
-
-(Sydney)
-
+Workfiow
+Automate
+business
 processes using
-
-Singapore
-
-work ow
+workfiow
 technology.
-
+LOD-BPM-WFS
+Cloud
+Foundry
+AWS
+Australia
+(Sydney)
+Singapore
 South Korea
 (Seoul)
 Brazil (São
@@ -11430,182 +6404,103 @@ Europe
 Access
 Japan (Tokyo)
 US East (VA)
-
-Work ow
-
+Yes
+Available
+Workfiow
 Automate
-
-LOD-BPM-
-
-Cloud
-
 business
-
-WFS
-
+processes using
+workfiow
+technology.
+LOD-BPM-WFS
+Cloud
 Foundry
-
 Azure
-
 Australia
 (Sydney)
-
-processes using
-
 Singapore
-
-work ow
-technology.
-
 Europe
 (Netherlands)
 Japan (Tokyo)
 US West (WA)
 US East (VA)
-
-Work ow
-
+Yes
+Available
+Workfiow
 Automate
-
-LOD-BPM-
-
-Cloud
-
 business
-
-WFS
-
-Foundry
-
-GCP
-
-(Frankfurt)
-
 processes using
-
-US Central
-
-work ow
-
-(IA)
-
+workfiow
 technology.
-Work ow
-
-Europe
-
-Automate
-
-LOD-BPM-
-
+LOD-BPM-WFS
 Cloud
-
-business
-
-WFS
-
 Foundry
-
+GCP
+Europe
+(Frankfurt)
+US Central
+(IA)
+Yes
+Available
+Workfiow
+Automate
+business
+processes using
+workfiow
+technology.
+LOD-BPM-WFS
+Cloud
+Foundry
 Alibaba
-
 China
 (Shanghai)**
-
-processes using
-work ow
-technology.
-
+Yes
+Available
 Additional Components
 Tools
 Name
-
 Support Component
-
 SAP BTP Cockpit
-
 BC-NEO-CPT [Feature Set A]
 BC-CP-CPT [Feature Set B]
 BC-CP-CF-CPT [Cloud Foundry environment UI]
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-75
-
-5/19/2023
-
+76
 Name
-
 Support Component
-
 SAP BTP Command Line Interface
-
 BC-CP-TOOLS-CLI
-
 SAP BTP Console Client
-
 BC-NEO-CMDTOOL
-
 SAP UI Development Toolkit for HTML5 (SAPUI5)
-
 CA-WDE
-
 SDK for SAP BTP, Neo Environment
-
 BC-NEO-SDK
-
 SAP HANA Cockpit 2.0
-
 HAN-CLS-CPT
-
 Software Logistics
 Name
-
 Support Component
-
 Deployment (Neo Environment)
-
 BC-NEO-DPL
-
 Deployment (Cloud Foundry Environment)
-
 BC-XS-SL-DS
-
 Other
 Name
-
 Support Component
-
 Infrastructure (Neo environment)
-
 BC-NEO-IT-NW
-
 SAP Cloud Management Service
-
 BC-NEO-CIS
-
 SAP Usage Data Management Service
-
 BC-NEO-MET-REP
-
 SAP Audit Log service
-
 BC-NEO-AUDITLOG (Neo environment)
 BC-CP-CF-SEC-AUDITLG (Cloud Foundry environment)
-
 SAP Streaming Analytics
-
 HAN-SDS
-
 SAP Cloud Application Programming Model (CAP)
-
 BC-XS-CDX
 BC-XS-CDX-COR (Compiler and CDS Language)
 BC-XS-CDX-JAV (Java Runtime)
 BC-XS-CDX-NJS (Node.js Runtime)
 BC-XS-CDX-TLS (Tools, IDEs, Build, Deployment)
-
-This is custom documentation. For more information, please visit the SAP Help Portal
-
-76
-
-
