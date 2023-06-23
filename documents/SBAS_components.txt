@@ -15,8 +15,7 @@ ent
 Sub component
 
 CABAS
-Gutt,
-Elizabeth
+
 
 Description
 

@@ -1,6 +1,5 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -30,14 +29,6 @@ export default function RootLayout({
               <h4 className="fd-title fd-title--h5 fd-tool-header__title">
                 Fiori tools customer support assistant
               </h4>
-            </div>
-            <div className="fd-tool-header__element">
-              <label
-                className="fd-form-label fd-tool-header__label"
-                htmlFor="input-1"
-              >
-                (Internal use only)
-              </label>
             </div>
           </div>
         </div>
