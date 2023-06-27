@@ -1,567 +1,361 @@
-SAP Business Application Studio BCP Components
-Mendix Components SAP Business Application Studio BCP Components Web IDE for HANA BCP Components Web IDE Full Stack BCP
-Components
-
-SAP Business Application Studio
 BAS - SNOW Components
 Own
 er
-
-Root Component
+Root
 com
 pon
 ent
-
+Component
 Sub component
-
-CABAS
-
-
-Description
-
-Selectable/Not
-Selectable
-
+CA-BAS
 SAP Business Application Studio
-
-Not selectable
-
+Gutt, Elizabeth
 CA-BAS-MIG
-
 Migration from Web IDE to SAP
 Business Application Studio
-
 CA-BAS-BLD
-
 SAP Business Application Studio
 build application
-
-Not selectable
-
 CA-BAS-EDT
-
 Development tools - SAP Business
 Application Studio
-
-Not selectable
-
 CA-BAS-FWK
 Avi
 Team
-
-Not selectable
 CA-BAS-BLD-HTML5
-
 HTML5 module build - SAP
 Application Studio
-
 CA-BAS-SDK
-
 Business application studio SDK
-
 CA-BAS-CNSM
-
 Consume SAP Services- SAP
 Business Application Studio
-
 CA-BAS-RUN
-
 Run application - SAP Business
 Application Studio
 CA-BAS-RUN-HTML5
-
-internal
-
-Not selectable
-
 Run HTML5 Module- SAP Business
 Application Studio
 If the issues is related to running fiori
 app, dipatch to the component
 CA-UX-IDE
-
 CA-BAS-TPL
-
 Templates - SAP Business
 Application Studio
-
-Not selectable
-
 CA-BAS-TPL-HTML5
-
 SAP Fiori project template- SAP
 Application Studio
-
 was replaced: :CA-BAS-TPL-FIORI
-
-CA-BAS-FWK-EXT
-
-Simple Extension framework
-
-CA-BAS-JAVA
-
-Java Tools extension
-
-CA-BAS-EDT-W5G
-
-Layout Editor (WYSIWYG) - SAP
-Business Application Studio
-
-CA-BAS-S8D
-
-Storyboard, - SAP Business
-Application Studio
-
 Licam
 team
-
+CA-BAS-FWK-EXT
+Simple Extension framework
+CA-BAS-JAVA
+Java Tools extension
+CA-BAS-EDT-W5G
+Layout Editor (WYSIWYG) - SAP
+Business Application Studio
+CA-BAS-S8D
+Storyboard, - SAP Business
+Application Studio
 Rima
 team
 CA-BAS-WIZ
-
 Yeoman-UI generator - SAP Business
 Application Studio
-
-CA-MBT - Moved to Ye,
-Xin team
-
+CA-MBT - Moved to Ye, Xin team
 Use this component only when the
-issue is in MTA Build
+issue is in
+MTA Build
 MTA Deployment dispatch to below
 components
-
-Not available yet ( instead of CABAS-DPL-MTA,CA-BAS-TPL-MTA,
-CA-BAS-EDT-MTA,CA-BAS-BLDMTA)
-
 Deploy to XSA: BC-XS-SL-DS
 Deploy to CF: BC-CP-CF-DS
-
+Not available yet ( instead of CA-BAS-DPL-MTA,CA-BAS-TPL-MTA, CA-BAS-EDT-MTA,CA-BAS-BLD-MTA)
+CA-BAS-RUN-CFG
+Run Configurations view - SAP
+Business Application Studio
+CA-BAS-FWK-IDE
+IDE framework
 Compon
 ent that
 were
 removed
-
-CA-BAS-RUN-CFG
-
-Run Configurations view - SAP
-Business Application Studio
-
-CA-BAS-FWK-IDE
-
-IDE framework
-
 CA-BAS-WEX
-
 Licam team
-
 CA-BAS-DPL-MTA
-
 Deploy MTA applications - SAP
 Business Application Studio
-
 CA-BAS-TPL-MTA
-
 MTA templates -SAP Business
 Application Studio
-
 CA-BAS-BLD-MTA
-
 Build MTA applications - SAP
 Business Application Studio
-
 CA-BAS-EDT-MTA
-
-MTA descriptor (mta.yaml) editor
-
-CA-BAS-EDT-JAVA - Licam team
+MTA descriptor (mta.yaml) editor- Licam team
+CA-BAS-EDT-JAVA
 CA-BAS-TPL-MTA
 CA-BAS-RUN-CAP
 CA-BAS-CAP
-CA-BAS-DPL-ABAP-
-
+CA-BAS-DPL-ABAP
 For deployment topics to ABAP use
-below component :CA-UX-IDE or CAUI5-ABA-AIDX
-
+below component :CA-UX-IDE or CA-UI5-ABA-AIDX
 CA-BAS-DPL - there is
 no scenario
 deployment under BAS
 responsibility
-
 Deploy application - SAP Business
 Application Studio the description
 Deploy application with abap-deploy
 CLI tool
-CA-BAS-CF - Rima team - Component
+CA-BAS-DPL will be selectable , and will replace the CA-BAS-DPL-ABAP
+CA-BAS-CF - Rima team -Component
 is disabled
-
-CA-BAS-DPL will be selectable ,
-and will replace the CA-BAS-DPLABAP
-
 Cloud Foundry Tools command
 palette- SAP Business Application
 Studio
-
-CA-BAS-MTA - Rima team - Compone
+CA-BAS-MTA - Rima team -Compone
 nt will be disabled by 7/7/22
 Component will be
 disabled by 7/7/22
-
-Rima team - will move to UI5 team. Fiori
-development (code assist, validations,
-i18n) - SAP Business Application Studio
-
 CA-BAS-EDT-HTML5
-Zhou,
-Watson
-
+Rima team - will move to UI5 team. Fiori
+development (code assist, validations, i18n) - SAP Business Application Studio
+Zhou, Watson
 CA-BAS-GIT
-
 Basic Tools(npm,GIT) - SAP Business
 Application Studio
-
-For internal tickets:
-CA-BAS-GIT internal was deleted .
+For internal tickets: CA-BAS-GIT internal was deleted .
 all hte relevant issues should be
-opened in the following Jira:
-EXTENDEDTOOLS
+opened in the following Jira: EXTENDEDTOOLS
 on component :simplified-git
-
 ESM - SNOW Components
-Ow Root
-Component
-ner compone
+Ow
+ner
+Root
+compone
 nt
-
+Component
 Sub
 compon
 ent
-
-CA-BAS
-CA-BAS-WS
-
-Description
-
 Selectable/Not Selectable
-
+CA-BAS
 SAP Business Application Studio
-
-Not selectable
-
+CA-BAS-WS
 Dev Space Management - SAP Business
 Application Studio
-
-Not selectable
-
 Tahel
 team
-
-CA-BAS-WSMNG
-
+CA-BAS-WS-MNG
 Dev space Manager- SAP Business
 Application Studio
-
 Tahel
 team
-
-CA-BAS-WSCTRL
-
+CA-BAS-WS-CTRL
 Dev Space Controller- SAP Business
 Application Studio
-
 Eliran
 team
-
 CA-BAS-FLO - will be
-replaced with CA-BAS-FS
-
-File system, logging, Operator Clusters
-- SAP Business Application Studio
-
-Ido
+replaced with
+CA-BAS-FS
+File system, logging, Operator Clusters- SAP Business Application Studio
+1.
+2.
+3.
+4.
+5.
+Ido
 Goren
-
 CA-BAS-MON
-
 Monitoring - SAP Business Application
 Studio
-
 Tahel
 team
-
 CA-BAS-AUT
-
-Login, roles, authentication, authorizationsSAP Business Application Studio
-
+Login, roles, authentication, authorizations-SAP Business Application Studio
 **** ask also create a component for framework
 connectivity - outside connectivity
-
 Micha
 l team
-
 CA-BAS-TM
-
 Tenant Manager - SAP Business Application
-
 Selectable only for SAP (Customers can't
 create cases on this component)
-
-Dev Manager
-
-Responsible Team
-
+Dev
+Manager
+Responsible
+Team
 Component
-
-Description
-
 Status
-
 DevX
-
 All
-
 CA-WNG
-
 SAP Business Application Studio [WING]
-
 Obsolete
-
-Jira Components:
-https://sapjira.wdf.sap.corp/projects/DEVXBUGS?selectedItem=com.atlassian.jira.jira-projects-plugin:components-page
-
+Jira Components: https://sapjira.wdf.sap.corp/projects/DEVXBUGS?selectedItem=com.atlassian.jira.jira-projects-plugin:components-page
 VS Code Issues
 CAP team: https://github.tools.sap/cap/issues/issues
 BAS team: https://github.wdf.sap.corp/devx-wing/vscode-ide-extension/issues/102
-
 Extensions - SAP Business Application Studio
 Dev
 Manage
 r/POs
-
 Responsible
 Team
-
-Zhou,
-Watson
+Component
+Additional Info
+Zhou, Watson
 (I063114)
+CA-BAS-RUN-PAN
+Run Configurations Pane
 Ashley
 Tung
-
 Fiori Tools
-
-Component
-
-Description
-
-CA-BAS-RUN-PAN
-
-Run Configurations Pane
-
 CA-UX-IDE
-
-Additional Info
-
 Support Schedule for Fiori tools
 Support Planner - https://tasks.office.com/sap.onmicrosoft.com/en-US/Home
-/Planner/#/plantaskboard?groupId=05cd9dd7-b14d-4862-b7d563b853ac2b64&planId=AiPX1v2lkkWc6zMxi_HFrJYACzjB
-
+/Planner/#/plantaskboard?groupId=05cd9dd7-b14d-4862-b7d5-63b853ac2b64&planId=AiPX1v2lkkWc6zMxi_HFrJYACzjB
 Kho
 Ming
+CA-BAS-CICD
+CI/CD Extensions For SAP BAS
 Openhai
-m, Shiri,
-Ariel
+m, Shiri, Ariel
 Guy
 (PO)
-
-CA-BAS-CICD
-
-CI/CD Extensions For SAP BAS
-
 Fiori
 Launchpad
-
 EP-CPP-CF-DEV
-
 FLP BAS extension
-
-LCAP team
-
-CA-LCA
-
-LCAPAppGyver
-
-CA-LCA-ACP
-
-Michal team moved to
-HANA team
-(Jonathan)
-
-HAN-BAS-EXL
-
 Alhazov, Sergey
 Izaq, Yosi
 Dev Ops - Frishberg Barak, Oren
-
+LCAP team
+CA-LCA
 LCAP Raising internal issues per component
 https://wiki.one.int.sap/wiki/display/LCAP/Raising+issues+per+component
-
+LCAP-AppGyver
+CA-LCA-ACP
+Michal team -moved to
+HANA team
+(Jonathan)
+HAN-BAS-EXL
 HANA Explorer for SAP Business Application Studio
-
-All UI5 components (including Fiori) in one Wiki
-
 UI5 SUPPORT
+All UI5 components (including Fiori) in one Wiki
 Portal team
-
-Angelov,
-Tsvetan
-
 EP-CPP-CF-LP-SMN
 BC-MID-SCC
-
-SAP Cloud Connector On-Demand/On-Premise
+On-Demand/On-Premise
+SAP Cloud Connector
 Connectivity
-
-BC-CP-CON-K8SPROXY
-
+Angelov, Tsvetan
+Valchev, Manol
+BC-CP-CON-K8S-PROXY
 Connectivity Proxy
-
 Collect the needed information for debugging (some of the information might not
-be applicable for certain cases):
-1. Connectivity Proxy version, installed on the K8S cluster
-2. SAP Cloud Connector version, used by the customer
-3. Logs of the Connectivity Proxy deployment, running on the K8S cluster. It
-might also be necessary to raise certain loggers to DEBUG (see Troublesh
-ooting), reproduce the issue and collect the logs afterwards, in order to get
+be applicable for certain cases): Connectivity Proxy version, installed on the
+cluster
+K8S
+SAP Cloud Connector version, used by the customer
+Logs of the Connectivity Proxy deployment, running on the
+cluster. It
+K8S
+might also be necessary to raise certain loggers to DEBUG (see Troublesh), reproduce the issue and collect the logs afterwards, in order to get
+ooting
 more insight into the issue.
-4. Logs (ljs_trace.log file) of the SAP Cloud Connector, used by the customer
+Logs (ljs_trace.log file) of the SAP Cloud Connector, used by the customer
 (you will need to ask the customer to provide it)
-5. Change the Processing Org to the Product Support organization - PS V
+Change the
+to the
+Processing Org
+Product Support organization
+PS
 GSC AMER
-
-Valchev
-, Manol
-
 BC-NEO-CON
-
-Neo to On-premise Connectivity service
-
+to On-premise Connectivity service
+Neo
 CA-UI5-FE
-
 Fiori Elements
-
 CA-UI5-ST-OP
-
 Fiori elements - OData V2 service
-
-BC-XS-CDX
-
+BC-XS-CDX
 CAP cds issues
-
 BC-XS-CDX-JAV
-
 CAP Java issues
-
 BC-XS-CDX-JAV-V1
-
 Cloud SDK Gateway Connected Cores
-
-CA-BAS-CDS
-
-CDS Graphical Editor
-
-In CAP Scenario - the team is responsible for the Java code extensions API
+In
+Scenario - the team is responsible for the
+code extensions
+CAP
+Java
+API
 More information can be found here - Service SDK
-
-Song,
-Xiao-fei
-
+Song, Xiao-fei
+CA-BAS-CDS
 CA-BAS-EDT-CDS
+CDS Graphical Editor
 Hristo
 Tsolev
 Teodor
 Todorov
-
 CA-UI5-FL-ADP-BAS
-
 Adaptation Visual Editor
-
 Lulu, Ari
-
+Rozensz
+ajn, Sergio
 BC-XS-APR
-
 Approuter
-
 Troubleshooting - https://help.sap.com/viewer
 /65de2977205c403bbc107264b8eccf4b/Cloud/en-US
 /ae1d53e5fbe14383bfafe690f52711d7.html
 https://blogs.sap.com/2020/04/03/sap-application-router/
-https://blogs.sap.com/2019/10/24/test-your-cap-nodejs-applications-withauthentication-locally/
-
+https://blogs.sap.com/2019/10/24/test-your-cap-nodejs-applications-with-authentication-locally/
+Kurz, Saskia
+Heinrich, Tilo
 HAN-CLS-DB
-
 HANA Development Support
-
 https://help.sap.com/viewer/product/HANA_SERVICE_CF/Cloud/en-US
-
-Rozensz
-ajn,
-Sergio
-Kurz,
-Saskia
-Heinrich,
-Tilo
-
 https://help.sap.com/viewer/cc53ad464a57404b8d453bbadbc81ceb/Cloud/en-US
 /7cc0278fa13c4124bfe6af2ae5b59642.html
 HAN-DB-CLI
-
 SAP HANA Clients (JDBC, ODBC)
-
 https://github.com/SAP/node-hdb
-
+https://launchpad.support.sap.com/#/notes/0002316463
 HAN-CLS-DB-ALI
-
 HANA Service on Ali Cloud
-
 https://help.sap.com/viewer/cc53ad464a57404b8d453bbadbc81ceb/alibabacloud
 /en-US/7d64c7f819f246a59d8860146567c0e9.html
-
-XX-S4C-SDK
-
-The Cloud SDK is a set of tools and libraries for
-consuming, building or extending SAP services and
-applications in the cloud-native way and deploying them
-to SAP Cloud Platform.
-
-https://sap.github.io/cloud-sdk/
-
-https://launchpad.support.sap.com/#/notes/0002316463
-
 Cloud
 SDK
 (Java +
 Node)
-
-https://blogs.sap.com/2019/12/18/adjust-a-cloud-application-programming-capmodel-project-to-use-sap-cloud-sdk-3/
+XX-S4C-SDK
+The Cloud SDK is a set of tools and libraries for
+consuming, building or extending SAP services and
+applications in the cloud-native way and deploying them
+to SAP Cloud Platform.
+https://sap.github.io/cloud-sdk/
+https://blogs.sap.com/2019/12/18/adjust-a-cloud-application-programming-cap-model-project-to-use-sap-cloud-sdk-3/
 https://community.sap.com/topics/cloud-sdk
-Example coding:
-https://github.wdf.sap.corp/I341918/FIX-FCM/blob/master/srv/src/main/java/com
+Example coding: https://github.wdf.sap.corp/I341918/FIX-FCM/blob/master/srv/src/main/java/com
 /sap/fix/util/FLPIntegration.java
-
-Repos:
-https://github.com/SAP/cloud-sdk
+Repos: https://github.com/SAP/cloud-sdk
 https://github.com/SAP/cloud-sdk-js
 https://github.com/SAP/cloud-sdk-cli
-Bhatnag SAP Cloud
-ar,
+Bhatnag
+ar, Sangeeta
+SAP Cloud
 Platform
-Sangeeta Mobile
+Mobile
 Services - MD
 K team
-
 MOB-MDE-MDK
-
 Mobile Development Kit
-
 MDK KT session recording https://mdocs.sap.com/mcm/public/v1/open?
 shr=o4RuX-OSctcEySaGgKt-zZSqtbNdvWrmkK2pUVTPMKw
 For MDK: https://jam4.sapjam.com/groups/JAGKs4jRc3LMbmcMCyMyDp
@@ -572,145 +366,85 @@ MBT: https://sap.sharepoint.com/:v:/r/sites/60000311/Shared%20Documents
 MDK Help DocLink: : https://help.sap.com/viewer/DRAFT
 /977416d43cd74bdc958289038749100e/4.2/en-US
 /7e0c2c85748542ab9f3873f0b0400aa5.html
-
 SAP Cloud
 Platform
 Mobile
-Services - MD
-K team
-
+MD
+Services -K team
 MOB-MDE-MBG
-
+Mobile Backend Generator editor
 SAP Cloud
 Business
-Application CAP team
-
+Application -CAP team
 https://github.wdf.sap.
 corp/cap/issues
 /issues/new
-
 SAP Fiori
 tools
-
 CA-UX-IDE
-
 Fiori tools Extension
-
+Also responsible for the current ABAP deploy tool
 SAP SME
 Business
-Application Workflow
-
+Application -Workflow
 LOD-BPM-WFS
-
 Workflow Management extension
 (including the workflow editor extension, workflow form
 editor extension, process template extension)
-
 Simple
+extension -Peter Muessig
 https://github.wdf.sap.
-extension corp/SAPUI5
-Peter Muessig /generator-sapui5templates
+corp/SAPUI5
+/generator-sapui5-templates
 Visual Editor
-
 CA-STU-VE
-
-Mobile Backend Generator editor
-
-Also responsible for the current ABAP deploy tool
-
-Deploy
+Deploy
 service
-
-JTrack tool : CFMTA Deploy Service
-
-example to open ticket to deploy service :
-
-Unable to locate Jira server for this macro. It may be
-due to Application Link configuration.
-
-Bregler,
-Jonatha
-n
-
+JTrack tool : CF-MTA Deploy Service
+example to open ticket to deploy service : Bregler, Jonatha
 Hana Tooling
-
 Hana Tooling
-components (e.g.:
-Calculation view,
-HRTT,
-Flowgrapch....)
-
+components (e.g.: Calculation view, HRTT, Flowgrapch....)
 Hana Tooling Jira project components: https://sapjira.wdf.sap.corp/projects
-/HANATOOLING?selectedItem=com.atlassian.jira.jira-projects-plugin:
-components-page
-BCP Components:
-Component
-
+/HANATOOLING?selectedItem=com.atlassian.jira.jira-projects-plugin: components-page
+BCP Components: Component
+HAN-BAS
+SAP HANA Tools
+HAN-BAS-DBX
+HANA Database Explorer in Business Application
+Studio
+HAN-BAS-EDT
+HANA Editors in Business Application Studio
+HAN-BAS-EDT-MOD
+Calculation View Editor in Business Application Studio
+HAN-BAS-EIM
+Flowgrath, RepTasks and other SDA Tools
+HAN-BAS-EXL
+HANA Explorer
+HAN-BAS-SA
+SQL Analyzer
+HAN-BAS-TPL
+HANA Templates in Business Application Studio
 CF MTA
 Deployment
 Service/ Depl
 oy to CF
-
 BC-CP-CF-DS
-
 Deploy to XS
-
 BC-XS-SL-DS
-
 Development
 Tools for
 SAP Work
 Zone
-
 EP-BWP-BAS-UIC
-
 Destination
 issues
-
 DEV-IW-GEN.
-
+Consume services
 CDC China
 Operator
-
 XX-HST-CDC
-
 NS2 Operator
-
 XX-SER-SEC-CLD
-
-Consume services
-
-HAN-BAS
-
-SAP HANA Tools
-
-HAN-BAS-DBX
-
-HANA Database Explorer in Business Application
-Studio
-
-HAN-BAS-EDT
-
-HANA Editors in Business Application Studio
-
-HAN-BAS-EDTMOD
-
-Calculation View Editor in Business Application Studio
-
-HAN-BAS-EIM
-
-Flowgrath, RepTasks and other SDA Tools
-
-HAN-BAS-EXL
-
-HANA Explorer
-
-HAN-BAS-SA
-
-SQL Analyzer
-
-HAN-BAS-TPL
-
-HANA Templates in Business Application Studio
-
-
+Unable to locate Jira server for this macro. It may be
+due to Application Link configuration.
